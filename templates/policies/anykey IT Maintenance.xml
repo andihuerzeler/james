@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policy>
+    <general>
+        <name>anykey IT Maintenance</name>
+        <enabled>true</enabled>
+        <trigger>CHECKIN</trigger>
+        <trigger_checkin>true</trigger_checkin>
+        <category>
+            <name>anykey IT</name>
+        </category>
+    </general>
+    <scope>
+        <all_computers>true</all_computers>
+    </scope>
+    <maintenance>
+        <recon>true</recon>
+        <reset_name>true</reset_name>
+        <install_all_cached_packages>false</install_all_cached_packages>
+        <heal>true</heal>
+        <prebindings>true</prebindings>
+        <permissions>true</permissions>
+        <byhost>true</byhost>
+        <system_cache>true</system_cache>
+        <user_cache>true</user_cache>
+        <verify>true</verify>
+    </maintenance>
+</policy>

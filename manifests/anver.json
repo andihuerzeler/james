@@ -1,0 +1,65 @@
+{
+  "extensionattributes": [
+    "Microsoft Office Version"
+  ],
+  "groups": [
+    "Clients OS X 10.10 greater than or equal",
+    "Clients OS X 10.10 less than or equal",
+    "Clients OS X 10.10",
+    "Clients OS X 10.11 greater than or equal",
+    "Clients OS X 10.11 less than or equal",
+    "Clients OS X 10.11",
+    "Clients OS X 10.12 greater than or equal",
+    "Clients OS X 10.12 less than or equal",
+    "Clients OS X 10.12",
+    "Clients OS X 10.13 greater than or equal",
+    "Clients OS X 10.13 less than or equal",
+    "Clients OS X 10.13",
+    "Clients OS X 10.14 greater than or equal",
+    "Clients OS X 10.14 less than or equal",
+    "Clients OS X 10.14",
+    "Microsoft Office 2016 Installed",
+    "Microsoft Office 2016 Not Installed",
+    "Microsoft Office 2019 Installed",
+    "Microsoft Office 2019 Not Installed"
+  ],
+  "packages": [
+    "jsssr.pkg.zip",
+    "anykey IT Logo im jamfHelper.dmg",
+    "Microsoft Office 2019.pkg.zip",
+    "Microsoft Office 2016.pkg.zip"
+  ],
+  "scripts": [
+    "Dock Administrator"
+  ],
+  "policies": [
+    "aa anykey IT jsssr",
+    "Adobe Flash Player",
+    "anykey IT anytmp",
+    "anykey IT ASU",
+    "anykey IT Browser Bootstrap",
+    "anykey IT Client Bootstrap",
+    "anykey IT Client Logout",
+    "anykey IT Client Security",
+    "anykey IT Client Tools",
+    "anykey IT jamfHelper",
+    "anykey IT jamfHelper",
+    "anykey IT Maintenance",
+    "Apple Command Line Tools",
+    "Enable ARD",
+    "Microsoft Office 2019",
+    "Google Chrome",
+    "Firefox",
+    "BBEdit",
+    "Cyberduck",
+    "Skype",
+    "Skitch",
+    "VLC Player",
+    "Microsoft Teams",
+    "Firefox Developer Edition",
+    "LehrerOffice"
+  ],
+  "profiles": [
+    "anykey IT Client Localisation"
+  ]
+}

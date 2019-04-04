@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<os_x_configuration_profile>
+    <general>
+        <id>17</id>
+        <name>FileVault 2 Recovery Key Redirect 10.12 or less</name>
+        <description></description>
+        <site>
+            <id>-1</id>
+            <name>None</name>
+        </site>
+        <category>
+            <id>4</id>
+            <name>Kundenanpassungen</name>
+        </category>
+        <distribution_method>Install Automatically</distribution_method>
+        <user_removable>false</user_removable>
+        <level>computer</level>
+        <uuid>11BB9F68-AE01-478B-99F7-898C29174D7A</uuid>
+        <redeploy_on_update>Newly Assigned</redeploy_on_update>
+        <payloads>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;
+&lt;plist version="1"&gt;&lt;dict&gt;&lt;key&gt;PayloadUUID&lt;/key&gt;&lt;string&gt;11BB9F68-AE01-478B-99F7-898C29174D7A&lt;/string&gt;&lt;key&gt;PayloadType&lt;/key&gt;&lt;string&gt;Configuration&lt;/string&gt;&lt;key&gt;PayloadOrganization&lt;/key&gt;&lt;string&gt;anykeyIT&lt;/string&gt;&lt;key&gt;PayloadIdentifier&lt;/key&gt;&lt;string&gt;11BB9F68-AE01-478B-99F7-898C29174D7A&lt;/string&gt;&lt;key&gt;PayloadDisplayName&lt;/key&gt;&lt;string&gt;FileVault 2 Recovery Key Redirect 10.12 or less&lt;/string&gt;&lt;key&gt;PayloadDescription&lt;/key&gt;&lt;string/&gt;&lt;key&gt;PayloadVersion&lt;/key&gt;&lt;integer&gt;1&lt;/integer&gt;&lt;key&gt;PayloadEnabled&lt;/key&gt;&lt;true/&gt;&lt;key&gt;PayloadRemovalDisallowed&lt;/key&gt;&lt;true/&gt;&lt;key&gt;PayloadScope&lt;/key&gt;&lt;string&gt;System&lt;/string&gt;&lt;key&gt;PayloadContent&lt;/key&gt;&lt;array&gt;&lt;dict&gt;&lt;key&gt;PayloadUUID&lt;/key&gt;&lt;string&gt;A89B7705-F5EA-45A2-976B-584831482409&lt;/string&gt;&lt;key&gt;PayloadType&lt;/key&gt;&lt;string&gt;com.apple.security.FDERecoveryRedirect&lt;/string&gt;&lt;key&gt;PayloadOrganization&lt;/key&gt;&lt;string&gt;anykeyIT&lt;/string&gt;&lt;key&gt;PayloadIdentifier&lt;/key&gt;&lt;string&gt;A89B7705-F5EA-45A2-976B-584831482409&lt;/string&gt;&lt;key&gt;PayloadDisplayName&lt;/key&gt;&lt;string&gt;FileVault Recovery Key Redirection&lt;/string&gt;&lt;key&gt;PayloadDescription&lt;/key&gt;&lt;string/&gt;&lt;key&gt;PayloadVersion&lt;/key&gt;&lt;integer&gt;1&lt;/integer&gt;&lt;key&gt;PayloadEnabled&lt;/key&gt;&lt;true/&gt;&lt;key&gt;RedirectURL&lt;/key&gt;&lt;string&gt;https://jss3.anykeyit.ch:8443/template//submitFileVault2Key/key&lt;/string&gt;&lt;key&gt;EncryptCertPayloadUUID&lt;/key&gt;&lt;string&gt;00000000-0000-0000-B000-4A414D460000&lt;/string&gt;&lt;/dict&gt;&lt;dict&gt;&lt;key&gt;PayloadUUID&lt;/key&gt;&lt;string&gt;00000000-0000-0000-B000-4A414D460000&lt;/string&gt;&lt;key&gt;PayloadType&lt;/key&gt;&lt;string&gt;com.apple.security.pkcs1&lt;/string&gt;&lt;key&gt;PayloadOrganization&lt;/key&gt;&lt;string&gt;anykeyIT&lt;/string&gt;&lt;key&gt;PayloadIdentifier&lt;/key&gt;&lt;string&gt;3F20EE1C-8986-4FC4-9A22-F2CB38150659&lt;/string&gt;&lt;key&gt;PayloadDisplayName&lt;/key&gt;&lt;string&gt;JSS FileVault Recovery Key Redirection Certificate&lt;/string&gt;&lt;key&gt;PayloadDescription&lt;/key&gt;&lt;string/&gt;&lt;key&gt;PayloadVersion&lt;/key&gt;&lt;integer&gt;1&lt;/integer&gt;&lt;key&gt;PayloadEnabled&lt;/key&gt;&lt;true/&gt;&lt;key&gt;PayloadCertificateFileName&lt;/key&gt;&lt;string&gt;FileVault2Comm.cer&lt;/string&gt;&lt;key&gt;PayloadContent&lt;/key&gt;&lt;data&gt;MIIDvDCCAqSgAwIBAgIFANe4PswwDQYJKoZIhvcNAQELBQAwNjE0MDIGA1UEAxMrYW55a2V5SVQgSlNTIEJ1aWx0LWluIENlcnRpZmljYXRlIEF1dGhvcml0eTAeFw0xNzA4MzEwNzA4MTRaFw0yMjA5MDIwNzA4MTRaMEQxFzAVBgNVBAsTDkZJTEVWQVVMVDJDT01NMSkwJwYDVQQDEyBKU1MgQnVpbHQtSW4gU2lnbmluZyBDZXJ0aWZpY2F0ZTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALx87zel2dClNYi3u/V/cdA632RaGJhPs4b+Cgmax443dme9jSl6iPdLjWjDIen70VJIjDUQnyPu8Db1+aiuupAyBNPkiRsYxB76aKplltO4Y9TrVv7fqOOVAQB9uDhhrtBIR+p8bxvV7z3u8zF0sDU/ENf0XzFiJaKHad8UdVcsuZuY6kPpySMVHQGor9D/N+96YA65EvYaJ+8ojnY0OYji9ltthW7grJ4AWfQr0yU6+0JL15r/BjVZUw5fPmnGyUzHwIrJaSI2DJZ0PKaey9ndzNEjgMHXgbg9jF5UGh6LatO7QgasXsLS9BkP6fi6w+7tRrNWdEAMfWidsO24n+0CAwEAAaOBwjCBvzAdBgNVHQ4EFgQULnzNjCfcvtnAWLR3qTB0Fa5d0KYwEwYDVR0lBAwwCgYIKwYBBQUHAwEwDgYDVR0PAQH/BAQDAgGmMAwGA1UdEwEB/wQCMAAwSgYDVR0fBEMwQTA/oD2gO4Y5aHR0cHM6Ly9qc3MzLmFueWtleWl0LmNoOjg0NDMvdGVtcGxhdGUvL0NBL0pBTUZDUkxTZXJ2bGV0MB8GA1UdIwQYMBaAFFPY7P8Mvu7kGGtDpudnvT/nbP9wMA0GCSqGSIb3DQEBCwUAA4IBAQDRqWQXJvc4btzD5qsmpwbB1PKkGlKI8rxXW6LXu7YmAugUi1wGIKj1G4kLCbOeXkEUIDlaKiYl3qJqYBQVdZseF+8RoFzdsSb3q8Lt7yopPMRSd0WGNToVxRgnzFfPZXzQoNBjZu+WMwdXIAu2WHflfP9w64izqd0GK7PdU0MiaRavoHtHy0z8ZTu//R7bgIBW73J4rD6vO2dylKGqrLkfFaV564OLR9jAmTIIPYT/GPk+Yis+by4Tq4/Liw3X6O2VZ1/CEXsbaE0OK8pMZo/6jgSHofcuryyoPCNSAy6M2QBghQu27osPVIACtUCLMqSjWfZXIUpwRyzmEpFd3uMw&lt;/data&gt;&lt;/dict&gt;&lt;/array&gt;&lt;/dict&gt;&lt;/plist&gt;</payloads>
+    </general>
+    <scope>
+        <all_computers>false</all_computers>
+        <all_jss_users>false</all_jss_users>
+        <computers></computers>
+        <buildings></buildings>
+        <departments></departments>
+        <computer_groups>
+            <computer_group>
+                <id>17</id>
+                <name>Clients OS X 10.12 less than or equal</name>
+            </computer_group>
+        </computer_groups>
+        <jss_users></jss_users>
+        <jss_user_groups></jss_user_groups>
+        <limitations>
+            <users></users>
+            <user_groups></user_groups>
+            <network_segments></network_segments>
+            <ibeacons></ibeacons>
+        </limitations>
+        <exclusions>
+            <computers></computers>
+            <buildings></buildings>
+            <departments></departments>
+            <computer_groups>
+                <computer_group>
+                    <id>1</id>
+                    <name>All Managed Clients</name>
+                </computer_group>
+            </computer_groups>
+            <users></users>
+            <user_groups></user_groups>
+            <network_segments></network_segments>
+            <ibeacons></ibeacons>
+            <jss_users></jss_users>
+            <jss_user_groups></jss_user_groups>
+        </exclusions>
+    </scope>
+    <self_service>
+        <self_service_display_name>FileVault 2 </self_service_display_name>
+        <install_button_text>Install</install_button_text>
+        <self_service_description></self_service_description>
+        <force_users_to_view_description>false</force_users_to_view_description>
+        <security>
+            <removal_disallowed>Never</removal_disallowed>
+        </security>
+        <self_service_icon></self_service_icon>
+        <feature_on_main_page>false</feature_on_main_page>
+        <self_service_categories>
+            <category>
+                <id>4</id>
+                <name>Kundenanpassungen</name>
+                <display_in>true</display_in>
+                <feature_in>false</feature_in>
+            </category>
+        </self_service_categories>
+        <notification>false</notification>
+        <notification>Self Service</notification>
+        <notification_subject></notification_subject>
+        <notification_message></notification_message>
+    </self_service>
+</os_x_configuration_profile>

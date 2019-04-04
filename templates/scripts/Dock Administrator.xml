@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script>
+    <name>Dock Administrator</name>
+    <filename>Dock Administrator</filename>
+    <priority>After</priority>
+    <script_contents>#!/bin/bash
+	dockItems=(
+		'Launchpad.app'
+		'Self Service.app'
+		'Safari.app'
+		'Utilities/Terminal.app'
+		'Utilities/Disk Utility.app'
+		'Utilities/Console.app'
+		'Utilities/Activity Monitor.app'
+		'Utilities/Keychain Access.app'
+		'System Preferences.app'
+	)
+	
+	dockFolders=(
+		'~/Downloads'
+	)
+	
+	if [ $(/usr/local/bin/currentuser) == "admin" ]; then
+	
+		su -l "$(/usr/local/bin/currentuser)" -c "/usr/bin/defaults delete com.apple.dock"
+		su -l "$(/usr/local/bin/currentuser)" -c "/usr/bin/osascript -e 'tell app \"Dock\" to quit'"
+		su -l "$(/usr/local/bin/currentuser)" -c "/usr/local/bin/dockutil --remove all --no-restart" &amp;&amp; sleep 2
+	
+		for ((i = 0; i &lt; "${#dockItems[@]}"; i++)); do
+			su -l "$(/usr/local/bin/currentuser)" -c "/usr/local/bin/dockutil --add '/Applications/${dockItems[$i]}' --no-restart"
+		done
+	
+		for ((i = 0; i &lt; "${#dockFolders[@]}"; i++)); do
+			su -l "$(/usr/local/bin/currentuser)" -c "/usr/local/bin/dockutil --add '${dockFolders[$i]}' --view grid --display folder --no-restart"
+		done
+	
+		su -l "$(/usr/local/bin/currentuser)" -c "/usr/bin/defaults write com.apple.dock tilesize -int 50"
+	
+		su -l "$(/usr/local/bin/currentuser)" -c "/usr/bin/osascript -e 'tell app \"Dock\" to quit'"
+	
+	fi</script_contents>
+</script>

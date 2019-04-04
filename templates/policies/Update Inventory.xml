@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policy>
+    <general>
+        <name>Update Inventory</name>
+        <enabled>true</enabled>
+        <trigger>CHECKIN</trigger>
+        <trigger_checkin>true</trigger_checkin>
+        <frequency>Once every day</frequency>
+        <category>
+            <name>anykey IT</name>
+        </category>
+    </general>
+    <scope>
+        <all_computers>true</all_computers>
+    </scope>
+    <maintenance>
+        <recon>true</recon>
+        <reset_name>true</reset_name>
+        <install_all_cached_packages>false</install_all_cached_packages>
+        <heal>false</heal>
+        <prebindings>false</prebindings>
+        <permissions>false</permissions>
+        <byhost>false</byhost>
+        <system_cache>false</system_cache>
+        <user_cache>false</user_cache>
+        <verify>false</verify>
+    </maintenance>
+</policy>

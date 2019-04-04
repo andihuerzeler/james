@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<os_x_configuration_profile>
+    <general>
+        <id>44</id>
+        <name>anykey IT Client Localisation</name>
+        <description></description>
+        <site>
+            <id>-1</id>
+            <name>None</name>
+        </site>
+        <category>
+            <id>1</id>
+            <name>anykey IT</name>
+        </category>
+        <distribution_method>Install Automatically</distribution_method>
+        <user_removable>false</user_removable>
+        <level>computer</level>
+        <uuid>F021C8C3-609F-4BD2-9426-6D8DF6C3173C</uuid>
+        <redeploy_on_update>Newly Assigned</redeploy_on_update>
+        <payloads>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;
+&lt;plist version="1"&gt;&lt;dict&gt;&lt;key&gt;PayloadUUID&lt;/key&gt;&lt;string&gt;F021C8C3-609F-4BD2-9426-6D8DF6C3173C&lt;/string&gt;&lt;key&gt;PayloadType&lt;/key&gt;&lt;string&gt;Configuration&lt;/string&gt;&lt;key&gt;PayloadOrganization&lt;/key&gt;&lt;string&gt;anykeyIT&lt;/string&gt;&lt;key&gt;PayloadIdentifier&lt;/key&gt;&lt;string&gt;F021C8C3-609F-4BD2-9426-6D8DF6C3173C&lt;/string&gt;&lt;key&gt;PayloadDisplayName&lt;/key&gt;&lt;string&gt;anykey IT Client Localisation&lt;/string&gt;&lt;key&gt;PayloadDescription&lt;/key&gt;&lt;string/&gt;&lt;key&gt;PayloadVersion&lt;/key&gt;&lt;integer&gt;1&lt;/integer&gt;&lt;key&gt;PayloadEnabled&lt;/key&gt;&lt;true/&gt;&lt;key&gt;PayloadRemovalDisallowed&lt;/key&gt;&lt;true/&gt;&lt;key&gt;PayloadScope&lt;/key&gt;&lt;string&gt;System&lt;/string&gt;&lt;key&gt;PayloadContent&lt;/key&gt;&lt;array&gt;&lt;dict&gt;&lt;key&gt;PayloadUUID&lt;/key&gt;&lt;string&gt;F5392827-A08F-444A-98DB-4FFE8076B4C6&lt;/string&gt;&lt;key&gt;PayloadType&lt;/key&gt;&lt;string&gt;com.apple.ManagedClient.preferences&lt;/string&gt;&lt;key&gt;PayloadOrganization&lt;/key&gt;&lt;string&gt;anykeyIT&lt;/string&gt;&lt;key&gt;PayloadIdentifier&lt;/key&gt;&lt;string&gt;F5392827-A08F-444A-98DB-4FFE8076B4C6&lt;/string&gt;&lt;key&gt;PayloadDisplayName&lt;/key&gt;&lt;string&gt;Custom&lt;/string&gt;&lt;key&gt;PayloadDescription&lt;/key&gt;&lt;string/&gt;&lt;key&gt;PayloadVersion&lt;/key&gt;&lt;integer&gt;1&lt;/integer&gt;&lt;key&gt;PayloadEnabled&lt;/key&gt;&lt;true/&gt;&lt;key&gt;PayloadContent&lt;/key&gt;&lt;dict&gt;&lt;key&gt;com.apple.HIToolbox&lt;/key&gt;&lt;dict&gt;&lt;key&gt;Forced&lt;/key&gt;&lt;array&gt;&lt;dict&gt;&lt;key&gt;mcx_preference_settings&lt;/key&gt;&lt;dict&gt;&lt;key&gt;AppleTimeResID&lt;/key&gt;&lt;dict&gt;&lt;key&gt;smRoman&lt;/key&gt;&lt;integer&gt;19&lt;/integer&gt;&lt;/dict&gt;&lt;key&gt;AppleSelectedInputSources&lt;/key&gt;&lt;array&gt;&lt;dict&gt;&lt;key&gt;KeyboardLayout Name&lt;/key&gt;&lt;string&gt;Swiss German&lt;/string&gt;&lt;key&gt;KeyboardLayout ID&lt;/key&gt;&lt;integer&gt;19&lt;/integer&gt;&lt;key&gt;InputSourceKind&lt;/key&gt;&lt;string&gt;Keyboard Layout&lt;/string&gt;&lt;/dict&gt;&lt;/array&gt;&lt;key&gt;AppleCurrentKeyboardLayoutInputSourceID&lt;/key&gt;&lt;string&gt;com.apple.keylayout.British&lt;/string&gt;&lt;key&gt;AppleDefaultAsciiInputSource&lt;/key&gt;&lt;dict&gt;&lt;key&gt;KeyboardLayout Name&lt;/key&gt;&lt;string&gt;Swiss German&lt;/string&gt;&lt;key&gt;KeyboardLayout ID&lt;/key&gt;&lt;integer&gt;19&lt;/integer&gt;&lt;key&gt;InputSourceKind&lt;/key&gt;&lt;string&gt;Keyboard Layout&lt;/string&gt;&lt;/dict&gt;&lt;key&gt;AppleEnabledInputSources&lt;/key&gt;&lt;array&gt;&lt;dict&gt;&lt;key&gt;KeyboardLayout Name&lt;/key&gt;&lt;string&gt;Swiss German&lt;/string&gt;&lt;key&gt;KeyboardLayout ID&lt;/key&gt;&lt;integer&gt;19&lt;/integer&gt;&lt;key&gt;InputSourceKind&lt;/key&gt;&lt;string&gt;Keyboard Layout&lt;/string&gt;&lt;/dict&gt;&lt;/array&gt;&lt;key&gt;AppleNumberResID&lt;/key&gt;&lt;dict&gt;&lt;key&gt;smRoman&lt;/key&gt;&lt;integer&gt;19&lt;/integer&gt;&lt;/dict&gt;&lt;key&gt;AppleDateResID&lt;/key&gt;&lt;dict&gt;&lt;key&gt;smRoman&lt;/key&gt;&lt;integer&gt;19&lt;/integer&gt;&lt;/dict&gt;&lt;key&gt;AppleInputSourceHistory&lt;/key&gt;&lt;array&gt;&lt;dict&gt;&lt;key&gt;KeyboardLayout Name&lt;/key&gt;&lt;string&gt;Swiss German&lt;/string&gt;&lt;key&gt;KeyboardLayout ID&lt;/key&gt;&lt;integer&gt;19&lt;/integer&gt;&lt;key&gt;InputSourceKind&lt;/key&gt;&lt;string&gt;Keyboard Layout&lt;/string&gt;&lt;/dict&gt;&lt;/array&gt;&lt;/dict&gt;&lt;/dict&gt;&lt;/array&gt;&lt;/dict&gt;&lt;/dict&gt;&lt;/dict&gt;&lt;dict&gt;&lt;key&gt;PayloadUUID&lt;/key&gt;&lt;string&gt;74198CE5-9DF5-40D1-BB0C-8D883AE8F9C8&lt;/string&gt;&lt;key&gt;PayloadType&lt;/key&gt;&lt;string&gt;com.apple.ManagedClient.preferences&lt;/string&gt;&lt;key&gt;PayloadOrganization&lt;/key&gt;&lt;string&gt;anykeyIT&lt;/string&gt;&lt;key&gt;PayloadIdentifier&lt;/key&gt;&lt;string&gt;74198CE5-9DF5-40D1-BB0C-8D883AE8F9C8&lt;/string&gt;&lt;key&gt;PayloadDisplayName&lt;/key&gt;&lt;string&gt;Custom&lt;/string&gt;&lt;key&gt;PayloadDescription&lt;/key&gt;&lt;string/&gt;&lt;key&gt;PayloadVersion&lt;/key&gt;&lt;integer&gt;1&lt;/integer&gt;&lt;key&gt;PayloadEnabled&lt;/key&gt;&lt;true/&gt;&lt;key&gt;PayloadContent&lt;/key&gt;&lt;dict&gt;&lt;key&gt;.GlobalPreferences&lt;/key&gt;&lt;dict&gt;&lt;key&gt;Forced&lt;/key&gt;&lt;array&gt;&lt;dict&gt;&lt;key&gt;mcx_preference_settings&lt;/key&gt;&lt;dict&gt;&lt;key&gt;AppleLanguages&lt;/key&gt;&lt;array&gt;&lt;string&gt;de-CH&lt;/string&gt;&lt;/array&gt;&lt;key&gt;AppleLocale&lt;/key&gt;&lt;string&gt;de_CH&lt;/string&gt;&lt;key&gt;Country&lt;/key&gt;&lt;string&gt;CH&lt;/string&gt;&lt;/dict&gt;&lt;/dict&gt;&lt;/array&gt;&lt;/dict&gt;&lt;/dict&gt;&lt;/dict&gt;&lt;/array&gt;&lt;/dict&gt;&lt;/plist&gt;</payloads>
+    </general>
+    <scope>
+        <all_computers>true</all_computers>
+        <all_jss_users>false</all_jss_users>
+        <computers></computers>
+        <buildings></buildings>
+        <departments></departments>
+        <computer_groups></computer_groups>
+        <jss_users></jss_users>
+        <jss_user_groups></jss_user_groups>
+        <limitations>
+            <users></users>
+            <user_groups></user_groups>
+            <network_segments></network_segments>
+            <ibeacons></ibeacons>
+        </limitations>
+        <exclusions>
+            <computers></computers>
+            <buildings></buildings>
+            <departments></departments>
+            <computer_groups></computer_groups>
+            <users></users>
+            <user_groups></user_groups>
+            <network_segments></network_segments>
+            <ibeacons></ibeacons>
+            <jss_users></jss_users>
+            <jss_user_groups></jss_user_groups>
+        </exclusions>
+    </scope>
+    <self_service>
+        <self_service_display_name>anykey IT Client Localisation</self_service_display_name>
+        <install_button_text>Install</install_button_text>
+        <self_service_description></self_service_description>
+        <force_users_to_view_description>false</force_users_to_view_description>
+        <security>
+            <removal_disallowed>Never</removal_disallowed>
+        </security>
+        <self_service_icon></self_service_icon>
+        <feature_on_main_page>false</feature_on_main_page>
+        <self_service_categories>
+            <category>
+                <id>1</id>
+                <name>anykey IT</name>
+                <display_in>true</display_in>
+                <feature_in>false</feature_in>
+            </category>
+        </self_service_categories>
+        <notification>false</notification>
+        <notification>Self Service</notification>
+        <notification_subject></notification_subject>
+        <notification_message></notification_message>
+    </self_service>
+</os_x_configuration_profile>

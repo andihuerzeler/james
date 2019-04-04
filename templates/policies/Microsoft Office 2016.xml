@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policy>
+    <general>
+        <name>Microsoft Office 2016</name>
+        <enabled>true</enabled>
+        <trigger>EVENT</trigger>
+        <trigger_checkin>true</trigger_checkin>
+        <frequency>Once every day</frequency>
+        <category>
+            <name>Applikationen</name>
+        </category>
+    </general>
+    <scope>
+        <all_computers>false</all_computers>
+        <computers/>
+        <computer_groups>
+            <computer_group>
+                <name>Microsoft Office 2016 Not Installed</name>
+            </computer_group>
+        </computer_groups>
+    </scope>
+    <package_configuration>
+        <packages>
+            <package>
+                <name>Microsoft Office 2016.pkg.zip</name>
+                <action>Install</action>
+            </package>
+        </packages>
+    </package_configuration>
+</policy>

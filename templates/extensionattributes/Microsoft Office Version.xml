@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<computer_extension_attribute>
+    <id>2</id>
+    <name>Microsoft Office Version</name>
+    <data_type>String</data_type>
+    <input_type>
+        <type>script</type>
+        <platform>Mac</platform>
+        <script>#!/bin/bash
+  
+  if [ -s "/Applications/Microsoft Word.app" ]; then
+    
+    check_office_version=$(defaults read "/Applications/Microsoft Word.app/Contents/Info.plist" CFBundleShortVersionString)
+    
+    version_minor=$(echo ${check_office_version} | cut -d. -f2)
+    version_major=$(echo ${check_office_version} | cut -d. -f1)
+    version_revision=$(echo ${check_office_version} | cut -d. -f3)
+    
+    if [ ${version_major} -eq 15 ]; then
+      echo "&lt;result&gt;Microsoft Office 2016&lt;/result&gt;" &amp;&amp; exit 0
+    fi
+    
+    if [ ${version_major} -eq 16 ]; then
+      if [ ${version_minor} -ge 17 ]; then
+        echo "&lt;result&gt;Microsoft Office 2019&lt;/result&gt;"
+      else
+        echo "&lt;result&gt;Microsoft Office 2016&lt;/result&gt;"
+      fi
+    fi
+    
+  elif [ -s "/Applications/Microsoft Office 2011/Microsoft Word.app" ]; then
+    echo "&lt;result&gt;Microsoft Office 2011&lt;/result&gt;"
+  else
+    echo "&lt;result&gt;Microsoft Office Not Installed&lt;/result&gt;"
+  fi</script>
+    </input_type>
+    <inventory_display>Operating System</inventory_display>
+    <recon_display>Extension Attributes</recon_display>
+</computer_extension_attribute>

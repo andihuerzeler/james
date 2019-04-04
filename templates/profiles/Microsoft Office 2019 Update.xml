@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<os_x_configuration_profile>
+    <general>
+        <id>41</id>
+        <name>Microsoft Office 2019 Update</name>
+        <description></description>
+        <site>
+            <id>-1</id>
+            <name>None</name>
+        </site>
+        <category>
+            <id>1</id>
+            <name>anykey IT</name>
+        </category>
+        <distribution_method>Install Automatically</distribution_method>
+        <user_removable>false</user_removable>
+        <level>computer</level>
+        <uuid>9e0064a8-83c4-4f00-a63d-f1febf6c474f</uuid>
+        <redeploy_on_update>Newly Assigned</redeploy_on_update>
+        <payloads>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;
+&lt;plist version="1"&gt;&lt;dict&gt;&lt;key&gt;PayloadUUID&lt;/key&gt;&lt;string&gt;9e0064a8-83c4-4f00-a63d-f1febf6c474f&lt;/string&gt;&lt;key&gt;PayloadType&lt;/key&gt;&lt;string&gt;Configuration&lt;/string&gt;&lt;key&gt;PayloadOrganization&lt;/key&gt;&lt;string&gt;anykeyIT&lt;/string&gt;&lt;key&gt;PayloadIdentifier&lt;/key&gt;&lt;string&gt;9e0064a8-83c4-4f00-a63d-f1febf6c474f&lt;/string&gt;&lt;key&gt;PayloadDisplayName&lt;/key&gt;&lt;string&gt;Microsoft Office 2019 Update&lt;/string&gt;&lt;key&gt;PayloadDescription&lt;/key&gt;&lt;string/&gt;&lt;key&gt;PayloadVersion&lt;/key&gt;&lt;integer&gt;1&lt;/integer&gt;&lt;key&gt;PayloadEnabled&lt;/key&gt;&lt;true/&gt;&lt;key&gt;PayloadRemovalDisallowed&lt;/key&gt;&lt;false/&gt;&lt;key&gt;PayloadScope&lt;/key&gt;&lt;string&gt;System&lt;/string&gt;&lt;key&gt;PayloadContent&lt;/key&gt;&lt;array&gt;&lt;dict&gt;&lt;key&gt;PayloadUUID&lt;/key&gt;&lt;string&gt;2E892457-0179-4937-903A-7763D06E8B0A&lt;/string&gt;&lt;key&gt;PayloadType&lt;/key&gt;&lt;string&gt;com.apple.ManagedClient.preferences&lt;/string&gt;&lt;key&gt;PayloadOrganization&lt;/key&gt;&lt;string&gt;anver&lt;/string&gt;&lt;key&gt;PayloadIdentifier&lt;/key&gt;&lt;string&gt;com.apple.ManagedClient.preferences.2E892457-0179-4937-903A-7763D06E8B0A&lt;/string&gt;&lt;key&gt;PayloadDisplayName&lt;/key&gt;&lt;string&gt;Custom&lt;/string&gt;&lt;key&gt;PayloadDescription&lt;/key&gt;&lt;string/&gt;&lt;key&gt;PayloadVersion&lt;/key&gt;&lt;integer&gt;1&lt;/integer&gt;&lt;key&gt;PayloadEnabled&lt;/key&gt;&lt;true/&gt;&lt;key&gt;PayloadContent&lt;/key&gt;&lt;dict&gt;&lt;key&gt;com.microsoft.autoupdate2&lt;/key&gt;&lt;dict&gt;&lt;key&gt;Forced&lt;/key&gt;&lt;array&gt;&lt;dict&gt;&lt;key&gt;mcx_preference_settings&lt;/key&gt;&lt;dict&gt;&lt;key&gt;Applications&lt;/key&gt;&lt;dict&gt;&lt;key&gt;/Applications/Microsoft Excel.app&lt;/key&gt;&lt;dict&gt;&lt;key&gt;LCID&lt;/key&gt;&lt;integer&gt;1033&lt;/integer&gt;&lt;key&gt;Application ID&lt;/key&gt;&lt;string&gt;XCEL2019&lt;/string&gt;&lt;/dict&gt;&lt;key&gt;/Applications/Microsoft PowerPoint.app&lt;/key&gt;&lt;dict&gt;&lt;key&gt;LCID&lt;/key&gt;&lt;integer&gt;1033&lt;/integer&gt;&lt;key&gt;Application ID&lt;/key&gt;&lt;string&gt;PPT32019&lt;/string&gt;&lt;/dict&gt;&lt;key&gt;/Applications/Skype for Business.app&lt;/key&gt;&lt;dict&gt;&lt;key&gt;LCID&lt;/key&gt;&lt;integer&gt;1033&lt;/integer&gt;&lt;key&gt;Application ID&lt;/key&gt;&lt;string&gt;MSFB16&lt;/string&gt;&lt;/dict&gt;&lt;key&gt;/Applications/Microsoft Outlook.app&lt;/key&gt;&lt;dict&gt;&lt;key&gt;LCID&lt;/key&gt;&lt;integer&gt;1033&lt;/integer&gt;&lt;key&gt;Application ID&lt;/key&gt;&lt;string&gt;OPIM2019&lt;/string&gt;&lt;/dict&gt;&lt;key&gt;/Library/Application Support/Microsoft/MAU2.0/Microsoft AutoUpdate.app&lt;/key&gt;&lt;dict&gt;&lt;key&gt;LCID&lt;/key&gt;&lt;integer&gt;1033&lt;/integer&gt;&lt;key&gt;Application ID&lt;/key&gt;&lt;string&gt;MSau03&lt;/string&gt;&lt;/dict&gt;&lt;key&gt;/Library/Application Support/Microsoft/MERP2.0/Microsoft Error Reporting.app&lt;/key&gt;&lt;dict&gt;&lt;key&gt;LCID&lt;/key&gt;&lt;integer&gt;1033&lt;/integer&gt;&lt;key&gt;Application ID&lt;/key&gt;&lt;string&gt;Merp2&lt;/string&gt;&lt;/dict&gt;&lt;key&gt;/Applications/Microsoft Word.app&lt;/key&gt;&lt;dict&gt;&lt;key&gt;LCID&lt;/key&gt;&lt;integer&gt;1033&lt;/integer&gt;&lt;key&gt;Application ID&lt;/key&gt;&lt;string&gt;MSWD2019&lt;/string&gt;&lt;/dict&gt;&lt;key&gt;/Applications/Microsoft OneNote.app&lt;/key&gt;&lt;dict&gt;&lt;key&gt;LCID&lt;/key&gt;&lt;string&gt;1033&lt;/string&gt;&lt;key&gt;Application ID&lt;/key&gt;&lt;string&gt;ONMC2019&lt;/string&gt;&lt;/dict&gt;&lt;/dict&gt;&lt;key&gt;HowToCheck&lt;/key&gt;&lt;string&gt;AutomaticDownload&lt;/string&gt;&lt;/dict&gt;&lt;/dict&gt;&lt;/array&gt;&lt;/dict&gt;&lt;/dict&gt;&lt;/dict&gt;&lt;/array&gt;&lt;/dict&gt;&lt;/plist&gt;</payloads>
+    </general>
+    <scope>
+        <all_computers>false</all_computers>
+        <all_jss_users>false</all_jss_users>
+        <computers></computers>
+        <buildings></buildings>
+        <departments></departments>
+        <computer_groups>
+            <computer_group>
+                <id>27</id>
+                <name>Microsoft Office 2019 Installed</name>
+            </computer_group>
+        </computer_groups>
+        <jss_users></jss_users>
+        <jss_user_groups></jss_user_groups>
+        <limitations>
+            <users></users>
+            <user_groups></user_groups>
+            <network_segments></network_segments>
+            <ibeacons></ibeacons>
+        </limitations>
+        <exclusions>
+            <computers></computers>
+            <buildings></buildings>
+            <departments></departments>
+            <computer_groups></computer_groups>
+            <users></users>
+            <user_groups></user_groups>
+            <network_segments></network_segments>
+            <ibeacons></ibeacons>
+            <jss_users></jss_users>
+            <jss_user_groups></jss_user_groups>
+        </exclusions>
+    </scope>
+    <self_service>
+        <self_service_display_name>Microsoft Office 2019 Update</self_service_display_name>
+        <install_button_text>Install</install_button_text>
+        <self_service_description></self_service_description>
+        <force_users_to_view_description>false</force_users_to_view_description>
+        <security>
+            <removal_disallowed>Always</removal_disallowed>
+        </security>
+        <self_service_icon></self_service_icon>
+        <feature_on_main_page>false</feature_on_main_page>
+        <self_service_categories>
+            <category>
+                <id>1</id>
+                <name>anykey IT</name>
+                <display_in>true</display_in>
+                <feature_in>false</feature_in>
+            </category>
+        </self_service_categories>
+        <notification>false</notification>
+        <notification>Self Service</notification>
+        <notification_subject></notification_subject>
+        <notification_message></notification_message>
+    </self_service>
+</os_x_configuration_profile>
