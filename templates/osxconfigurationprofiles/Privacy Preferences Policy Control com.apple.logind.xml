@@ -3,7 +3,6 @@
     <general>
         <name>Privacy Preferences Policy Control com.apple.logind</name>
         <category>
-            <id>1</id>
             <name>anykey IT</name>
         </category>
         <payloads>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;
