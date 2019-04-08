@@ -1,79 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <os_x_configuration_profile>
     <general>
-        <id>36</id>
         <name>Privacy Preferences Policy Control com.apple.sessionlogoutd</name>
-        <description></description>
-        <site>
-            <id>-1</id>
-            <name>None</name>
-        </site>
         <category>
             <id>1</id>
             <name>anykey IT</name>
         </category>
-        <distribution_method>Install Automatically</distribution_method>
-        <user_removable>false</user_removable>
-        <level>computer</level>
-        <uuid>5EFA0FE5-410C-4D1C-A4BE-3F92B70A243F</uuid>
-        <redeploy_on_update>Newly Assigned</redeploy_on_update>
         <payloads>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;
 &lt;plist version="1"&gt;&lt;dict&gt;&lt;key&gt;PayloadUUID&lt;/key&gt;&lt;string&gt;5EFA0FE5-410C-4D1C-A4BE-3F92B70A243F&lt;/string&gt;&lt;key&gt;PayloadType&lt;/key&gt;&lt;string&gt;Configuration&lt;/string&gt;&lt;key&gt;PayloadOrganization&lt;/key&gt;&lt;string&gt;anykeyIT&lt;/string&gt;&lt;key&gt;PayloadIdentifier&lt;/key&gt;&lt;string&gt;5EFA0FE5-410C-4D1C-A4BE-3F92B70A243F&lt;/string&gt;&lt;key&gt;PayloadDisplayName&lt;/key&gt;&lt;string&gt;Privacy Preferences Policy Control com.apple.sessionlogoutd&lt;/string&gt;&lt;key&gt;PayloadDescription&lt;/key&gt;&lt;string/&gt;&lt;key&gt;PayloadVersion&lt;/key&gt;&lt;integer&gt;1&lt;/integer&gt;&lt;key&gt;PayloadEnabled&lt;/key&gt;&lt;true/&gt;&lt;key&gt;PayloadRemovalDisallowed&lt;/key&gt;&lt;true/&gt;&lt;key&gt;PayloadScope&lt;/key&gt;&lt;string&gt;System&lt;/string&gt;&lt;key&gt;PayloadContent&lt;/key&gt;&lt;array&gt;&lt;dict&gt;&lt;key&gt;PayloadUUID&lt;/key&gt;&lt;string&gt;BB9CB16C-15E9-4A25-8DD5-ED21A6BAE2DC&lt;/string&gt;&lt;key&gt;PayloadType&lt;/key&gt;&lt;string&gt;com.apple.TCC.configuration-profile-policy&lt;/string&gt;&lt;key&gt;PayloadOrganization&lt;/key&gt;&lt;string&gt;anver&lt;/string&gt;&lt;key&gt;PayloadIdentifier&lt;/key&gt;&lt;string&gt;BB9CB16C-15E9-4A25-8DD5-ED21A6BAE2DC&lt;/string&gt;&lt;key&gt;PayloadDisplayName&lt;/key&gt;&lt;string&gt;Privacy Preferences Policy Control&lt;/string&gt;&lt;key&gt;PayloadDescription&lt;/key&gt;&lt;string/&gt;&lt;key&gt;PayloadVersion&lt;/key&gt;&lt;integer&gt;1&lt;/integer&gt;&lt;key&gt;PayloadEnabled&lt;/key&gt;&lt;true/&gt;&lt;key&gt;Services&lt;/key&gt;&lt;dict&gt;&lt;key&gt;SystemPolicySysAdminFiles&lt;/key&gt;&lt;array&gt;&lt;dict&gt;&lt;key&gt;Identifier&lt;/key&gt;&lt;string&gt;/System/Library/CoreServices/sessionlogoutd&lt;/string&gt;&lt;key&gt;CodeRequirement&lt;/key&gt;&lt;string&gt;identifier "com.apple.sessionlogoutd" and anchor apple&lt;/string&gt;&lt;key&gt;IdentifierType&lt;/key&gt;&lt;string&gt;path&lt;/string&gt;&lt;key&gt;StaticCode&lt;/key&gt;&lt;integer&gt;0&lt;/integer&gt;&lt;key&gt;Allowed&lt;/key&gt;&lt;integer&gt;1&lt;/integer&gt;&lt;/dict&gt;&lt;/array&gt;&lt;key&gt;SystemPolicyAllFiles&lt;/key&gt;&lt;array&gt;&lt;dict&gt;&lt;key&gt;Identifier&lt;/key&gt;&lt;string&gt;/System/Library/CoreServices/sessionlogoutd&lt;/string&gt;&lt;key&gt;CodeRequirement&lt;/key&gt;&lt;string&gt;identifier "com.apple.sessionlogoutd" and anchor apple&lt;/string&gt;&lt;key&gt;IdentifierType&lt;/key&gt;&lt;string&gt;path&lt;/string&gt;&lt;key&gt;StaticCode&lt;/key&gt;&lt;integer&gt;0&lt;/integer&gt;&lt;key&gt;Allowed&lt;/key&gt;&lt;integer&gt;1&lt;/integer&gt;&lt;/dict&gt;&lt;/array&gt;&lt;/dict&gt;&lt;/dict&gt;&lt;/array&gt;&lt;/dict&gt;&lt;/plist&gt;</payloads>
     </general>
     <scope>
         <all_computers>false</all_computers>
-        <all_jss_users>false</all_jss_users>
-        <computers></computers>
-        <buildings></buildings>
-        <departments></departments>
-        <computer_groups>
-            <computer_group>
-                <id>23</id>
-                <name>Clients OS X 10.14 greater than or equal</name>
-            </computer_group>
-        </computer_groups>
-        <jss_users></jss_users>
-        <jss_user_groups></jss_user_groups>
-        <limitations>
-            <users></users>
-            <user_groups></user_groups>
-            <network_segments></network_segments>
-            <ibeacons></ibeacons>
-        </limitations>
-        <exclusions>
-            <computers></computers>
-            <buildings></buildings>
-            <departments></departments>
-            <computer_groups></computer_groups>
-            <users></users>
-            <user_groups></user_groups>
-            <network_segments></network_segments>
-            <ibeacons></ibeacons>
-            <jss_users></jss_users>
-            <jss_user_groups></jss_user_groups>
-        </exclusions>
     </scope>
-    <self_service>
-        <self_service_display_name>Privacy Preferences Policy Control com.apple.sessionlogoutd</self_service_display_name>
-        <install_button_text>Install</install_button_text>
-        <self_service_description></self_service_description>
-        <force_users_to_view_description>false</force_users_to_view_description>
-        <security>
-            <removal_disallowed>Never</removal_disallowed>
-        </security>
-        <self_service_icon></self_service_icon>
-        <feature_on_main_page>false</feature_on_main_page>
-        <self_service_categories>
-            <category>
-                <id>1</id>
-                <name>anykey IT</name>
-                <display_in>true</display_in>
-                <feature_in>false</feature_in>
-            </category>
-        </self_service_categories>
-        <notification>false</notification>
-        <notification>Self Service</notification>
-        <notification_subject></notification_subject>
-        <notification_message></notification_message>
-    </self_service>
 </os_x_configuration_profile>
