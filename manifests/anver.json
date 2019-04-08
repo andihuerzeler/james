@@ -60,7 +60,7 @@
     "LehrerOffice"
   ],
   "osxconfigurationprofiles": [
-    "anykey IT Client Bootstrap"
+    "anykey IT Client Bootstrap",
     "anykey IT Client Localisation"
   ]
 }
