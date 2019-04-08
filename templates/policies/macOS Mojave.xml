@@ -28,7 +28,7 @@
         <install_button_text>Installieren</install_button_text>
         <reinstall_button_text>Installieren</reinstall_button_text>
         <self_service_description>Hiermit wird das Betriebssystem macOS Mojave installiert.
-            Achtung! Die Installation dauert 30-45 Minuten. Ihr Rechner wird während dieser Zeit mehrmals neu starten. Bitte sichern Sie alle offenen Dateien oder Dokumente bevor Sie fortfahren.</self_service_description>
+Achtung! Die Installation dauert 30-45 Minuten. Ihr Rechner wird während dieser Zeit mehrmals neu starten. Bitte sichern Sie alle offenen Dateien oder Dokumente bevor Sie fortfahren.</self_service_description>
         <force_users_to_view_description>true</force_users_to_view_description>
         <self_service_icon>
             <id>181</id>
