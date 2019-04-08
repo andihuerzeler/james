@@ -59,7 +59,8 @@
     "Firefox Developer Edition",
     "LehrerOffice"
   ],
-  "profiles": [
+  "osxconfigurationprofiles": [
+    "anykey IT Client Bootstrap"
     "anykey IT Client Localisation"
   ]
 }
