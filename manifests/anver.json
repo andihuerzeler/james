@@ -62,7 +62,6 @@
   "osxconfigurationprofiles": [
     "anykey IT Client Bootstrap",
     "anykey IT Client Localisation",
-    "Privacy Preferences Policy Control anydesk",
     "Privacy Preferences Policy Control com.apple.logind",
     "Privacy Preferences Policy Control com.apple.sessionlogoutd",
     "Microsoft Office 2019 Update",
