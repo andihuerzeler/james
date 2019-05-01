@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <os_x_configuration_profile>
     <general>
-        <id>40</id>
         <name>Microsoft Office 2019 Bootstrap</name>
         <description/>
-        <site>
-            <id>-1</id>
-            <name>None</name>
-        </site>
         <category>
-            <id>1</id>
             <name>anykey IT</name>
         </category>
         <distribution_method>Install Automatically</distribution_method>
@@ -28,7 +22,6 @@
         <departments/>
         <computer_groups>
             <computer_group>
-                <id>27</id>
                 <name>Microsoft Office 2019 Installed</name>
             </computer_group>
         </computer_groups>
@@ -53,27 +46,4 @@
             <jss_user_groups/>
         </exclusions>
     </scope>
-    <self_service>
-        <self_service_display_name>Microsoft Office 2019 Bootstrap</self_service_display_name>
-        <install_button_text>Install</install_button_text>
-        <self_service_description/>
-        <force_users_to_view_description>false</force_users_to_view_description>
-        <security>
-            <removal_disallowed>Never</removal_disallowed>
-        </security>
-        <self_service_icon/>
-        <feature_on_main_page>false</feature_on_main_page>
-        <self_service_categories>
-            <category>
-                <id>1</id>
-                <name>anykey IT</name>
-                <display_in>true</display_in>
-                <feature_in>false</feature_in>
-            </category>
-        </self_service_categories>
-        <notification>false</notification>
-        <notification>Self Service</notification>
-        <notification_subject/>
-        <notification_message/>
-    </self_service>
 </os_x_configuration_profile>
