@@ -62,11 +62,12 @@
   "osxconfigurationprofiles": [
     "anykey IT Client Bootstrap",
     "anykey IT Client Localisation",
-    "Privacy Preferences Policy Control com.apple.logind",
-    "Privacy Preferences Policy Control com.apple.sessionlogoutd",
-    "Microsoft Office 2019 Update",
+    "Approved Kernel Extension Hewlett Packard",
     "Microsoft Office 2016 Bootstrap",
     "Microsoft Office 2016 Update",
-    "Microsoft Office 2019 Bootstrap"
+    "Microsoft Office 2019 Bootstrap",
+    "Microsoft Office 2019 Update",
+    "Privacy Preferences Policy Control com.apple.logind",
+    "Privacy Preferences Policy Control com.apple.sessionlogoutd"
   ]
 }
