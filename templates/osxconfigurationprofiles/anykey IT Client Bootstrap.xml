@@ -1,4 +1,3 @@
-yit.ch:8443/template/JSSResource/osxconfigurationprofiles/id/42 | xmllint --format -
 <?xml version="1.0" encoding="UTF-8"?>
 <os_x_configuration_profile>
     <general>
