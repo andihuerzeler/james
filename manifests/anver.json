@@ -24,10 +24,11 @@
     "Microsoft Office 2019 Not Installed"
   ],
   "packages": [
-    "jsssr.pkg.zip",
     "anykey IT Logo im jamfHelper.dmg",
-    "Microsoft Office 2019.pkg.zip",
-    "Microsoft Office 2016.pkg.zip"
+    "jsssr.pkg.zip",
+    "Lame Library for Audacity.pkg.zip",
+    "Microsoft Office 2016.pkg.zip",
+    "Microsoft Office 2019.pkg.zip"
   ],
   "scripts": [
     "Dock Administrator"
