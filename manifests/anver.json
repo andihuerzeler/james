@@ -7,10 +7,10 @@
     "Kundenanpassungen",
     "Self Service"
   ],
-  "extensionattributes": [
+  "computerextensionattributes": [
     "Microsoft Office Version"
   ],
-  "groups": [
+  "computergroups": [
     "Clients OS X 10.10 greater than or equal",
     "Clients OS X 10.10 less than or equal",
     "Clients OS X 10.10",
