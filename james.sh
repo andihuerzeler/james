@@ -45,5 +45,3 @@ ls "james/manifests/"*.json | while read manifests; do
   fi
 
 done
-
-rm -rf "james"
