@@ -4,8 +4,9 @@
 		<name>anykey IT Client Logout</name>
 		<enabled>true</enabled>
 		<trigger>EVENT</trigger>
-		<trigger_checkin>true</trigger_checkin>
-		<frequency>Once every day</frequency>
+		<trigger_logout>true</trigger_logout>
+		<frequency>Ongoing</frequency>
+        <offline>true</offline>
 		<category>
 			<name>anykey IT</name>
 		</category>
