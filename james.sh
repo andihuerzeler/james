@@ -1,7 +1,5 @@
 #!/bin/bash
 
-git clone --quiet "https://github.com/jedetaste/james.git"
-
 ls "james/manifests/"*.json | while read manifests; do
 
   jps=$(jq -r '.url' "${manifests}")
