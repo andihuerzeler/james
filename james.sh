@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 
 ls "james/manifests/"*.json | while read manifests; do
 
