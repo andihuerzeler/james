@@ -13,18 +13,9 @@
     <scope>
         <all_computers>true</all_computers>
     </scope>
-    <package_configuration>
-        <packages>
-            <size>1</size>
-            <package>
-                <name>Lame Library for Audacity.pkg.zip</name>
-                <action>Install</action>
-            </package>
-        </packages>
-    </package_configuration>
     <files_processes>
         <search_by_path>/Applications/Audacity</search_by_path>
         <delete_file>true</delete_file>
-        <run_command>/usr/local/bin/aky audacity</run_command>
+        <run_command>/usr/local/bin/aky audacity && /usr/local/bin/jsssr "Install Lame Library for Audacity.sh"</run_command>
     </files_processes>
 </policy>
