@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git clone --quiet "https://github.com/jedetaste/james.git"
+#git clone --quiet "https://github.com/jedetaste/james.git"
 
 ls "james/manifests/"*.json | while read manifests; do
 
