@@ -30,5 +30,19 @@
     "Microsoft Office 2016 Not Installed",
     "Microsoft Office 2019 Installed",
     "Microsoft Office 2019 Not Installed"
+  ],
+  "policies": [
+    "Update Inventory",
+    "aa anykey IT jsssr",
+    "Adobe Flash Player",
+    "anykey IT anytmp",
+    "anykey IT ASU",
+    "anykey IT Browser Bootstrap",
+    "anykey IT Client Bootstrap",
+    "anykey IT Client Logout",
+    "anykey IT Client Security",
+    "anykey IT Client Tools",
+    "anykey IT jamfHelper",
+    "anykey IT Maintenance",
   ]
 }
