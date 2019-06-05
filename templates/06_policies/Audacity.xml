@@ -21,6 +21,6 @@
     	<spotlight_search/>
     	<search_for_process/>
     	<kill_process>false</kill_process>
-    	<run_command>/usr/local/bin/aky audacity && /usr/local/bin/jsssr "Install Lame Library for Audacity.sh"</run_command>
+    	<run_command>/usr/local/bin/aky audacity &amp;&amp; /usr/local/bin/jsssr "Install Lame Library for Audacity.sh"</run_command>
 	</files_processes>
 </policy>
