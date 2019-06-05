@@ -31,6 +31,12 @@
     "Microsoft Office 2019 Installed",
     "Microsoft Office 2019 Not Installed"
   ],
+  "packages": [
+    "anykey IT Logo im jamfHelper.dmg",
+    "jsssr.pkg.zip",
+    "Microsoft Office 2016.pkg.zip",
+    "Microsoft Office 2019.pkg.zip"
+  ],
   "policies": [
     "Update Inventory",
     "aa anykey IT jsssr",
