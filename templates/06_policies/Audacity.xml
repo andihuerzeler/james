@@ -13,9 +13,14 @@
     <scope>
         <all_computers>true</all_computers>
     </scope>
-    <files_processes>
-        <search_by_path>/Applications/Audacity</search_by_path>
-        <delete_file>true</delete_file>
-        <run_command>/usr/local/bin/aky audacity && /usr/local/bin/jsssr "Install Lame Library for Audacity.sh"</run_command>
-    </files_processes>
+	<files_processes>
+		<search_by_path>/Applications/Audacity</search_by_path>
+		<delete_file>true</delete_file>
+    	<locate_file/>
+    	<update_locate_database>false</update_locate_database>
+    	<spotlight_search/>
+    	<search_for_process/>
+    	<kill_process>false</kill_process>
+    	<run_command>/usr/local/bin/aky audacity && /usr/local/bin/jsssr "Install Lame Library for Audacity.sh"</run_command>
+	</files_processes>
 </policy>
