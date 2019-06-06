@@ -19,16 +19,10 @@
 			<package>
         		<name>HewlettPackardEssentials.pkg.zip</name>
         		<action>Install</action>
-        		<fut>false</fut>
-        		<feu>false</feu>
-        		<update_autorun>false</update_autorun>
       		</package>
 			<package>
         		<name>HewlettPackardPrinterDrivers.pkg.zip</name>
         		<action>Install</action>
-        		<fut>false</fut>
-        		<feu>false</feu>
-        		<update_autorun>false</update_autorun>
 			</package>
 		</packages>
 	</package_configuration>
