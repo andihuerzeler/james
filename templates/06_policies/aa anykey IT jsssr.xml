@@ -5,6 +5,7 @@
 		<enabled>true</enabled>
 		<trigger>EVENT</trigger>
 		<trigger_checkin>true</trigger_checkin>
+		<trigger_enrollment_complete>true</trigger_enrollment_complete>
 		<frequency>Once every day</frequency>
 		<category>
 			<name>anykey IT</name>
