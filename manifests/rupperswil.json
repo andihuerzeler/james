@@ -38,21 +38,24 @@
     "Microsoft Office 2019.pkg.zip"
   ],
   "policies": [
-    "Update Inventory",
     "aa anykey IT jsssr",
-    "Adobe Flash Player",
+    "Update Inventory",
     "anykey IT anytmp",
     "anykey IT ASU",
-    "anykey IT Browser Bootstrap",
     "anykey IT Client Bootstrap",
     "anykey IT Client Logout",
     "anykey IT Client Security",
     "anykey IT Client Tools",
     "anykey IT jamfHelper",
     "anykey IT Maintenance",
+    "Assimilate Ownership",
+    "Enable ARD",
+    "Oracle Java 8",
+    "RemoveAllMyFilesFavorite",
     "Audacity",
     "Firefox",
     "Google Chrome",
-    "LehrerOffice.xml"
+    "LehrerOffice Zusatz",
+    "LehrerOffice"
   ]
 }
