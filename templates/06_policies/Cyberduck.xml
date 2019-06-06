@@ -13,6 +13,10 @@
 	<scope>
 		<all_computers>true</all_computers>
 	</scope>
+	<package_configuration>
+		<packages>
+		<size>0</size>
+	</packages>
 	<files_processes>
 		<run_command>/usr/local/bin/aky cyberduck</run_command>
 	</files_processes>
