@@ -9,18 +9,17 @@
         </category>
     </general>
     <scope>
-        <all_computers>true</all_computers>
-        <exclusions>
-            <computers/>
-            <computer_groups>
-                <computer_group>
-                    <name>Clients OS X 10.14 greater than or equal</name>
-                </computer_group>
-                <computer_group>
-                    <name>Macs incompatible with macOS Mojave</name>
-                </computer_group>
-            </computer_groups>
-        </exclusions>
+		<all_computers>true</all_computers>
+		<exclusions>
+			<computer_groups>
+				<computer_group>
+					<name>Clients OS X 10.14 greater than or equal</name>
+				</computer_group>
+				<computer_group>
+					<name>Macs incompatible with macOS Mojave</name>
+				</computer_group>
+			</computer_groups>
+		</exclusions>
     </scope>
     <self_service>
         <use_for_self_service>true</use_for_self_service>
