@@ -35,7 +35,9 @@
     "anykey IT Logo im jamfHelper.dmg",
     "jsssr.pkg.zip",
     "Microsoft Office 2016.pkg.zip",
-    "Microsoft Office 2019.pkg.zip"
+    "Microsoft Office 2019.pkg.zip",
+    "HewlettPackardPrinterDrivers.pkg.zip",
+    "HewlettPackardEssentials.pkg.zip"
   ],
   "policies": [
     "aa anykey IT jsssr",
