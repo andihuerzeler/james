@@ -15,8 +15,9 @@
 	</scope>
 	<package_configuration>
 		<packages>
-		<size>0</size>
-	</packages>
+			<size>0</size>
+		</packages>
+  	</package_configuration>
 	<files_processes>
 		<run_command>/usr/local/bin/aky cyberduck</run_command>
 	</files_processes>

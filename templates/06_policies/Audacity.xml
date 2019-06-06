@@ -15,9 +15,9 @@
 	</scope>
 	<package_configuration>
 		<packages>
-		<size>0</size>
-	</packages>
-  </package_configuration>
+			<size>0</size>
+		</packages>
+  	</package_configuration>
 	<files_processes>
 		<search_by_path>/Applications/Audacity</search_by_path>
 		<delete_file>true</delete_file>
