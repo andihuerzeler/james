@@ -18,7 +18,7 @@
 		<self_service_display_name>Path Finder</self_service_display_name>
 		<install_button_text>Installieren</install_button_text>
 		<reinstall_button_text>Installieren</reinstall_button_text>
-	  </self_service>
+	</self_service>
 	<files_processes>
 		<run_command>/usr/local/bin/aky pathfinder</run_command>
 	</files_processes>

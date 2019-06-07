@@ -5,6 +5,7 @@
         <enabled>true</enabled>
         <trigger>CHECKIN</trigger>
         <trigger_checkin>true</trigger_checkin>
+        <frequency>Once every month</frequency>
         <category>
             <name>anykey IT</name>
         </category>

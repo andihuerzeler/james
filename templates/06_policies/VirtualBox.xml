@@ -18,8 +18,8 @@
 		<self_service_display_name>VirtualBox</self_service_display_name>
 		<install_button_text>Installieren</install_button_text>
 		<reinstall_button_text>Installieren</reinstall_button_text>
-	  </self_service>
+	</self_service>
 	<files_processes>
-		<run_command>/usr/local/bin/aky virtualbox</run_command>
+		<run_command>/usr/local/bin/jsssr "Install VirtualBox.sh"</run_command>
 	</files_processes>
 </policy>
