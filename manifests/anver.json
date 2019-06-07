@@ -84,6 +84,8 @@
     "Purge Unmanaged Configuration Profiles",
     "WhatsApp",
     "Transmit",
-    "Slack"
+    "Slack",
+    "Adium",
+    "Acorn"
   ]
 }
