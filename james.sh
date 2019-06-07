@@ -41,19 +41,15 @@ ls "james/manifests/"*.json | while read manifests; do
 
     done
 
-    policy_list=(
-      "macOS%20Mojave,https://raw.githubusercontent.com/jedetaste/james/master/icons/Mojave.png"
-      "macOS%20High%20Sierra,https://raw.githubusercontent.com/jedetaste/james/master/icons/High_Sierra.png"
-    )
+    ls james/icons/*.png | while read icons; do
 
-    for policy in "${policy_list[@]}"; do
-      policy_name=$(echo "${policy}" | awk -F "\"*,\"*" '{print $1}')
+      icons=$(basename "${icons}")
+      policy_name="${icons_purged%.*}"
+
       if [ "$(curl -sL -H "authorization: Basic ${credentials}" -w "%{http_code}" "${jps}/JSSResource/policies/name/${policy_name}" -o /dev/null)" == "200" ]; then
-        policy_icon=$(echo "${policy}" | awk -F "\"*,\"*" '{print $2}')
-        curl -s -o "/tmp/$(basename ${policy_icon})" "${policy_icon}"
-        if [ -s "/tmp/$(basename ${policy_icon})" ]; then
-          policy_id=$(curl -s -H "authorization: Basic ${credentials}" -H "accept: application/xml" -X "GET" "${jps}/JSSResource/policies/name/${policy_name}" | xmllint --xpath "/policy/general/id/text()" -)
-          curl -s -H "authorization: Basic ${credentials}" -X "POST" -F name=@"/tmp/$(basename ${policy_icon})" "${jps}/JSSResource/fileuploads/policies/id/${policy_id}"
+        policy_id=$(curl -s -H "authorization: Basic ${credentials}" -H "accept: application/xml" -X "GET" "${jps}/JSSResource/policies/name/${policy_name}" | xmllint --xpath "/policy/general/id/text()" -)
+        if [ -z $(curl -s -H "authorization: Basic ${credentials}" "${jps}/JSSResource/policies/name/${policy_name}" | xmllint --xpath "/policy/self_service/self_service_icon/text()" - 2> /dev/null) ]; then
+          curl -s -H "authorization: Basic ${credentials}" -X "POST" -F name=@"james/icons/${icons}" "${jps}/JSSResource/fileuploads/policies/id/${policy_id}"
         fi
       fi
     done
