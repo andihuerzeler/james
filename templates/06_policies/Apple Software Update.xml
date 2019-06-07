@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policy>
+  <general>
+	<name>Apple Software Update</name>
+	<enabled>true</enabled>
+	<trigger>USER_INITIATED</trigger>
+	<frequency>Ongoing</frequency>
+	<category>
+	  <name>Self Service</name>
+	</category>
+  </general>
+  <scope>
+	<all_computers>true</all_computers>
+  </scope>
+  <self_service>
+	<use_for_self_service>true</use_for_self_service>
+	<self_service_display_name>Apple Software Update</self_service_display_name>
+	<install_button_text>Start</install_button_text>
+	<reinstall_button_text>Start</reinstall_button_text>
+	<self_service_description/>
+	<force_users_to_view_description>false</force_users_to_view_description>
+	<self_service_icon>
+	  <id>31</id>
+	  <filename>applesoftwareupdate.png</filename>
+	  <uri>https://anver.amy.anykey.ch//iconservlet/?id=31</uri>
+	</self_service_icon>
+	<feature_on_main_page>true</feature_on_main_page>
+	<self_service_categories>
+	  <category>
+		<id>5</id>
+		<name>Self Service</name>
+		<display_in>true</display_in>
+		<feature_in>false</feature_in>
+	  </category>
+	</self_service_categories>
+	<notification>false</notification>
+	<notification>Self Service</notification>
+	<notification_subject>Apple Software Update</notification_subject>
+	<notification_message/>
+  </self_service>
+  <reboot>
+	<message>This computer will restart in 5 minutes. Please save anything you are working on and log out by choosing Log Out from the bottom of the Apple menu.</message>
+	<startup_disk>Current Startup Disk</startup_disk>
+	<specify_startup/>
+	<no_user_logged_in>Restart if a package or update requires it</no_user_logged_in>
+	<user_logged_in>Restart if a package or update requires it</user_logged_in>
+	<minutes_until_reboot>5</minutes_until_reboot>
+	<start_reboot_timer_immediately>false</start_reboot_timer_immediately>
+	<file_vault_2_reboot>false</file_vault_2_reboot>
+  </reboot>
+</policy>
