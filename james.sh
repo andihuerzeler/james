@@ -44,6 +44,7 @@ ls "james/manifests/"*.json | while read manifests; do
     ls james/icons/*.png | while read icons; do
 
       icons=$(basename "${icons}")
+      icons_purged=$(echo "${icons}" | sed -e 's/ /%20/g' 2>/dev/null)
       policy_name="${icons_purged%.*}"
 
       if [ "$(curl -sL -H "authorization: Basic ${credentials}" -w "%{http_code}" "${jps}/JSSResource/policies/name/${policy_name}" -o /dev/null)" == "200" ]; then
@@ -52,6 +53,7 @@ ls "james/manifests/"*.json | while read manifests; do
           curl -s -H "authorization: Basic ${credentials}" -X "POST" -F name=@"james/icons/${icons}" "${jps}/JSSResource/fileuploads/policies/id/${policy_id}"
         fi
       fi
+
     done
 
   fi
