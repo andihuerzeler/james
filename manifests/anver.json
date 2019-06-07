@@ -77,6 +77,8 @@
     "VLC Player",
     "Adobe Acrobat Reader DC",
     "macOS Mojave",
-    "macOS High Sierra"
+    "macOS High Sierra",
+    "Purge Legacy Apple Apps",
+    "Purge Unmanaged Configuration Profiles"
   ]
 }
