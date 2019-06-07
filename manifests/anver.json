@@ -79,6 +79,9 @@
     "macOS Mojave",
     "macOS High Sierra",
     "Purge Legacy Apple Apps",
-    "Purge Unmanaged Configuration Profiles"
+    "Purge Unmanaged Configuration Profiles",
+    "WhatsApp",
+    "Transmit",
+    "Slack"
   ]
 }
