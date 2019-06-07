@@ -50,7 +50,7 @@ ls "james/manifests/"*.json | while read manifests; do
       if [ "$(curl -sL -H "authorization: Basic ${credentials}" -w "%{http_code}" "${jps}/JSSResource/policies/name/${policy_name}" -o /dev/null)" == "200" ]; then
         policy_id=$(curl -s -H "authorization: Basic ${credentials}" -H "accept: application/xml" -X "GET" "${jps}/JSSResource/policies/name/${policy_name}" | xmllint --xpath "/policy/general/id/text()" -)
         if [ -z $(curl -s -H "authorization: Basic ${credentials}" "${jps}/JSSResource/policies/name/${policy_name}" | xmllint --xpath "/policy/self_service/self_service_icon/text()" - 2> /dev/null) ]; then
-          curl -H "authorization: Basic ${credentials}" -X "POST" -F name=@"james/icons/${icons}" "${jps}/JSSResource/fileuploads/policies/id/${policy_id}"
+          curl -s -H "authorization: Basic ${credentials}" -X "POST" -F name=@"james/icons/${icons}" "${jps}/JSSResource/fileuploads/policies/id/${policy_id}"
         fi
       fi
 
