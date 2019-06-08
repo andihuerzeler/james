@@ -9,4 +9,6 @@
   <context>CasperShare</context>
   <protocol>https</protocol>
   <port>443</port>
+  <no_authentication_required>true</no_authentication_required>
+  <username_password_required>false</username_password_required>
 </distribution_point>
