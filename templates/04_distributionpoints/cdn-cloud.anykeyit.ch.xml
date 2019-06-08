@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<distribution_point>
+  <name>cdn-cloud.anykeyit.ch</name>
+  <ipAddress>cdn-cloud.anykeyit.ch</ipAddress>
+  <ip_address>cdn-cloud.anykeyit.ch</ip_address>
+  <is_master>false</is_master>
+  <http_downloads_enabled>true</http_downloads_enabled>
+  <http_url>https://cdn-cloud.anykeyit.ch/CasperShare/</http_url>
+  <context>CasperShare</context>
+  <protocol>https</protocol>
+  <port>443</port>
+</distribution_point>
