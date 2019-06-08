@@ -8,7 +8,7 @@
   <http_downloads_enabled>true</http_downloads_enabled>
   <http_url>http://cdn.anykeyit.ch/CasperShare/</http_url>
   <context>CasperShare</context>
-  <protocol>http</protocol>
+  <protocol>https</protocol>
   <port>80</port>
   <no_authentication_required>true</no_authentication_required>
   <username_password_required>false</username_password_required>
