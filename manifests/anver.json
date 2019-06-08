@@ -34,8 +34,8 @@
     "Macs incompatible with macOS Mojave"
   ],
   "distributionpoints": [
-    "cdn.anykeyit.ch",
-    "cdn-cloud.anykeyit.ch"
+    "cdn-cloud.anykeyit.ch",
+    "cdn.anykeyit.ch"
   ],
   "packages": [
     "anykey IT Logo im jamfHelper.dmg",
