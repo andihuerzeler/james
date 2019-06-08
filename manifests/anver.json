@@ -33,6 +33,10 @@
     "Macs incompatible with macOS High Sierra",
     "Macs incompatible with macOS Mojave"
   ],
+  "distributionpoints": [
+    "cdn.anykeyit.ch",
+    "cdn-cloud.anykeyit.ch"
+  ],
   "packages": [
     "anykey IT Logo im jamfHelper.dmg",
     "jsssr.pkg.zip",
