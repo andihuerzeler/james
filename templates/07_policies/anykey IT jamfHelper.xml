@@ -14,12 +14,8 @@
 	<scope>
 		<all_computers>true</all_computers>
 	</scope>
-    <package_configuration>
-        <packages>
-            <package>
-                <name>anykey IT Logo im jamfHelper.dmg</name>
-                <action>Install</action>
-            </package>
-        </packages>
-    </package_configuration>
+	<files_processes>
+		<run_command>/usr/local/bin/jsssr "anykey IT jamfHelper.sh"</run_command>
+	</files_processes>
 </policy>
+
