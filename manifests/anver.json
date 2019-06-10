@@ -89,23 +89,8 @@
     "Purge Legacy Apple Apps",
     "Purge Unmanaged Configuration Profiles",
     "WhatsApp",
-    "Transmit",
-    "Slack",
-    "Adium",
-    "Acorn",
-    "Opera",
-    "Oxford Learners Bookshelf",
-    "PDFsam Basic",
-    "Processing",
-    "Docker",
-    "Visual Studio Code",
-    "Sublime Text",
-    "SUS Inspector",
-    "Suspicious Package",
-    "The MUT",
-    "Tor Browser",
-    "Transmission",
-    "HandBrake",
-    "ICQ"
+    "Fritzing",
+    "Lernwolke",
+    "Arduino"
   ]
 }
