@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <policy>
 	<general>
-		<name>Scratch Desktop</name>
+		<name>Rechentraining 6</name>
 		<enabled>true</enabled>
 		<trigger>EVENT</trigger>
 		<trigger_checkin>true</trigger_checkin>
@@ -15,23 +15,11 @@
 	</scope>
 	<self_service>
 		<use_for_self_service>true</use_for_self_service>
-		<self_service_display_name>Scratch Desktop</self_service_display_name>
+		<self_service_display_name>Rechentraining 6</self_service_display_name>
 		<install_button_text>Installieren</install_button_text>
 		<reinstall_button_text>Installieren</reinstall_button_text>
 	</self_service>
-	<package_configuration>
-		<packages>
-			<size>0</size>
-		</packages>
-  	</package_configuration>
 	<files_processes>
-		<search_by_path>/Applications/Scratch 2.app</search_by_path>
-		<delete_file>true</delete_file>
-    	<locate_file/>
-    	<update_locate_database>false</update_locate_database>
-    	<spotlight_search/>
-    	<search_for_process/>
-    	<kill_process>false</kill_process>
-    	<run_command>/usr/local/bin/aky scratch</run_command>
+		<run_command>/usr/local/bin/aky rechentraining6</run_command>
 	</files_processes>
 </policy>
