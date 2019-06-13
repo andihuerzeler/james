@@ -1,4 +1,64 @@
 {
   "url": "https://jss2.anykeyit.ch:8443/grueningen",
-  "managed": "false"
+  "managed": "true",
+  "categories": [
+	"anykey IT",
+	"Applikationen",
+	"Drucker",
+	"Kundenanpassungen",
+	"Self Service"
+  ],
+  "computerextensionattributes": [
+	"Microsoft Office Version"
+  ],
+  "computergroups": [
+	"Clients OS X 10.10 greater than or equal",
+	"Clients OS X 10.10 less than or equal",
+	"Clients OS X 10.10",
+	"Clients OS X 10.11 greater than or equal",
+	"Clients OS X 10.11 less than or equal",
+	"Clients OS X 10.11",
+	"Clients OS X 10.12 greater than or equal",
+	"Clients OS X 10.12 less than or equal",
+	"Clients OS X 10.12",
+	"Clients OS X 10.13 greater than or equal",
+	"Clients OS X 10.13 less than or equal",
+	"Clients OS X 10.13",
+	"Clients OS X 10.14 greater than or equal",
+	"Clients OS X 10.14 less than or equal",
+	"Clients OS X 10.14",
+	"Microsoft Office 2016 Installed",
+	"Microsoft Office 2016 Not Installed",
+	"Microsoft Office 2019 Installed",
+	"Microsoft Office 2019 Not Installed",
+	"Macs incompatible with macOS Mojave"
+  ],
+  "packages": [
+	"anykey IT Logo im jamfHelper.dmg",
+	"jsssr.pkg.zip",
+	"Microsoft Office 2016.pkg.zip",
+	"Microsoft Office 2019.pkg.zip",
+	"HewlettPackardPrinterDrivers.pkg.zip",
+	"HewlettPackardEssentials.pkg.zip"
+  ],
+  "policies": [
+	"aa anykey IT jsssr",
+	"Update Inventory",
+	"anykey IT anytmp",
+	"anykey IT ASU",
+	"anykey IT Client Bootstrap",
+	"anykey IT Client Security",
+	"anykey IT Client Tools",
+	"anykey IT jamfHelper",
+	"anykey IT Maintenance",
+	"Assimilate Ownership",
+	"Enable ARD",
+	"Oracle Java 8",
+	"RemoveAllMyFilesFavorite",
+	"Firefox",
+	"Google Chrome",
+	"VLC Player",
+	"Adobe Flash Player",
+	"Adobe Acrobat Reader DC"
+  ]
 }
