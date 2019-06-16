@@ -37,7 +37,7 @@ ls "james/manifests/"*.json | while read manifests; do
                   curl -w "\n" -H "authorization: Basic ${credentials}" -H "content-type: application/xml" -T "james/templates/${templates}/${object}.xml" -s "${jps}/JSSResource/${templates_purged}/name/${object_purged}" -X PUT
 
                   ls james/icons/*.png | while read icons; do
-                    if [ "${object}" = "$(basename '${icons}')" ]; then
+                    if [ "${object}" = "$(basename ${icons})" ]; then
                       icons=$(basename "${icons}")
                       icons_purged=$(echo "${icons}" | sed -e 's/ /%20/g' 2>/dev/null)
                       policy_name="${icons_purged%.*}"
@@ -60,7 +60,7 @@ ls "james/manifests/"*.json | while read manifests; do
                   curl -w "\n" -H "authorization: Basic ${credentials}" -H "content-type: application/xml" -T "james/templates/${templates}/${object}.xml" -s "${jps}/JSSResource/${templates_purged}/id/0" -X POST
 
                   ls james/icons/*.png | while read icons; do
-                    if [ "${object}" = "$(basename '${icons}')" ]; then
+                    if [ "${object}" = "$(basename ${icons})" ]; then
                       icons=$(basename "${icons}")
                       icons_purged=$(echo "${icons}" | sed -e 's/ /%20/g' 2>/dev/null)
                       policy_name="${icons_purged%.*}"
