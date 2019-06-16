@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash
 
 ls "james/manifests/"*.json | while read manifests; do
 
@@ -15,13 +15,13 @@ ls "james/manifests/"*.json | while read manifests; do
     if [ "$(curl -sL -w "%{http_code}" "${jps}/healthCheck.html" -o /dev/null)" == "200" ]; then
       if [ $(curl -s "${jps}/healthCheck.html") == "[]" ]; then
 
-        echo "==> JPS '${jps}' is available"
+        echo "==> JPS '${jps}' is available and health check passed"
 
         ls -d "james/templates/"* | while read templates; do
 
           templates=$(basename ${templates})
           templates_purged=$(basename ${templates} | cut -c 4-)
-          echo "==> Update '${templates_purged}'"
+          echo "==> Process resource '${templates_purged}'"
 
           for elements in $(jq --arg t "${templates_purged}" ' .[$t] | length' "${manifests}"); do
             elements=$(expr $elements - 1)
@@ -33,49 +33,33 @@ ls "james/manifests/"*.json | while read manifests; do
               if [ "$(curl -sL -H "authorization: Basic ${credentials}" -w "%{http_code}" "${jps}/JSSResource/${templates_purged}/name/${object_purged}" -o /dev/null)" == "200" ]; then
                 if [ -s "james/templates/${templates}/${object}.xml" ]; then
 
-                  echo "[$n] Make PUT request on resource '${object}' to '${jps_purged}'"
-                  curl -w "\n" -H "authorization: Basic ${credentials}" -H "content-type: application/xml" -T "james/templates/${templates}/${object}.xml" -s "${jps}/JSSResource/${templates_purged}/name/${object_purged}" -X PUT
+                  echo "[$n] Update resource '${templates_purged}/${object}' on '${jps_purged}'"
+                  curl -s -o "/dev/null" --show-error -H "authorization: Basic ${credentials}" -H "content-type: application/xml" -T "james/templates/${templates}/${object}.xml" "${jps}/JSSResource/${templates_purged}/name/${object_purged}" -X PUT
 
-                  ls james/icons/*.png | while read icons; do
-
-                    icons=$(basename "${icons}")
-                    icons_purged="${icons%.*}"
-                    policy_name=$(echo "${icons}" | sed -e 's/ /%20/g' 2>/dev/null)
-
-                    if [ "${object}" = "${icons_purged}" ]; then
-                      if [ "$(curl -sL -H "authorization: Basic ${credentials}" -w "%{http_code}" "${jps}/JSSResource/policies/name/${policy_name}" -o /dev/null)" == "200" ]; then
-                        policy_id=$(curl -s -H "authorization: Basic ${credentials}" -H "accept: application/xml" -X "GET" "${jps}/JSSResource/policies/name/${policy_name}" | xmllint --xpath "/policy/general/id/text()" -)
-                        if [ -z "$(curl -s -H "authorization: Basic ${credentials}" "${jps}/JSSResource/policies/name/${policy_name}" | xmllint --xpath "/policy/self_service/self_service_icon/filename/text()" - 2> /dev/null)" ]; then
-                          echo "==> Add Self Service icon '${icons}' to policy '${policy_name}'"
-                          curl -w "\n" -s -H "authorization: Basic ${credentials}" -X "POST" -F name=@"james/icons/${icons}" "${jps}/JSSResource/fileuploads/policies/id/${policy_id}"
-                        fi
-                      fi
+                  if [ -s "james/icons/${object}.png" ]; then
+                    icon="james/icons/${object}.png"
+                    object_id=$(curl -s -H "authorization: Basic ${credentials}" -H "accept: application/xml" -X "GET" "${jps}/JSSResource/policies/name/${object_purged}" | xmllint --xpath "/policy/general/id/text()" -)
+                    if [ -z "$(curl -s -H "authorization: Basic ${credentials}" "${jps}/JSSResource/policies/name/${object_purged}" | xmllint --xpath "/policy/self_service/self_service_icon/filename/text()" - 2> /dev/null)" ]; then
+                      echo "Add Self Service icon '${icon}' to policy '${object_purged}'"
+                      curl -s -o "/dev/null" --show-error -H "authorization: Basic ${credentials}" -X "POST" -F name=@"${icon}" "${jps}/JSSResource/fileuploads/policies/id/${object_id}"
                     fi
-                  done
+                  fi
 
                 fi
               elif [ "$(curl -sL -H "authorization: Basic ${credentials}" -w "%{http_code}" "${jps}/JSSResource/${templates_purged}/name/${object_purged}" -o /dev/null)" == "404" ]; then
                 if [ -s "james/templates/${templates}/${object}.xml" ]; then
 
-                  echo "[$n] Make POST request on resource '${object}' to '${jps_purged}'"
-                  curl -w "\n" -H "authorization: Basic ${credentials}" -H "content-type: application/xml" -T "james/templates/${templates}/${object}.xml" -s "${jps}/JSSResource/${templates_purged}/id/0" -X POST
+                  echo "[$n] Add resource '${templates_purged}/${object}' on '${jps_purged}'"
+                  curl -s -o "/dev/null" --show-error -H "authorization: Basic ${credentials}" -H "content-type: application/xml" -T "james/templates/${templates}/${object}.xml" "${jps}/JSSResource/${templates_purged}/id/0" -X POST
 
-                  ls james/icons/*.png | while read icons; do
-
-                    icons=$(basename "${icons}")
-                    icons_purged="${icons%.*}"
-                    policy_name=$(echo "${icons}" | sed -e 's/ /%20/g' 2>/dev/null)
-
-                    if [ "${object}" = "${icons_purged}" ]; then
-                      if [ "$(curl -sL -H "authorization: Basic ${credentials}" -w "%{http_code}" "${jps}/JSSResource/policies/name/${policy_name}" -o /dev/null)" == "200" ]; then
-                        policy_id=$(curl -s -H "authorization: Basic ${credentials}" -H "accept: application/xml" -X "GET" "${jps}/JSSResource/policies/name/${policy_name}" | xmllint --xpath "/policy/general/id/text()" -)
-                        if [ -z "$(curl -s -H "authorization: Basic ${credentials}" "${jps}/JSSResource/policies/name/${policy_name}" | xmllint --xpath "/policy/self_service/self_service_icon/filename/text()" - 2> /dev/null)" ]; then
-                          echo "==> Add Self Service icon '${icons}' to policy '${policy_name}'"
-                          curl -w "\n" -s -H "authorization: Basic ${credentials}" -X "POST" -F name=@"james/icons/${icons}" "${jps}/JSSResource/fileuploads/policies/id/${policy_id}"
-                        fi
-                      fi
+                  if [ -s "james/icons/${object}.png" ]; then
+                    icon="james/icons/${object}.png"
+                    object_id=$(curl -s -H "authorization: Basic ${credentials}" -H "accept: application/xml" -X "GET" "${jps}/JSSResource/policies/name/${object_purged}" | xmllint --xpath "/policy/general/id/text()" -)
+                    if [ -z "$(curl -s -H "authorization: Basic ${credentials}" "${jps}/JSSResource/policies/name/${object_purged}" | xmllint --xpath "/policy/self_service/self_service_icon/filename/text()" - 2> /dev/null)" ]; then
+                      echo "Add Self Service icon '${icon}' to policy '${object_purged}'"
+                      curl -s -o "/dev/null" --show-error -H "authorization: Basic ${credentials}" -X "POST" -F name=@"${icon}" "${jps}/JSSResource/fileuploads/policies/id/${object_id}"
                     fi
-                  done
+                  fi
 
                 fi
               fi
