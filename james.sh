@@ -37,11 +37,12 @@ ls "james/manifests/"*.json | while read manifests; do
                   curl -w "\n" -H "authorization: Basic ${credentials}" -H "content-type: application/xml" -T "james/templates/${templates}/${object}.xml" -s "${jps}/JSSResource/${templates_purged}/name/${object_purged}" -X PUT
 
                   ls james/icons/*.png | while read icons; do
-                    if [ "${object}" = "$(basename ${icons})" ]; then
-                      icons=$(basename "${icons}")
-                      icons_purged=$(echo "${icons}" | sed -e 's/ /%20/g' 2>/dev/null)
-                      policy_name="${icons_purged%.*}"
 
+                    icons=$(basename "${icons}")
+                    icons_purged=$(echo "${icons}" | sed -e 's/ /%20/g' 2>/dev/null)
+                    policy_name="${icons_purged%.*}"
+
+                    if [ "${object}" = "${policy_name}" ]; then
                       if [ "$(curl -sL -H "authorization: Basic ${credentials}" -w "%{http_code}" "${jps}/JSSResource/policies/name/${policy_name}" -o /dev/null)" == "200" ]; then
                         policy_id=$(curl -s -H "authorization: Basic ${credentials}" -H "accept: application/xml" -X "GET" "${jps}/JSSResource/policies/name/${policy_name}" | xmllint --xpath "/policy/general/id/text()" -)
                         if [ -z "$(curl -s -H "authorization: Basic ${credentials}" "${jps}/JSSResource/policies/name/${policy_name}" | xmllint --xpath "/policy/self_service/self_service_icon/filename/text()" - 2> /dev/null)" ]; then
@@ -60,11 +61,12 @@ ls "james/manifests/"*.json | while read manifests; do
                   curl -w "\n" -H "authorization: Basic ${credentials}" -H "content-type: application/xml" -T "james/templates/${templates}/${object}.xml" -s "${jps}/JSSResource/${templates_purged}/id/0" -X POST
 
                   ls james/icons/*.png | while read icons; do
-                    if [ "${object}" = "$(basename ${icons})" ]; then
-                      icons=$(basename "${icons}")
-                      icons_purged=$(echo "${icons}" | sed -e 's/ /%20/g' 2>/dev/null)
-                      policy_name="${icons_purged%.*}"
 
+                    icons=$(basename "${icons}")
+                    icons_purged=$(echo "${icons}" | sed -e 's/ /%20/g' 2>/dev/null)
+                    policy_name="${icons_purged%.*}"
+
+                    if [ "${object}" = "${policy_name}" ]; then
                       if [ "$(curl -sL -H "authorization: Basic ${credentials}" -w "%{http_code}" "${jps}/JSSResource/policies/name/${policy_name}" -o /dev/null)" == "200" ]; then
                         policy_id=$(curl -s -H "authorization: Basic ${credentials}" -H "accept: application/xml" -X "GET" "${jps}/JSSResource/policies/name/${policy_name}" | xmllint --xpath "/policy/general/id/text()" -)
                         if [ -z "$(curl -s -H "authorization: Basic ${credentials}" "${jps}/JSSResource/policies/name/${policy_name}" | xmllint --xpath "/policy/self_service/self_service_icon/filename/text()" - 2> /dev/null)" ]; then
