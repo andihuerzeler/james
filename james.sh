@@ -39,10 +39,10 @@ ls "james/manifests/"*.json | while read manifests; do
                   ls james/icons/*.png | while read icons; do
 
                     icons=$(basename "${icons}")
-                    icons_purged=$(echo "${icons}" | sed -e 's/ /%20/g' 2>/dev/null)
-                    policy_name="${icons_purged%.*}"
+                    icons_purged="${icons%.*}"
+                    policy_name=$(echo "${icons}" | sed -e 's/ /%20/g' 2>/dev/null)
 
-                    if [ "${object}" = "${policy_name}" ]; then
+                    if [ "${object}" = "${icons_purged}" ]; then
                       if [ "$(curl -sL -H "authorization: Basic ${credentials}" -w "%{http_code}" "${jps}/JSSResource/policies/name/${policy_name}" -o /dev/null)" == "200" ]; then
                         policy_id=$(curl -s -H "authorization: Basic ${credentials}" -H "accept: application/xml" -X "GET" "${jps}/JSSResource/policies/name/${policy_name}" | xmllint --xpath "/policy/general/id/text()" -)
                         if [ -z "$(curl -s -H "authorization: Basic ${credentials}" "${jps}/JSSResource/policies/name/${policy_name}" | xmllint --xpath "/policy/self_service/self_service_icon/filename/text()" - 2> /dev/null)" ]; then
@@ -63,10 +63,10 @@ ls "james/manifests/"*.json | while read manifests; do
                   ls james/icons/*.png | while read icons; do
 
                     icons=$(basename "${icons}")
-                    icons_purged=$(echo "${icons}" | sed -e 's/ /%20/g' 2>/dev/null)
-                    policy_name="${icons_purged%.*}"
+                    icons_purged="${icons%.*}"
+                    policy_name=$(echo "${icons}" | sed -e 's/ /%20/g' 2>/dev/null)
 
-                    if [ "${object}" = "${policy_name}" ]; then
+                    if [ "${object}" = "${icons_purged}" ]; then
                       if [ "$(curl -sL -H "authorization: Basic ${credentials}" -w "%{http_code}" "${jps}/JSSResource/policies/name/${policy_name}" -o /dev/null)" == "200" ]; then
                         policy_id=$(curl -s -H "authorization: Basic ${credentials}" -H "accept: application/xml" -X "GET" "${jps}/JSSResource/policies/name/${policy_name}" | xmllint --xpath "/policy/general/id/text()" -)
                         if [ -z "$(curl -s -H "authorization: Basic ${credentials}" "${jps}/JSSResource/policies/name/${policy_name}" | xmllint --xpath "/policy/self_service/self_service_icon/filename/text()" - 2> /dev/null)" ]; then
