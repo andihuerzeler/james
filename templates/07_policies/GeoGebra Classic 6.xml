@@ -19,7 +19,19 @@
 		<install_button_text>Installieren</install_button_text>
 		<reinstall_button_text>Installieren</reinstall_button_text>
 	</self_service>
+	<package_configuration>
+		<packages>
+			<size>0</size>
+		</packages>
+  	</package_configuration>
 	<files_processes>
-		<run_command>/usr/local/bin/aky geogebraclassic</run_command>
+		<search_by_path>/Applications/GeoGebra.app</search_by_path>
+		<delete_file>true</delete_file>
+    	<locate_file/>
+    	<update_locate_database>false</update_locate_database>
+    	<spotlight_search/>
+    	<search_for_process/>
+    	<kill_process>false</kill_process>
+    	<run_command>/usr/local/bin/aky geogebraclassic</run_command>
 	</files_processes>
 </policy>
