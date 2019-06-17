@@ -93,7 +93,7 @@
     "Lernwolke",
     "Arduino"
   ],
-  "policies-remove": [
+  "policies_remove": [
     "anykey IT ASU"
   ]
 }

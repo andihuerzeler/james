@@ -23,10 +23,10 @@ ls "james/manifests/"*.json | while read manifests; do
           templates_purged=$(basename ${templates} | cut -c 4-)
           echo "==> Process resource '${templates_purged}'"
 
-          for elements in $(jq --arg t "policies-remove" '.[$t] | length' "${manifests}"); do
+          for elements in $(jq --arg t "policies_remove" '.[$t] | length' "${manifests}"); do
             elements=$(expr $elements - 1)
             for n in $(seq 0 $elements); do
-              object=$(jq -r --arg t "remove" --arg n "${n}" '.[$t][$n | tonumber]' "${manifests}")
+              object=$(jq -r --arg t "policies_remove" --arg n "${n}" '.[$t][$n | tonumber]' "${manifests}")
               object_purged=$(echo "${object}" | sed -e 's/ /%20/g' 2>/dev/null)
               if [ "$(curl -sL -H "authorization: Basic ${credentials}" -w "%{http_code}" "${jps}/JSSResource/policies/name/${object_purged}" -o /dev/null)" == "200" ]; then
                 echo "[$n] Remove policy '${object}' on '${jps_purged}'"
