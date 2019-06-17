@@ -1,4 +1,11 @@
 {
   "url": "https://jensbellmund.amy.anykey.ch",
-  "managed": "false"
+  "managed": "true",
+  "categories": [
+    "anykey IT",
+    "Applikationen",
+    "Drucker",
+    "Kundenanpassungen",
+    "Self Service"
+  ]
 }
