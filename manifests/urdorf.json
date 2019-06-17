@@ -52,6 +52,7 @@
 	"anykey IT jamfHelper",
 	"anykey IT Maintenance",
 	"Assimilate Ownership",
+	"Automatic Apple Software Update",
 	"Enable ARD",
 	"Oracle Java 8",
 	"RemoveAllMyFilesFavorite",
@@ -59,6 +60,30 @@
 	"Google Chrome",
 	"VLC Player",
 	"Adobe Flash Player",
-	"Adobe Acrobat Reader DC"
+	"Adobe Acrobat Reader DC",
+	"Cyberduck",
+	"Evernote",
+	"Formular-Designer",
+	"Google Earth Pro",
+	"OmniDiskSweeper",
+	"Skitch",
+	"eWolke Web",
+	"Audacity",
+	"Burn",
+	"ClipGrab",
+	"GeoGebra Classic 6",
+	"GIMP",
+	"LibreOffice",
+	"Microsoft Teams",
+	"OneDrive",
+	"Paintbrush"
+  ],
+  "policies_remove": [
+    "anykey IT ASU",
+    "anykey IT Client Standards",
+    "Google Earth",
+    "TextWrangler",
+    "Geogebra",
+    "Libre Office"
   ]
 }
