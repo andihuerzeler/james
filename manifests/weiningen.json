@@ -31,7 +31,9 @@
 	"Microsoft Office 2016 Not Installed",
 	"Microsoft Office 2019 Installed",
 	"Microsoft Office 2019 Not Installed",
-	"Macs incompatible with macOS Mojave"
+	"Macs incompatible with macOS High Sierra",
+	"Macs incompatible with macOS Mojave",
+	"Macs incompatible with macOS Sierra"
   ],
   "packages": [
 	"anykey IT Logo im jamfHelper.dmg",
@@ -59,6 +61,7 @@
 	"Google Chrome",
 	"VLC Player",
 	"Adobe Flash Player",
-	"Adobe Acrobat Reader DC"
+	"Adobe Acrobat Reader DC",
+	"macOS High Sierra"
   ]
 }
