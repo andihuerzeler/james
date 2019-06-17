@@ -54,7 +54,6 @@
     "aa anykey IT jsssr",
     "Adobe Flash Player",
     "anykey IT anytmp",
-    "anykey IT ASU",
     "anykey IT Browser Bootstrap",
     "anykey IT Client Bootstrap",
     "anykey IT Client Logout",
@@ -93,5 +92,8 @@
     "Fritzing",
     "Lernwolke",
     "Arduino"
+  ],
+  "policies-remove": [
+    "anykey IT ASU"
   ]
 }
