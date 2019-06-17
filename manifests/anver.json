@@ -86,7 +86,6 @@
     "VLC Player",
     "Adobe Acrobat Reader DC",
     "macOS Mojave",
-    "macOS High Sierra",
     "Purge Legacy Apple Apps",
     "Purge Unmanaged Configuration Profiles",
     "WhatsApp",
@@ -95,6 +94,8 @@
     "Arduino"
   ],
   "policies_remove": [
-    "anykey IT ASU"
+  	"macOS High Sierra",
+    "anykey IT ASU",
+    "anykey IT Client Standards"
   ]
 }
