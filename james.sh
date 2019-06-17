@@ -25,8 +25,7 @@ ls "james/manifests/"*.json | while read manifests; do
               object=$(jq -r --arg t "policies_remove" --arg n "${n}" '.[$t][$n | tonumber]' "${manifests}")
               object_purged=$(echo "${object}" | sed -e 's/ /%20/g' 2>/dev/null)
               if [ "$(curl -sL -H "authorization: Basic ${credentials}" -w "%{http_code}" "${jps}/JSSResource/policies/name/${object_purged}" -o /dev/null)" == "200" ]; then
-                echo "==> Remove resources"
-                echo "[$n] Remove policy '${object}' on '${jps_purged}'"
+                echo "==> Remove policy '${object}' on '${jps_purged}'"
                 curl -s -o "/dev/null" --show-error -H "authorization: Basic ${credentials}" "${jps}/JSSResource/policies/name/${object_purged}" -X DELETE
               fi
             done
