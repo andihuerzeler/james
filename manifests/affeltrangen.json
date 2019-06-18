@@ -47,7 +47,39 @@
     "RemoveAllMyFilesFavorite",
     "Firefox",
     "Google Chrome",
-    "VLC Player"
+    "VLC Player",
+    "Cyberduck",
+    "Dropbox",
+    "Evernote",
+    "Google Earth Pro",
+    "LehrerOffice",
+    "Formular-Designer",
+    "LehrerOffice Zusatz",
+    "OmniDiskSweeper",
+    "Skitch",
+    "Skype",
+    "macOS High Sierra",
+    "Plex Media Player",
+    "HandBrake",
+    "OneDrive",
+    "Comic Life 3",
+    "Hewlett Packard Printer Drivers",
+    "TNEF's Enough",
+    "Audacity",
+    "ClipGrab"
+  ],
+  "policies_remove": [
+    "anykey IT ASU",
+    "anykey IT Client Standards",
+    "anykey IT Apple Software Update Lehrpersonen",
+    "eWolke",
+    "eWolke Client",
+    "Google Earth",
+    "LehrerOffice Formular Designer",
+    "TextWrangler",
+    "OCCNCC2EWC",
+    "OCCNCC2EWC-PLUS",
+    "Plex Home Theater"
   ]
 }
 
