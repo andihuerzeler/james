@@ -39,7 +39,8 @@
 	"Microsoft Office 2016.pkg.zip",
 	"Microsoft Office 2019.pkg.zip",
 	"HewlettPackardPrinterDrivers.pkg.zip",
-	"HewlettPackardEssentials.pkg.zip"
+	"HewlettPackardEssentials.pkg.zip",
+	"Install Unity Web Player.pkg.zip"
   ],
   "policies": [
 	"aa anykey IT jsssr",
@@ -59,6 +60,28 @@
 	"Google Chrome",
 	"VLC Player",
 	"Adobe Flash Player",
-	"Adobe Acrobat Reader DC"
+	"Adobe Acrobat Reader DC",
+	"Unity Web Player",
+	"Cyberduck",
+	"Dropbox",
+	"Evernote",
+	"Formular-Designer",
+	"Google Earth Pro",
+	"LehrerOffice",
+	"LehrerOffice Zusatz",
+	"OmniDiskSweeper",
+	"Skitch",
+	"Skype",
+	"eWolke Web",
+	"FinanceMissionHeroes",
+	"GIMP"
+  ],
+  "policies_remove": [
+    "anykey IT ASU",
+    "anykey IT Client Standards",
+    "Google Earth",
+    "TextWrangler",
+    "FinanceMissionHeroes_Mac",
+    "TIPP10"
   ]
 }

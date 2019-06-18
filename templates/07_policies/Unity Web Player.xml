@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policy>
+	<general>
+		<name>Unity Web Player</name>
+		<enabled>true</enabled>
+		<trigger>EVENT</trigger>
+		<trigger_checkin>true</trigger_checkin>
+		<category>
+			<name>Applikationen</name>
+		</category>
+	</general>
+	<scope>
+		<all_computers>true</all_computers>
+	</scope>
+    <package_configuration>
+        <packages>
+            <size>1</size>
+            <package>
+                <name>Install Unity Web Player.pkg.zip</name>
+                <action>Install</action>
+            </package>
+        </packages>
+    </package_configuration>
+</policy>
