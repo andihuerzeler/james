@@ -39,7 +39,8 @@
 	"Microsoft Office 2016.pkg.zip",
 	"Microsoft Office 2019.pkg.zip",
 	"HewlettPackardPrinterDrivers.pkg.zip",
-	"HewlettPackardEssentials.pkg.zip"
+	"HewlettPackardEssentials.pkg.zip",
+	"Soundflower.pkg.zip"
   ],
   "policies": [
 	"aa anykey IT jsssr",
@@ -59,6 +60,34 @@
 	"Google Chrome",
 	"VLC Player",
 	"Adobe Flash Player",
-	"Adobe Acrobat Reader DC"
+	"Adobe Acrobat Reader DC",
+	"WirelessMedia-macOS",
+	"Soundflower",
+	"Cyberduck",
+	"Dropbox",
+	"Evernote",
+	"LehrerOffice",
+	"Google Earth Pro",
+	"Formular-Designer",
+	"LehrerOffice Zusatz",
+	"OmniDiskSweeper",
+	"Skitch",
+	"Skype",
+	"eWolke Web",
+	"GIMP",
+	"littleBits Code Kit App",
+	"OneDrive",
+	"Paintbrush",
+	"TIPP10",
+	"macOS High Sierra"
+  ],
+  "policies_remove": [
+    "anykey IT ASU",
+    "anykey IT Client Standards",
+    "eWolke",
+    "eWolke Client",
+    "Google Earth",
+    "LehrerOffice Formular Designer",
+    "GoogleDrive"
   ]
 }
