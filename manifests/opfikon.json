@@ -59,6 +59,26 @@
 	"Google Chrome",
 	"VLC Player",
 	"Adobe Flash Player",
-	"Adobe Acrobat Reader DC"
+	"Adobe Acrobat Reader DC",
+	"Skype",
+	"Skitch",
+	"OmniDiskSweeper",
+	"Formular-Designer",
+	"LehrerOffice",
+	"Google Earth Pro",
+	"eWolke Web",
+	"Cyberduck",
+	"Automatic Apple Software Update",
+	"TIPP10",
+	"Audacity"
+  ],
+  "policies_remove": [
+  	"TextWrangler",
+    "anykey IT ASU",
+    "anykey IT Client Standards",
+    "LehrerOffice Formular Designer",
+    "Google Earth",
+    "Dropbox",
+    "OneDrive"
   ]
 }
