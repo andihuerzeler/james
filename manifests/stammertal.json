@@ -77,6 +77,15 @@
 	"Stellarium",
 	"Rechentraining 5",
 	"Rechentraining 6",
-	"EasyFind"
+	"EasyFind",
+	"ANTON",
+	"coconutBattery",
+	"draw.io"
+  ],
+  "policies_remove": [
+  	"macOS Sierra",
+    "anykey IT ASU",
+    "anykey IT Client Standards",
+    "OCCNCC2EWC"
   ]
 }
