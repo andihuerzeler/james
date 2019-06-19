@@ -43,11 +43,34 @@
 	"anykey IT jamfHelper",
 	"anykey IT Maintenance",
 	"Assimilate Ownership",
+	"Automatic Apple Software Update",
 	"Enable ARD",
 	"Oracle Java 8",
 	"RemoveAllMyFilesFavorite",
 	"Firefox",
 	"Google Chrome",
-	"VLC Player"
+	"VLC Player",
+	"Audacity",
+	"Skitch",
+	"OmniDiskSweeper",
+	"LehrerOffice Zusatz",
+	"Formular-Designer",
+	"LehrerOffice",
+	"macOS Mojave",
+	"Google Earth Pro",
+	"Evernote",
+	"Cyberduck",
+	"OneDrive",
+	"Microsoft Teams",
+	"eWolke Web",
+	"Audacity"
+  ],
+  "policies_remove": [
+  	"macOS High Sierra",
+    "anykey IT ASU",
+    "anykey IT Client Standards",
+    "LehrerOffice Formular Designer",
+    "Google Earth",
+    "OCCNCC2EWC"
   ]
 }
