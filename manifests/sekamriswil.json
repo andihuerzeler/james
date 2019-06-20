@@ -62,7 +62,8 @@
     "OneDrive",
     "Hewlett Packard Printer Drivers",
     "Audacity",
-    "ClipGrab"
+    "ClipGrab",
+    "Microsoft Office 2019"
   ],
   "policies_remove": [
     "anykey IT ASU",
@@ -74,6 +75,8 @@
     "TextWrangler",
     "OCCNCC2EWC",
     "OCCNCC2EWC-PLUS",
-    "Plex Home Theater"
+    "Plex Home Theater",
+    "Microsoft Office 2016 Serializer",
+    "Microsoft Office 2016"
   ]
 }
