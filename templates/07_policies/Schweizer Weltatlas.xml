@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <policy>
   <general>
-    <name>Aseba</name>
+    <name>Schweizer Weltatlas</name>
     <enabled>true</enabled>
     <trigger>CHECKIN</trigger>
     <trigger_checkin>true</trigger_checkin>
@@ -15,7 +15,7 @@
   </scope>
   <self_service>
     <use_for_self_service>false</use_for_self_service>
-    <self_service_display_name>Aseba</self_service_display_name>
+    <self_service_display_name>Schweizer Weltatlas</self_service_display_name>
     <install_button_text>Install</install_button_text>
     <reinstall_button_text>Reinstall</reinstall_button_text>
   </self_service>
@@ -23,7 +23,7 @@
     <packages>
       <size>1</size>
       <package>
-        <name>Aseba.pkg.zip</name>
+        <name>Schweizer Weltatlas.pkg.zip</name>
         <action>Install</action>
       </package>
     </packages>

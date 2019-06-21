@@ -60,6 +60,7 @@
     "Google Earth Pro",
     "The Unarchiver",
     "GIMP",
+    "Microsoft Office 2019",
     "FreeMind",
     "PDFsam Basic",
     "Skype",
@@ -68,7 +69,8 @@
     "Aseba",
     "Lernprogramme Ordner",
     "SketchUp 2017",
-    "TigerJython"
+    "TigerJython",
+    "Schweizer Weltatlas"
   ],
   "policies_remove": [
     "anykey IT ASU",
