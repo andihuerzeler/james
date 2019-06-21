@@ -59,6 +59,35 @@
     "Google Chrome",
     "VLC Player",
     "Adobe Flash Player",
-    "Adobe Acrobat Reader DC"
+    "Adobe Acrobat Reader DC",
+    "OmniDiskSweeper",
+    "LehrerOffice Zusatz",
+    "Formular-Designer",
+    "LehrerOffice",
+    "Google Earth Pro",
+    "Evernote",
+    "macOS Mojave",
+    "Dropbox",
+    "ClipGrab",
+    "Cyberduck",
+    "StuffIt Expander",
+    "Sophia",
+    "Adobe AIR",
+    "Sonic Pi",
+    "Skitch",
+    "Automatic Apple Software Update"
+  ],
+  "policies_remove": [
+    "anykey IT ASU",
+    "TextWrangler",
+    "anykey IT Client Standards",
+    "LehrerOffice Formular Designer",
+    "Google Earth",
+    "macOS Sierra",
+    "macOS High Sierra",
+    "Schulwolke 10.6",
+    "OCCNCC2EWC-PLUS",
+    "OCCNCC2EWC",
+    "LibreOffice"
   ]
 }
