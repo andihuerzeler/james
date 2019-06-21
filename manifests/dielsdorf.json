@@ -30,7 +30,8 @@
     "Microsoft Office 2016.pkg.zip",
     "Microsoft Office 2019.pkg.zip",
     "HewlettPackardPrinterDrivers.pkg.zip",
-    "HewlettPackardEssentials.pkg.zip"
+    "HewlettPackardEssentials.pkg.zip",
+    "SDP-850DX Viewer.pkg.zip"
   ],
   "policies": [
     "aa anykey IT jsssr",
@@ -50,12 +51,28 @@
     "VLC Player",
     "Adobe Flash Player",
     "Adobe Acrobat Reader DC",
-    "Automatic Apple Software Update"
+    "Automatic Apple Software Update",
+    "Purge Legacy Apple Apps",
+    "Audacity",
+    "Cyberduck",
+    "EasyFind",
+    "eWolke Web",
+    "Google Earth Pro",
+    "The Unarchiver",
+    "GIMP",
+    "FreeMind",
+    "PDFsam Basic",
+    "Skype",
+    "TNEF's Enough",
+    "SDP-850DX Viewer",
+    "Aseba",
+    "Lernprogramme Ordner",
+    "SketchUp 2017",
+    "TigerJython"
   ],
   "policies_remove": [
     "anykey IT ASU",
     "TextWrangler",
     "anykey IT Client Standards"
   ]
-}
 }

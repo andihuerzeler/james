@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <policy>
 	<general>
-		<name>ANTON</name>
+		<name>SDP-860 Viewer</name>
 		<enabled>true</enabled>
 		<trigger>EVENT</trigger>
 		<trigger_checkin>true</trigger_checkin>
@@ -12,17 +12,11 @@
 	<scope>
 		<all_computers>true</all_computers>
 	</scope>
-	<self_service>
-		<use_for_self_service>true</use_for_self_service>
-		<self_service_display_name>ANTON</self_service_display_name>
-		<install_button_text>Installieren</install_button_text>
-		<reinstall_button_text>Installieren</reinstall_button_text>
-	</self_service>
     <package_configuration>
         <packages>
             <size>1</size>
             <package>
-                <name>ANTON.pkg.zip</name>
+                <name>SDP-860 Viewer.pkg.zip</name>
                 <action>Install</action>
             </package>
         </packages>

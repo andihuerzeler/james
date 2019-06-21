@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <policy>
 	<general>
-		<name>VLC Player</name>
+		<name>Aseba</name>
 		<enabled>true</enabled>
 		<trigger>EVENT</trigger>
 		<trigger_checkin>true</trigger_checkin>
-		<frequency>Once every day</frequency>
 		<category>
 			<name>Applikationen</name>
 		</category>
@@ -15,11 +14,17 @@
 	</scope>
 	<self_service>
 		<use_for_self_service>true</use_for_self_service>
-		<self_service_display_name>VLC Player</self_service_display_name>
+		<self_service_display_name>Aseba</self_service_display_name>
 		<install_button_text>Installieren</install_button_text>
 		<reinstall_button_text>Installieren</reinstall_button_text>
 	</self_service>
-	<files_processes>
-		<run_command>/usr/local/bin/aky vlc</run_command>
-	</files_processes>
+    <package_configuration>
+        <packages>
+            <size>1</size>
+            <package>
+                <name>Aseba.pkg.zip</name>
+                <action>Install</action>
+            </package>
+        </packages>
+    </package_configuration>
 </policy>
