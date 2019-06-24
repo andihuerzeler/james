@@ -39,7 +39,9 @@
     "Microsoft Office 2016.pkg.zip",
     "Microsoft Office 2019.pkg.zip",
     "HewlettPackardPrinterDrivers.pkg.zip",
-    "HewlettPackardEssentials.pkg.zip"
+    "HewlettPackardEssentials.pkg.zip",
+    "Aseba.pkg.zip",
+    "Lernprogramme Ordner.dmg"
   ],
   "policies": [
     "aa anykey IT jsssr",
@@ -58,17 +60,27 @@
     "Adobe AIR",
     "eWolke Web",
     "Audacity",
+    "macOS High Sierra",
     "Firefox",
     "Google Chrome",
     "LehrerOffice",
     "Hewlett Packard Printer Drivers",
     "VLC Player",
     "Skitch",
-    "TextWrangler",
+    "GIMP",
+    "Lernprogramme Ordner",
     "OmniDiskSweeper",
-    "Google Earth",
+    "Google Earth Pro",
+    "Aseba",
     "Cyberduck",
     "Adobe Acrobat Reader DC",
     "Stellarium"
-  ]
+  ],
+    "policies-remove": [
+  	"anykey IT ASU",
+  	"macOS Sierra",
+  	"Google Earth",
+  	"TextWrangler",
+  	"OCCNCC2EWC"
+  ],
 }
