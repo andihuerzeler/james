@@ -39,7 +39,8 @@
 	"Microsoft Office 2016.pkg.zip",
 	"Microsoft Office 2019.pkg.zip",
 	"HewlettPackardPrinterDrivers.pkg.zip",
-	"HewlettPackardEssentials.pkg.zip"
+	"HewlettPackardEssentials.pkg.zip",
+	"ANTON.pkg.zip"
   ],
   "policies": [
 	"aa anykey IT jsssr",
