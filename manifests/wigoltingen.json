@@ -59,6 +59,30 @@
 	"Google Chrome",
 	"VLC Player",
 	"Adobe Flash Player",
-	"Adobe Acrobat Reader DC"
+	"Adobe Acrobat Reader DC",
+	"Skitch",
+	"OmniDiskSweeper",
+	"Cyberduck",
+	"Microsoft Office 2019",
+	"OneDrive",
+	"eWolke Web",
+	"CotEditor",
+	"Adobe AIR",
+	"GIMP",
+	"Scratch Desktop"
+  ],
+  "policies_remove": [
+  	"Microsoft Office 2019 Serializer",
+  	"Microsoft Office 2016 Serializer",
+  	"Lehrer Office",
+  	"Google Earth",
+  	"macOS High Sierra",
+  	"macOS Sierra",
+    "anykey IT ASU",
+    "anykey IT Client Standards",
+    "OCCNCC2EWC-PLUS",
+    "OCCNCC2EWC",
+    "eWolke",
+    "Scratch 2"
   ]
 }
