@@ -1,0 +1,45 @@
+#!/bin/bash
+
+  repo_path="/Users/admin/GitHub"
+
+  while [[ $# -gt 0 ]]; do
+    key="${1}"
+    case "${key}" in
+    -m|--manifest)
+    manifest="${2}"
+    shift
+    shift
+    ;;
+    -o|--object)
+    object="${2}"
+    shift
+    shift
+    ;;
+    -e|--endpoint)
+    endpoint="${2}"
+    shift
+    ;;
+    *)
+    positional+=("${1}")
+    shift
+    ;;
+    esac
+  done
+
+  set -- "${positional[@]}"
+
+  if [ -s "${repo_path}/james/manifests/${manifest}.json" ]; then
+
+	echo "Manifest: '${manifest}'"
+	echo "Object: '${object}'"
+	echo "Endpoint: '${endpoint}'"
+
+    jq \
+      --arg e "${endpoint}" \
+      --arg o "${object}" \
+      '.[$e] |= (. + [$o] | unique)' \
+      "${repo_path}/james/manifests/${manifest}.json" | sponge "${repo_path}/james/manifests/${manifest}.json"
+
+  else
+    echo "Error: Manifest '${manifest}' not found!" && exit 1
+  fi
