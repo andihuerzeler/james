@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <script>
-    <name>Dock Administrator</name>
-    <filename>Dock Administrator</filename>
-    <priority>After</priority>
-    <script_contents>#!/bin/bash
+  <name>Dock Administrator</name>
+  <filename>Dock Administrator</filename>
+  <priority>After</priority>
+  <script_contents>#!/bin/bash
 	dockItems=(
 		'Launchpad.app'
 		'Self Service.app'

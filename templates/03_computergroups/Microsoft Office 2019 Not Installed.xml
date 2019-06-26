@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <computer_group>
-    <name>Microsoft Office 2019 Not Installed</name>
-    <is_smart>true</is_smart>
-    <criteria>
-        <size>1</size>
-        <criterion>
-            <name>Application Title</name>
-            <and_or>and</and_or>
-            <search_type>does not have</search_type>
-            <value>Microsoft OneNote.app</value>
-        </criterion>
-    </criteria>
+  <name>Microsoft Office 2019 Not Installed</name>
+  <is_smart>true</is_smart>
+  <criteria>
+    <size>1</size>
+    <criterion>
+      <name>Application Title</name>
+      <and_or>and</and_or>
+      <search_type>does not have</search_type>
+      <value>Microsoft OneNote.app</value>
+    </criterion>
+  </criteria>
 </computer_group>

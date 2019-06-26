@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <policy>
-    <general>
-        <name>macOS High Sierra</name>
-        <trigger>USER_INITIATED</trigger>
-        <frequency>Ongoing</frequency>
-        <category>
-            <name>Self Service</name>
-        </category>
-    </general>
-    <scope>
-		<all_computers>true</all_computers>
-		<exclusions>
-			<computer_groups>
-				<computer_group>
-					<name>Clients OS X 10.13 greater than or equal</name>
-				</computer_group>
-				<computer_group>
-					<name>Macs incompatible with macOS High Sierra</name>
-				</computer_group>
-			</computer_groups>
-		</exclusions>
-    </scope>
-    <self_service>
-        <use_for_self_service>true</use_for_self_service>
-        <self_service_display_name>macOS High Sierra</self_service_display_name>
-        <install_button_text>Installieren</install_button_text>
-        <reinstall_button_text>Installieren</reinstall_button_text>
-        <self_service_description>Hiermit wird das Betriebssystem macOS High Sierra installiert.
+  <general>
+    <name>macOS High Sierra</name>
+    <trigger>USER_INITIATED</trigger>
+    <frequency>Ongoing</frequency>
+    <category>
+      <name>Self Service</name>
+    </category>
+  </general>
+  <scope>
+    <all_computers>true</all_computers>
+    <exclusions>
+      <computer_groups>
+        <computer_group>
+          <name>Clients OS X 10.13 greater than or equal</name>
+        </computer_group>
+        <computer_group>
+          <name>Macs incompatible with macOS High Sierra</name>
+        </computer_group>
+      </computer_groups>
+    </exclusions>
+  </scope>
+  <self_service>
+    <use_for_self_service>true</use_for_self_service>
+    <self_service_display_name>macOS High Sierra</self_service_display_name>
+    <install_button_text>Installieren</install_button_text>
+    <reinstall_button_text>Installieren</reinstall_button_text>
+    <self_service_description>Hiermit wird das Betriebssystem macOS High Sierra installiert.
 Achtung! Die Installation dauert 30-45 Minuten. Ihr Rechner wird während dieser Zeit mehrmals neu starten. Bitte sichern Sie alle offenen Dateien oder Dokumente bevor Sie fortfahren.</self_service_description>
-        <force_users_to_view_description>true</force_users_to_view_description>
-        <feature_on_main_page>true</feature_on_main_page>
-    </self_service>
-    <package_configuration>
-		<packages>
-			<size>0</size>
-		</packages>
-  	</package_configuration>
-    <files_processes>
-        <run_command>/usr/local/bin/jsssr "Install macOS High Sierra.sh"</run_command>
-    </files_processes>
+    <force_users_to_view_description>true</force_users_to_view_description>
+    <feature_on_main_page>true</feature_on_main_page>
+  </self_service>
+  <package_configuration>
+    <packages>
+      <size>0</size>
+    </packages>
+  </package_configuration>
+  <files_processes>
+    <run_command>/usr/local/bin/jsssr "Install macOS High Sierra.sh"</run_command>
+  </files_processes>
 </policy>

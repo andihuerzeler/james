@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <policy>
-	<general>
-		<name>Hewlett Packard Printer Drivers</name>
-    	<enabled>true</enabled>
-    	<trigger>CHECKIN</trigger>
-    	<trigger_checkin>true</trigger_checkin>
-    	<frequency>Once per computer</frequency>
-		<category>
-			<name>Kundenanpassungen</name>
-		</category>
-	</general>
-	<scope>
-		<all_computers>true</all_computers>
-	</scope>
-	<package_configuration>
-		<packages>
-			<size>2</size>
-			<package>
-        		<name>HewlettPackardEssentials.pkg.zip</name>
-        		<action>Install</action>
-      		</package>
-			<package>
-        		<name>HewlettPackardPrinterDrivers.pkg.zip</name>
-        		<action>Install</action>
-			</package>
-		</packages>
-	</package_configuration>
+  <general>
+    <name>Hewlett Packard Printer Drivers</name>
+    <enabled>true</enabled>
+    <trigger>CHECKIN</trigger>
+    <trigger_checkin>true</trigger_checkin>
+    <frequency>Once per computer</frequency>
+    <category>
+      <name>Kundenanpassungen</name>
+    </category>
+  </general>
+  <scope>
+    <all_computers>true</all_computers>
+  </scope>
+  <package_configuration>
+    <packages>
+      <size>2</size>
+      <package>
+        <name>HewlettPackardEssentials.pkg.zip</name>
+        <action>Install</action>
+      </package>
+      <package>
+        <name>HewlettPackardPrinterDrivers.pkg.zip</name>
+        <action>Install</action>
+      </package>
+    </packages>
+  </package_configuration>
 </policy>

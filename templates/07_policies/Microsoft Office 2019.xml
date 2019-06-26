@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <policy>
-	<general>
-		<name>Microsoft Office 2019</name>
-		<enabled>true</enabled>
-		<trigger>EVENT</trigger>
-		<trigger_checkin>true</trigger_checkin>
-		<trigger_enrollment_complete>true</trigger_enrollment_complete>
-		<frequency>Once every day</frequency>
-		<category>
-			<name>Applikationen</name>
-		</category>
-	</general>
-    <scope>
-        <all_computers>false</all_computers>
-        <computers/>
-        <computer_groups>
-            <computer_group>
-                <name>Microsoft Office 2019 Not Installed</name>
-            </computer_group>
-        </computer_groups>
-    </scope>
-    <package_configuration>
-        <packages>
-            <package>
-                <name>Microsoft Office 2019.pkg.zip</name>
-                <action>Install</action>
-            </package>
-        </packages>
-    </package_configuration>
+  <general>
+    <name>Microsoft Office 2019</name>
+    <enabled>true</enabled>
+    <trigger>EVENT</trigger>
+    <trigger_checkin>true</trigger_checkin>
+    <trigger_enrollment_complete>true</trigger_enrollment_complete>
+    <frequency>Once every day</frequency>
+    <category>
+      <name>Applikationen</name>
+    </category>
+  </general>
+  <scope>
+    <all_computers>false</all_computers>
+    <computers/>
+    <computer_groups>
+      <computer_group>
+        <name>Microsoft Office 2019 Not Installed</name>
+      </computer_group>
+    </computer_groups>
+  </scope>
+  <package_configuration>
+    <packages>
+      <package>
+        <name>Microsoft Office 2019.pkg.zip</name>
+        <action>Install</action>
+      </package>
+    </packages>
+  </package_configuration>
 </policy>

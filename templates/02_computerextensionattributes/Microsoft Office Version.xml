@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <computer_extension_attribute>
-    <id>2</id>
-    <name>Microsoft Office Version</name>
-    <data_type>String</data_type>
-    <input_type>
-        <type>script</type>
-        <platform>Mac</platform>
-        <script>#!/bin/bash
+  <id>2</id>
+  <name>Microsoft Office Version</name>
+  <data_type>String</data_type>
+  <input_type>
+    <type>script</type>
+    <platform>Mac</platform>
+    <script>#!/bin/bash
   
   if [ -s "/Applications/Microsoft Word.app" ]; then
     
@@ -33,7 +33,7 @@
   else
     echo "&lt;result&gt;Microsoft Office Not Installed&lt;/result&gt;"
   fi</script>
-    </input_type>
-    <inventory_display>Operating System</inventory_display>
-    <recon_display>Extension Attributes</recon_display>
+  </input_type>
+  <inventory_display>Operating System</inventory_display>
+  <recon_display>Extension Attributes</recon_display>
 </computer_extension_attribute>
