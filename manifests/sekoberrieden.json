@@ -1,4 +1,75 @@
 {
   "url": "https://sekoberrieden.amy.anykey.ch",
-  "managed": "false"
+  "managed": "true",
+  "categories": [
+    "anykey IT",
+    "Applikationen",
+    "Drucker",
+    "Kundenanpassungen",
+    "Self Service"
+  ],
+  "computerextensionattributes": [
+    "Microsoft Office Version"
+  ],
+  "computergroups": [
+    "Clients OS X 10.13 greater than or equal",
+    "Clients OS X 10.13 less than or equal",
+    "Clients OS X 10.13",
+    "Clients OS X 10.14 greater than or equal",
+    "Clients OS X 10.14 less than or equal",
+    "Clients OS X 10.14",
+    "Microsoft Office 2016 Installed",
+    "Microsoft Office 2016 Not Installed",
+    "Microsoft Office 2019 Installed",
+    "Microsoft Office 2019 Not Installed",
+    "Macs incompatible with macOS Mojave",
+    "Macs incompatible with macOS High Sierra"
+  ],
+  "packages": [
+    "jsssr.pkg.zip",
+    "Microsoft Office 2016.pkg.zip",
+    "Microsoft Office 2019.pkg.zip",
+    "HewlettPackardPrinterDrivers.pkg.zip",
+    "HewlettPackardEssentials.pkg.zip"
+  ],
+  "policies": [
+    "Adobe Acrobat Reader DC",
+    "Adobe Flash Player",
+    "BBEdit",
+    "Cyberduck",
+    "Enable ARD",
+    "Firefox",
+    "Formular-Designer",
+    "Google Chrome",
+    "Google Earth Pro",
+    "Hewlett Packard Printer Drivers",
+    "LehrerOffice",
+    "LehrerOffice Zusatz",
+    "Microsoft Teams",
+    "OmniDiskSweeper",
+    "OneDrive",
+    "Oracle Java 8",
+    "Purge Legacy Apple Apps",
+    "RemoveAllMyFilesFavorite",
+    "Skitch",
+    "Skype",
+    "StuffIt Expander",
+    "Update Inventory",
+    "VLC Player",
+    "aa anykey IT jsssr",
+    "anykey IT Client Security",
+    "anykey IT Client Tools",
+    "anykey IT Maintenance",
+    "anykey IT anytmp",
+    "eWolke Web",
+    "macOS Mojave"
+  ],
+  "policies_remove": [
+    "Google Earth",
+    "Microsoft Office 2016 Serializer",
+    "Microsoft Office 2019 Serializer",
+    "Text Wrangler",
+    "eWolke",
+    "eWolke Client"
+  ]
 }

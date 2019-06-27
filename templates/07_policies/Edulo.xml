@@ -20,6 +20,6 @@
     <reinstall_button_text>Installieren</reinstall_button_text>
   </self_service>
   <files_processes>
-    <run_command>/usr/local/bin/aky edulo</run_command>
+    <run_command>/usr/local/bin/aky edulo &amp;&amp; /usr/local/bin/aky eduloeditor</run_command>
   </files_processes>
 </policy>
