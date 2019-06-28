@@ -1,4 +1,41 @@
 {
   "url": "https://jss3.anykeyit.ch:8443/solothurn",
-  "managed": "false"
+  "managed": "true",
+  "categories": [
+    "Applikationen",
+    "Drucker",
+    "Kundenanpassungen",
+    "Self Service",
+    "anykey IT"
+  ],
+  "computerextensionattributes": [
+    "Microsoft Office Version"
+  ],
+  "computergroups": [
+    "Microsoft Office Version"
+  ],
+  "packages": [
+    "HewlettPackardEssentials.pkg.zip",
+    "HewlettPackardPrinterDrivers.pkg.zip",
+    "Microsoft Office 2016.pkg.zip",
+    "Microsoft Office 2019.pkg.zip",
+    "jsssr.pkg.zip"
+  ],
+  "policies": [
+    "Assimilate Ownership",
+    "Enable ARD",
+    "Firefox",
+    "Google Chrome",
+    "Oracle Java 8",
+    "RemoveAllMyFilesFavorite",
+    "Update Inventory",
+    "VLC Player",
+    "aa anykey IT jsssr",
+    "anykey IT Client Bootstrap",
+    "anykey IT Client Security",
+    "anykey IT Client Tools",
+    "anykey IT Maintenance",
+    "anykey IT anytmp",
+    "anykey IT jamfHelper"
+  ]
 }

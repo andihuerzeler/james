@@ -2,46 +2,47 @@
   "url": "https://wald.amy.anykey.ch",
   "managed": "true",
   "categories": [
-    "anykey IT",
     "Applikationen",
     "Drucker",
     "Kundenanpassungen",
-    "Self Service"
+    "Self Service",
+    "anykey IT"
   ],
   "computerextensionattributes": [
     "Microsoft Office Version"
   ],
   "computergroups": [
+    "Clients OS X 10.10",
     "Clients OS X 10.10 greater than or equal",
     "Clients OS X 10.10 less than or equal",
-    "Clients OS X 10.10",
+    "Clients OS X 10.11",
     "Clients OS X 10.11 greater than or equal",
     "Clients OS X 10.11 less than or equal",
-    "Clients OS X 10.11",
+    "Clients OS X 10.12",
     "Clients OS X 10.12 greater than or equal",
     "Clients OS X 10.12 less than or equal",
-    "Clients OS X 10.12",
+    "Clients OS X 10.13",
     "Clients OS X 10.13 greater than or equal",
     "Clients OS X 10.13 less than or equal",
-    "Clients OS X 10.13",
+    "Clients OS X 10.14",
     "Clients OS X 10.14 greater than or equal",
     "Clients OS X 10.14 less than or equal",
-    "Clients OS X 10.14",
+    "Macs incompatible with macOS Mojave",
     "Microsoft Office 2016 Installed",
     "Microsoft Office 2016 Not Installed",
     "Microsoft Office 2019 Installed",
     "Microsoft Office 2019 Not Installed",
-    "Macs incompatible with macOS Mojave"
+    "Microsoft Office Version"
   ],
   "packages": [
-    "anykey IT Logo im jamfHelper.dmg",
-    "jsssr.pkg.zip",
+    "Aseba.pkg.zip",
+    "HewlettPackardEssentials.pkg.zip",
+    "HewlettPackardPrinterDvers.pkg.zip",
+    "Lernprogramme Ordner.dmg",
     "Microsoft Office 2016.pkg.zip",
     "Microsoft Office 2019.pkg.zip",
-    "HewlettPackardPrinterDrivers.pkg.zip",
-    "HewlettPackardEssentials.pkg.zip",
-    "Aseba.pkg.zip",
-    "Lernprogramme Ordner.dmg"
+    "anykey IT Logo im jamfHelper.dmg",
+    "jsssr.pkg.zip"
   ],
   "policies": [
     "Adobe AIR",

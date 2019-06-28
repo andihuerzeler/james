@@ -22,20 +22,20 @@
     "jsssr.pkg.zip"
   ],
   "policies": [
-    "Assimilate Ownership,",
-    "Enable ARD,",
-    "Firefox,",
-    "Google Chrome,",
-    "Oracle Java 8,",
-    "RemoveAllMyFilesFavorite,",
-    "Update Inventory,",
+    "Assimilate Ownership",
+    "Enable ARD",
+    "Firefox",
+    "Google Chrome",
+    "Oracle Java 8",
+    "RemoveAllMyFilesFavorite",
+    "Update Inventory",
     "VLC Player",
-    "aa anykey IT jsssr,",
-    "anykey IT Client Bootstrap,",
-    "anykey IT Client Security,",
-    "anykey IT Client Tools,",
-    "anykey IT Maintenance,",
-    "anykey IT anytmp,",
-    "anykey IT jamfHelper,"
+    "aa anykey IT jsssr",
+    "anykey IT Client Bootstrap",
+    "anykey IT Client Security",
+    "anykey IT Client Tools",
+    "anykey IT Maintenance",
+    "anykey IT anytmp",
+    "anykey IT jamfHelper"
   ]
 }
