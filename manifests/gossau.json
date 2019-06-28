@@ -81,9 +81,12 @@
     "anykey IT Maintenance",
     "anykey IT anytmp",
     "anykey IT jamfHelper",
-    "eWolke Web"
+    "eWolke Web",
+    "eWolke-Sync"
   ],
   "policies_remove": [
+    "Activate eWolke Finder Extension",
+    "AnyDesk",
     "Google Earth",
     "LehrerOffice Formular Designer",
     "Microsoft Office 2016 Serializer",
@@ -95,7 +98,6 @@
     "anykey IT ASU",
     "eWolke",
     "eWolke Client",
-    "AnyDesk",
     "macOS High Sierra",
     "macOS Sierra"
   ]
