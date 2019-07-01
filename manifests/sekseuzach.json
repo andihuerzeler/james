@@ -22,12 +22,29 @@
     "jsssr.pkg.zip"
   ],
   "policies": [
+    "Adobe AIR",
+    "Adobe Acrobat Reader DC",
+    "Adobe Flash Player",
     "Assimilate Ownership",
+    "Automatic Apple Software Update",
+    "Burn",
+    "ClipGrab",
+    "Cyberduck",
+    "Dropbox",
     "Enable ARD",
+    "Evernote",
     "Firefox",
+    "Formular-Designer",
+    "GeoGebra Classic 6",
     "Google Chrome",
+    "LehrerOffice",
+    "LehrerOffice Zusatz",
+    "LibreOffice",
+    "Microsoft Office 2016",
+    "OmniDiskSweeper",
     "Oracle Java 8",
     "RemoveAllMyFilesFavorite",
+    "Skitch",
     "Update Inventory",
     "VLC Player",
     "aa anykey IT jsssr",
@@ -36,10 +53,26 @@
     "anykey IT Client Tools",
     "anykey IT Maintenance",
     "anykey IT anytmp",
-    "anykey IT jamfHelper"
+    "anykey IT jamfHelper",
+    "macOS High Sierra"
   ],
   "policies_remove": [
+    "Adobe Photoshop Lightroom 4",
+    "Enable Finder Sync Extension",
+    "GeoGebra",
+    "Google Earth",
+    "Kill Dropbox",
+    "LehrerOffice Formular Designer",
+    "Library lokal und im Netzwerk oeffnen",
     "Microsoft Office 2016 Serializer",
-    "Microsoft Office 2019 Serializer"
+    "Microsoft Office 2019 Serializer",
+    "OCCNCC2EWC",
+    "Office 2016 Downgrade",
+    "System Reparatur",
+    "TextWrangler",
+    "anykey IT Client Standards",
+    "eWolke",
+    "eWolke Client",
+    "jamf manage and policy"
   ]
 }

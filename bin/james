@@ -28,6 +28,14 @@
 
   set -- "${positional[@]}"
 
+  if [ -z "${manifest}" ]; then
+    echo "Error: argument manifest can not be empty" && exit 1
+  elif [ -z "${object}" ]; then
+    echo "Error: argument object can not be empty" && exit 1
+  elif [ -z "${endpoint}" ]; then
+    echo "Error: argument endpoint can not be empty" && exit 1
+  fi
+
   if [ -s "${repo_path}/james/manifests/${manifest}.json" ]; then
 
 	echo "Manifest: '${manifest}'"
