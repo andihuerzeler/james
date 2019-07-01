@@ -20,6 +20,6 @@
     <reinstall_button_text>Installieren</reinstall_button_text>
   </self_service>
   <files_processes>
-    <run_command>/usr/local/bin/jsssr "Install Oracle Java 8.sh" &amp;&amp; /usr/local/bin/jsssr "Install Oracle Java 8 JDK.sh"</run_command>
+    <run_command>/usr/local/bin/jsssr "Install Oracle Java 8.sh"</run_command>
   </files_processes>
 </policy>
