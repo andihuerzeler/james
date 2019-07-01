@@ -20,6 +20,12 @@
       </computer_group>
     </computer_groups>
   </scope>
+  <self_service>
+    <use_for_self_service>false</use_for_self_service>
+    <self_service_display_name>Microsoft Office 2019</self_service_display_name>
+    <install_button_text>Install</install_button_text>
+    <reinstall_button_text>Reinstall</reinstall_button_text>
+  </self_service>
   <package_configuration>
     <packages>
       <package>

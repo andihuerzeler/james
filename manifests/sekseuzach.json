@@ -37,5 +37,9 @@
     "anykey IT Maintenance",
     "anykey IT anytmp",
     "anykey IT jamfHelper"
+  ],
+  "policies_remove": [
+    "Microsoft Office 2016 Serializer",
+    "Microsoft Office 2019 Serializer"
   ]
 }
