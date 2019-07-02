@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <computer_extension_attribute>
-  <id>1</id>
   <name>anyDesk ID</name>
   <description/>
   <data_type>String</data_type>

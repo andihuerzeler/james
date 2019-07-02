@@ -16,9 +16,20 @@
     <computers/>
     <computer_groups>
       <computer_group>
+        <name>Microsoft Office 2016 Installed</name>
+      </computer_group>
+      <computer_group>
         <name>Microsoft Office 2019 Not Installed</name>
       </computer_group>
     </computer_groups>
+    <exclusions>
+      <computers/>
+      <computer_groups>
+        <computer_group>
+          <name>Microsoft Office 2019 Installed</name>
+        </computer_group>
+      </computer_groups>
+    </exclusions>
   </scope>
   <self_service>
     <use_for_self_service>false</use_for_self_service>
