@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <?xml version="1.0" encoding="UTF-8"?>
 <computer_extension_attribute>
   <id>1</id>
@@ -8,13 +7,13 @@
   <input_type>
     <type>script</type>
     <platform>Mac</platform>
-    <script>#!/bin/bash
-
-currentuser=$(/usr/local/bin/currentuser)
-configpath="/Users/${currentuser}/.anydesk_ad_52e7bffe/system.conf"
-
-result=$(awk -F '=' '/^ad.anynet.id/ { print $2 }' "${configpath}")
-
+    <script>#!/bin/bash&#13;
+&#13;
+currentuser=$(/usr/local/bin/currentuser)&#13;
+configpath="/Users/${currentuser}/.anydesk_ad_52e7bffe/system.conf"&#13;
+&#13;
+result=$(awk -F '=' '/^ad.anynet.id/ { print $2 }' "${configpath}")&#13;
+&#13;
 echo "&lt;result&gt;${result}&lt;/result&gt;"</script>
   </input_type>
   <inventory_display>General</inventory_display>
