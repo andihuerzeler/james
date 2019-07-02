@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policy>
+  <general>
+    <name>anyDesk Fernwartung</name>
+    <enabled>true</enabled>
+    <trigger>USER_INITIATED</trigger>
+    <frequency>Ongoing</frequency>
+    <category>
+      <name>Self Service</name>
+    </category>
+  </general>
+  <scope>
+    <all_computers>true</all_computers>
+  </scope>
+  <self_service>
+    <use_for_self_service>true</use_for_self_service>
+    <self_service_display_name>anyDesk Fernwartung</self_service_display_name>
+    <install_button_text>Starten</install_button_text>
+    <reinstall_button_text>Starten</reinstall_button_text>
+    <self_service_description>Dieser Befehl startet die anykey Fernwartung. Teilen Sie anschliessend die angezeigte anyDesk-Adresse einem anykey Mitarbeiter mit, damit dieser das Gerät steuern kann. </self_service_description>
+    <force_users_to_view_description>true</force_users_to_view_description>
+    <feature_on_main_page>true</feature_on_main_page>
+  </self_service>
+  <files_processes>
+    <run_command>/usr/local/bin/aky anydeskfernwartung &amp;&amp; open "/Applications/AnyDesk.app" &amp;&amp; /usr/local/jamf/bin/jamf policy -trigger updateinventory</run_command>
+  </files_processes>
+</policy>

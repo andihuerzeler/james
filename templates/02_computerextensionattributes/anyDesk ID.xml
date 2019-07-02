@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<computer_extension_attribute>
+  <id>1</id>
+  <name>anyDesk ID</name>
+  <description/>
+  <data_type>String</data_type>
+  <input_type>
+    <type>script</type>
+    <platform>Mac</platform>
+    <script>#!/bin/bash
+
+currentuser=$(/usr/local/bin/currentuser)
+configpath="/Users/${currentuser}/.anydesk_ad_52e7bffe/system.conf"
+
+result=$(awk -F '=' '/^ad.anynet.id/ { print $2 }' "${configpath}")
+
+echo "&lt;result&gt;${result}&lt;/result&gt;"</script>
+  </input_type>
+  <inventory_display>General</inventory_display>
+  <recon_display>Extension Attributes</recon_display>
+</computer_extension_attribute>

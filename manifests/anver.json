@@ -9,7 +9,8 @@
     "Self Service"
   ],
   "computerextensionattributes": [
-    "Microsoft Office Version"
+    "Microsoft Office Version",
+    "anyDesk ID"
   ],
   "computergroups": [
     "Clients OS X 10.10 greater than or equal",
@@ -86,6 +87,7 @@
     "VLC Player",
     "WhatsApp",
     "aa anykey IT jsssr",
+    "anyDesk Fernwartung",
     "anykey IT Browser Bootstrap",
     "anykey IT Client Bootstrap",
     "anykey IT Client Logout",

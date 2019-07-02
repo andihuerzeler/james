@@ -3,8 +3,9 @@
   <general>
     <name>Update Inventory</name>
     <enabled>true</enabled>
-    <trigger>CHECKIN</trigger>
+    <trigger>EVENT</trigger>
     <trigger_checkin>true</trigger_checkin>
+    <trigger_other>updateinventory</trigger_other>
     <frequency>Once every day</frequency>
     <category>
       <name>anykey IT</name>
