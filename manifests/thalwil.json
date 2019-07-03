@@ -2,14 +2,15 @@
   "url": "https://thalwil.amy.anykey.ch",
   "managed": "true",
   "categories": [
-    "anykey IT",
     "Applikationen",
     "Drucker",
     "Kundenanpassungen",
-    "Self Service"
+    "Self Service",
+    "anykey IT"
   ],
   "computerextensionattributes": [
-    "Microsoft Office Version"
+    "Microsoft Office Version",
+    "anyDesk ID"
   ],
   "computergroups": [
     "Clients OS X 10.10 greater than or equal",
@@ -58,6 +59,7 @@
     "Update Inventory",
     "VLC Player",
     "aa anykey IT jsssr",
+    "anyDesk Fernwartung",
     "anykey IT ASU",
     "anykey IT Client Bootstrap",
     "anykey IT Client Security",
@@ -70,6 +72,8 @@
   "policies_remove": [
     "Microsoft Office 2016",
     "Microsoft Office 2016 Serializer",
-    "Microsoft Office 2019 Serializer"
+    "Microsoft Office 2019 Serializer",
+    "anykey IT Client Standards",
+    "anykey IT Fernwartung"
   ]
 }

@@ -2,14 +2,15 @@
   "url": "https://jss3.anykeyit.ch:8443/opfikon",
   "managed": "true",
   "categories": [
-    "anykey IT",
     "Applikationen",
     "Drucker",
     "Kundenanpassungen",
-    "Self Service"
+    "Self Service",
+    "anykey IT"
   ],
   "computerextensionattributes": [
-    "Microsoft Office Version"
+    "Microsoft Office Version",
+    "anyDesk ID"
   ],
   "computergroups": [
     "Clients OS X 10.10 greater than or equal",
@@ -63,6 +64,7 @@
     "Update Inventory",
     "VLC Player",
     "aa anykey IT jsssr",
+    "anyDesk Fernwartung",
     "anykey IT ASU",
     "anykey IT Client Bootstrap",
     "anykey IT Client Logout",
@@ -82,6 +84,7 @@
     "OneDrive",
     "TextWrangler",
     "anykey IT ASU",
-    "anykey IT Client Standards"
+    "anykey IT Client Standards",
+    "anykey IT Fernwartung"
   ]
 }

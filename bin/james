@@ -38,9 +38,9 @@
 
   if [ -s "${repo_path}/james/manifests/${manifest}.json" ]; then
 
-	echo "Manifest: '${manifest}'"
-	echo "Object: '${object}'"
-	echo "Endpoint: '${endpoint}'"
+    echo "Manifest: '${manifest}'"
+    echo "Endpoint: '${endpoint}'"
+    echo "Object: '${object}'"
 
     jq \
       --arg e "${endpoint}" \

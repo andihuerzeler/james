@@ -2,14 +2,15 @@
   "url": "https://sedrun.amy.anykey.ch",
   "managed": "true",
   "categories": [
-    "anykey IT",
     "Applikationen",
     "Drucker",
     "Kundenanpassungen",
-    "Self Service"
+    "Self Service",
+    "anykey IT"
   ],
   "computerextensionattributes": [
-    "Microsoft Office Version"
+    "Microsoft Office Version",
+    "anyDesk ID"
   ],
   "computergroups": [
     "Clients OS X 10.13 greater than or equal",
@@ -33,32 +34,39 @@
     "HewlettPackardEssentials.pkg.zip"
   ],
   "policies": [
+    "Adobe Acrobat Reader DC",
+    "Adobe Flash Player",
+    "Apple Command Line Tools",
+    "Assimilate Ownership",
+    "Automatic Apple Software Update",
+    "Enable ARD",
+    "Firefox",
+    "Formular-Designer",
+    "Google Chrome",
+    "Hewlett Packard Printer Drivers",
+    "LehrerOffice",
+    "LehrerOffice Zusatz",
+    "Microsoft Office 2019",
+    "Oracle Java 8",
+    "Purge Legacy Apple Apps",
     "Update Inventory",
+    "VLC Player",
     "aa anykey IT jsssr",
-    "anykey IT anytmp",
+    "anyDesk Fernwartung",
     "anykey IT Browser Bootstrap",
     "anykey IT Client Bootstrap",
     "anykey IT Client Logout",
     "anykey IT Client Security",
     "anykey IT Client Tools",
-    "anykey IT jamfHelper",
     "anykey IT Maintenance",
-    "Apple Command Line Tools",
-    "Automatic Apple Software Update",
-    "Assimilate Ownership",
-    "Enable ARD",
-    "Oracle Java 8",
-    "Microsoft Office 2019",
-    "Google Chrome",
-    "Firefox",
-    "LehrerOffice",
-    "LehrerOffice Zusatz",
-    "Formular-Designer",
-    "Hewlett Packard Printer Drivers",
-    "VLC Player",
-    "Adobe Flash Player",
-    "Adobe Acrobat Reader DC",
-    "macOS Mojave",
-    "Purge Legacy Apple Apps"
+    "anykey IT anytmp",
+    "anykey IT jamfHelper",
+    "macOS Mojave"
+  ],
+  "policies_remove": [
+    "Microsoft Office 2016 Serializer",
+    "Microsoft Office 2019 Serializer",
+    "anykey IT Client Standards",
+    "anykey IT Fernwartung"
   ]
 }

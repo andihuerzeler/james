@@ -9,7 +9,8 @@
     "anykey IT"
   ],
   "computerextensionattributes": [
-    "Microsoft Office Version"
+    "Microsoft Office Version",
+    "anyDesk ID"
   ],
   "computergroups": [
     "Clients OS X 10.10",
@@ -73,6 +74,7 @@
     "Update Inventory",
     "VLC Player",
     "aa anykey IT jsssr",
+    "anyDesk Fernwartung",
     "anykey IT Client Bootstrap",
     "anykey IT Client Logout",
     "anykey IT Client Security",
@@ -99,6 +101,8 @@
     "UserTemplateDefault1014 with Reset.pkg.zip",
     "anykey IT ASU",
     "anykey IT Apple Software Update (18:00 to 06:00)",
+    "anykey IT Client Standards",
+    "anykey IT Fernwartung",
     "eWolke",
     "eWolke Client",
     "macOS Sierra"

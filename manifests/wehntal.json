@@ -1,4 +1,24 @@
 {
   "url": "https://jss4.anykeyit.ch/wehntal",
-  "managed": "true"
+  "managed": "true",
+  "computerextensionattributes": [
+    "anyDesk ID"
+  ],
+  "policies_remove": [
+    "Microsoft Office 2016 Serializer",
+    "Microsoft Office 2019 Serializer",
+    "anykey IT Client Standards",
+    "anykey IT Fernwartung"
+  ],
+  "policies": [
+    "anyDesk Fernwartung",
+    "anykey IT Client Bootstrap"
+  ],
+  "categories": [
+    "Applikationen",
+    "Drucker",
+    "Kundenanpassungen",
+    "Self Service",
+    "anykey IT"
+  ]
 }

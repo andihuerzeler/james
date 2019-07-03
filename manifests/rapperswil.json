@@ -9,6 +9,17 @@
     "anykey IT"
   ],
   "policies": [
-    "Update Inventory"
+    "Update Inventory",
+    "anyDesk Fernwartung",
+    "anykey IT Client Bootstrap"
+  ],
+  "computerextensionattributes": [
+    "anyDesk ID"
+  ],
+  "policies_remove": [
+    "Microsoft Office 2016 Serializer",
+    "Microsoft Office 2019 Serializer",
+    "anykey IT Client Standards",
+    "anykey IT Fernwartung"
   ]
 }

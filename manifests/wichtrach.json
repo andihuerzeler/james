@@ -9,7 +9,8 @@
     "anykey IT"
   ],
   "computerextensionattributes": [
-    "Microsoft Office Version"
+    "Microsoft Office Version",
+    "anyDesk ID"
   ],
   "computergroups": [
     "Clients OS X 10.10",
@@ -54,6 +55,7 @@
     "Update Inventory",
     "VLC Player",
     "aa anykey IT jsssr",
+    "anyDesk Fernwartung",
     "anykey IT ASU",
     "anykey IT Client Bootstrap",
     "anykey IT Client Security",
@@ -61,5 +63,11 @@
     "anykey IT Maintenance",
     "anykey IT anytmp",
     "anykey IT jamfHelper"
+  ],
+  "policies_remove": [
+    "Microsoft Office 2016 Serializer",
+    "Microsoft Office 2019 Serializer",
+    "anykey IT Client Standards",
+    "anykey IT Fernwartung"
   ]
 }

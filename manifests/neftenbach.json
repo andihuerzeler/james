@@ -2,11 +2,11 @@
   "url": "https://jss2.anykeyit.ch:8443/neftenbach",
   "managed": "true",
   "categories": [
-    "anykey IT",
     "Applikationen",
     "Drucker",
     "Kundenanpassungen",
-    "Self Service"
+    "Self Service",
+    "anykey IT"
   ],
   "computerextensionattributes": [
     "Microsoft Office Version",
@@ -89,6 +89,7 @@
     "Microsoft Office 2016 Serializer",
     "Microsoft Office 2019 Serializer",
     "OCCNCC2EWC",
+    "anykey IT Client Standards",
     "anykey IT Fernwartung",
     "macOS High Sierra"
   ]

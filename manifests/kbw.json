@@ -59,6 +59,7 @@
     "VLC Player",
     "Zotero",
     "aa anykey IT jsssr",
+    "anyDesk Fernwartung",
     "anykey IT Client Bootstrap",
     "anykey IT Client Security",
     "anykey IT Client Tools",
@@ -67,8 +68,12 @@
     "anykey IT jamfHelper"
   ],
   "policies_remove": [
+    "Microsoft Office 2016 Serializer",
+    "Microsoft Office 2019 Serializer",
     "Scratch 2",
     "VLC",
-    "anykey IT ASU"
+    "anykey IT ASU",
+    "anykey IT Client Standards",
+    "anykey IT Fernwartung"
   ]
 }

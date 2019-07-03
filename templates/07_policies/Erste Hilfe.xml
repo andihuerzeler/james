@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policy>
+  <general>
+    <name>Erste Hilfe</name>
+    <enabled>true</enabled>
+    <trigger>USER_INITIATED</trigger>
+    <trigger_other/>
+    <frequency>Ongoing</frequency>
+    <category>
+      <name>Self Service</name>
+    </category>
+  </general>
+  <scope>
+    <all_computers>true</all_computers>
+  </scope>
+  <self_service>
+    <use_for_self_service>true</use_for_self_service>
+    <self_service_display_name>Erste Hilfe</self_service_display_name>
+    <install_button_text>Start</install_button_text>
+    <reinstall_button_text>Start</reinstall_button_text>
+    <force_users_to_view_description>false</force_users_to_view_description>
+    <feature_on_main_page>true</feature_on_main_page>
+    <self_service_categories/>
+  </self_service>
+  <package_configuration>
+    <packages>
+      <size>1</size>
+      <package>
+        <name>jsssr.pkg.zip</name>
+        <action>Install</action>
+      </package>
+    </packages>
+  </package_configuration>
+  <maintenance>
+    <recon>true</recon>
+    <reset_name>true</reset_name>
+    <install_all_cached_packages>false</install_all_cached_packages>
+    <heal>true</heal>
+    <prebindings>true</prebindings>
+    <permissions>true</permissions>
+    <byhost>true</byhost>
+    <system_cache>true</system_cache>
+    <user_cache>true</user_cache>
+    <verify>true</verify>
+  </maintenance>
+  <files_processes>
+    <search_by_path/>
+    <delete_file>false</delete_file>
+    <locate_file/>
+    <update_locate_database>false</update_locate_database>
+    <spotlight_search/>
+    <search_for_process/>
+    <kill_process>false</kill_process>
+    <run_command>/usr/local/bin/jamf displayMessage -message "Erste Hilfe ist abgeschlossen. Bitte starte deinen Mac nun neu."</run_command>
+  </files_processes>
+</policy>

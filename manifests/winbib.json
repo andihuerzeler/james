@@ -2,10 +2,23 @@
   "url": "https://winbib.amy.anykey.ch",
   "managed": "true",
   "categories": [
-    "anykey IT",
     "Applikationen",
     "Drucker",
     "Kundenanpassungen",
-    "Self Service"
+    "Self Service",
+    "anykey IT"
+  ],
+  "computerextensionattributes": [
+    "anyDesk ID"
+  ],
+  "policies_remove": [
+    "Microsoft Office 2016 Serializer",
+    "Microsoft Office 2019 Serializer",
+    "anykey IT Client Standards",
+    "anykey IT Fernwartung"
+  ],
+  "policies": [
+    "anyDesk Fernwartung",
+    "anykey IT Client Bootstrap"
   ]
 }

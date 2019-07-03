@@ -2,14 +2,15 @@
   "url": "https://jss5.anykeyit.ch/logos",
   "managed": "true",
   "categories": [
-    "anykey IT",
     "Applikationen",
     "Drucker",
     "Kundenanpassungen",
-    "Self Service"
+    "Self Service",
+    "anykey IT"
   ],
   "computerextensionattributes": [
-    "Microsoft Office Version"
+    "Microsoft Office Version",
+    "anyDesk ID"
   ],
   "computergroups": [
     "Clients OS X 10.13 greater than or equal",
@@ -53,6 +54,8 @@
     "Update Inventory",
     "VLC Player",
     "aa anykey IT jsssr",
+    "anyDesk Fernwartung",
+    "anykey IT Client Bootstrap",
     "anykey IT Client Security",
     "anykey IT Client Tools",
     "anykey IT Maintenance",
@@ -62,6 +65,8 @@
   ],
   "policies_remove": [
     "Microsoft Office 2016 Serializer",
-    "Microsoft Office 2019 Serializer"
+    "Microsoft Office 2019 Serializer",
+    "anykey IT Client Standards",
+    "anykey IT Fernwartung"
   ]
 }

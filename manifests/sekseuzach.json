@@ -9,7 +9,8 @@
     "anykey IT"
   ],
   "computerextensionattributes": [
-    "Microsoft Office Version"
+    "Microsoft Office Version",
+    "anyDesk ID"
   ],
   "computergroups": [
     "Microsoft Office Version"
@@ -48,6 +49,7 @@
     "Update Inventory",
     "VLC Player",
     "aa anykey IT jsssr",
+    "anyDesk Fernwartung",
     "anykey IT Client Bootstrap",
     "anykey IT Client Security",
     "anykey IT Client Tools",
@@ -71,6 +73,7 @@
     "System Reparatur",
     "TextWrangler",
     "anykey IT Client Standards",
+    "anykey IT Fernwartung",
     "eWolke",
     "eWolke Client",
     "jamf manage and policy"

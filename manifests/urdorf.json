@@ -9,7 +9,8 @@
     "anykey IT"
   ],
   "computerextensionattributes": [
-    "Microsoft Office Version"
+    "Microsoft Office Version",
+    "anyDesk ID"
   ],
   "computergroups": [
     "Clients OS X 10.10",
@@ -70,6 +71,7 @@
     "Update Inventory",
     "VLC Player",
     "aa anykey IT jsssr",
+    "anyDesk Fernwartung",
     "anykey IT Client Bootstrap",
     "anykey IT Client Security",
     "anykey IT Client Tools",
@@ -79,11 +81,14 @@
     "eWolke Web"
   ],
   "policies_remove": [
+    "Geogebra",
+    "Google Earth",
+    "Libre Office",
+    "Microsoft Office 2016 Serializer",
+    "Microsoft Office 2019 Serializer",
+    "TextWrangler",
     "anykey IT ASU",
     "anykey IT Client Standards",
-    "Google Earth",
-    "TextWrangler",
-    "Geogebra",
-    "Libre Office"
+    "anykey IT Fernwartung"
   ]
 }

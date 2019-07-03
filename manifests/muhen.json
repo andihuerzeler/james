@@ -7,5 +7,18 @@
     "Kundenanpassungen",
     "Self Service",
     "anykey IT"
+  ],
+  "computerextensionattributes": [
+    "anyDesk ID"
+  ],
+  "policies_remove": [
+    "Microsoft Office 2016 Serializer",
+    "Microsoft Office 2019 Serializer",
+    "anykey IT Client Standards",
+    "anykey IT Fernwartung"
+  ],
+  "policies": [
+    "anyDesk Fernwartung",
+    "anykey IT Client Bootstrap"
   ]
 }

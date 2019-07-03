@@ -2,14 +2,15 @@
   "url": "https://sekbuelach.amy.anykey.ch",
   "managed": "true",
   "categories": [
-    "anykey IT",
     "Applikationen",
     "Drucker",
     "Kundenanpassungen",
-    "Self Service"
+    "Self Service",
+    "anykey IT"
   ],
   "computerextensionattributes": [
-    "Microsoft Office Version"
+    "Microsoft Office Version",
+    "anyDesk ID"
   ],
   "computergroups": [
     "Clients OS X 10.13 greater than or equal",
@@ -57,6 +58,7 @@
     "Update Inventory",
     "VLC Player",
     "aa anykey IT jsssr",
+    "anyDesk Fernwartung",
     "anykey IT Client Bootstrap",
     "anykey IT Client Security",
     "anykey IT Client Tools",
@@ -69,16 +71,19 @@
   ],
   "policies_remove": [
     "Adobe Reader DC",
-    "anykey IT Apple Software Update Sek SUS",
-    "anykey IT ASU",
-    "anykey IT Client Standards",
-    "eWolke",
-    "LehrerOffice Formular Designer",
-    "OmniDiskSweeper",
-    "Text Wrangler",
     "Google Earth",
     "Inkscape",
+    "LehrerOffice Formular Designer",
+    "Microsoft Office 2016 Serializer",
+    "Microsoft Office 2019 Serializer",
+    "OCCNCC2EWC",
+    "OmniDiskSweeper",
     "Scratch 2",
-    "OCCNCC2EWC"
+    "Text Wrangler",
+    "anykey IT ASU",
+    "anykey IT Apple Software Update Sek SUS",
+    "anykey IT Client Standards",
+    "anykey IT Fernwartung",
+    "eWolke"
   ]
 }
