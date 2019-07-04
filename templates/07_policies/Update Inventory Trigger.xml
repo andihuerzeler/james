@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <policy>
   <general>
-    <name>Update Inventory</name>
+    <name>Update Inventory Trigger</name>
     <enabled>true</enabled>
-    <trigger>EVENT</trigger>
-    <trigger_checkin>true</trigger_checkin>
-    <frequency>Once every day</frequency>
+    <trigger>USER_INITIATED</trigger>
+    <trigger_other>updateinventory</trigger_other>
+    <frequency>Ongoing</frequency>
     <category>
       <name>anykey IT</name>
     </category>
