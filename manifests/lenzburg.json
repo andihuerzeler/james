@@ -66,6 +66,7 @@
     "anykey IT jamfHelper"
   ],
   "policies_remove": [
+    "Aseba",
     "Microsoft Office 2016 Serializer",
     "Microsoft Office 2019 Serializer",
     "TextWrangler",
