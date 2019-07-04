@@ -59,6 +59,7 @@
   "policies_remove": [
     "Microsoft Office 2016 Serializer",
     "Microsoft Office 2019 Serializer",
+    "TextWrangler",
     "anykey IT Client Standards",
     "anykey IT Fernwartung"
   ]
