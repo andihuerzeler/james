@@ -78,6 +78,7 @@
     "anykey IT anytmp",
     "anykey IT jamfHelper",
     "eWolke Web",
+    "eWolke-Sync",
     "macOS High Sierra"
   ],
   "policies_remove": [
@@ -89,6 +90,8 @@
     "anykey IT ASU",
     "anykey IT Client Standards",
     "anykey IT Fernwartung",
+    "anykeyIT Fernwartung",
+    "eWolke Client",
     "macOS Sierra"
   ]
 }
