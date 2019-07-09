@@ -34,20 +34,22 @@
     "HewlettPackardEssentials.pkg.zip"
   ],
   "policies": [
-    "aa anykey IT jsssr",
+    "Assimilate Ownership",
+    "Enable ARD",
+    "Firefox",
+    "Google Chrome",
+    "Oracle Java 8",
+    "RemoveAllMyFilesFavorite",
+    "School Craft Premium Content",
     "Update Inventory",
-    "anykey IT anytmp",
+    "VLC Player",
+    "WorksheetCrafter",
+    "aa anykey IT jsssr",
     "anykey IT Client Bootstrap",
     "anykey IT Client Security",
     "anykey IT Client Tools",
-    "anykey IT jamfHelper",
     "anykey IT Maintenance",
-    "Assimilate Ownership",
-    "Enable ARD",
-    "Oracle Java 8",
-    "RemoveAllMyFilesFavorite",
-    "Firefox",
-    "Google Chrome",
-    "VLC Player"
+    "anykey IT anytmp",
+    "anykey IT jamfHelper"
   ]
 }
