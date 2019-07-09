@@ -12,26 +12,26 @@
     "Microsoft Office Version"
   ],
   "computergroups": [
+    "Clients OS X 10.13",
     "Clients OS X 10.13 greater than or equal",
     "Clients OS X 10.13 less than or equal",
-    "Clients OS X 10.13",
+    "Clients OS X 10.14",
     "Clients OS X 10.14 greater than or equal",
     "Clients OS X 10.14 less than or equal",
-    "Clients OS X 10.14",
+    "Macs incompatible with macOS High Sierra",
+    "Macs incompatible with macOS Mojave",
     "Microsoft Office 2016 Installed",
     "Microsoft Office 2016 Not Installed",
     "Microsoft Office 2019 Installed",
-    "Microsoft Office 2019 Not Installed",
-    "Macs incompatible with macOS Mojave",
-    "Macs incompatible with macOS High Sierra"
+    "Microsoft Office 2019 Not Installed"
   ],
   "packages": [
-    "anykey IT Logo im jamfHelper.dmg",
-    "jsssr.pkg.zip",
+    "HewlettPackardEssentials.pkg.zip",
+    "HewlettPackardPrinterDrivers.pkg.zip",
     "Microsoft Office 2016.pkg.zip",
     "Microsoft Office 2019.pkg.zip",
-    "HewlettPackardPrinterDrivers.pkg.zip",
-    "HewlettPackardEssentials.pkg.zip"
+    "anykey IT Logo im jamfHelper.dmg",
+    "jsssr.pkg.zip"
   ],
   "policies": [
     "Assimilate Ownership",
