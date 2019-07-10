@@ -39,8 +39,8 @@
     <prebindings>true</prebindings>
     <permissions>true</permissions>
     <byhost>true</byhost>
-    <system_cache>true</system_cache>
-    <user_cache>true</user_cache>
+    <system_cache>false</system_cache>
+    <user_cache>false</user_cache>
     <verify>true</verify>
   </maintenance>
   <files_processes>

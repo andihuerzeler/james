@@ -9,11 +9,32 @@
     "anykey IT"
   ],
   "policies": [
+    "Adobe Acrobat Reader DC",
+    "Adobe Flash Player",
+    "Assimilate Ownership",
+    "Enable ARD",
+    "Firefox",
+    "GarageBand Loops Optional",
+    "Google Chrome",
+    "Lernprogramme Ordner",
+    "Microsoft Office 2019",
+    "Microsoft Teams",
+    "Oracle Java 8",
+    "RemoveAllMyFilesFavorite",
     "Update Inventory",
+    "VLC Player",
+    "aa anykey IT jsssr",
     "anyDesk Fernwartung",
-    "anykey IT Client Bootstrap"
+    "anykey IT Client Bootstrap",
+    "anykey IT Client Logout",
+    "anykey IT Client Security",
+    "anykey IT Client Tools",
+    "anykey IT Maintenance",
+    "anykey IT anytmp",
+    "anykey IT jamfHelper"
   ],
   "computerextensionattributes": [
+    "Microsoft Office Version",
     "anyDesk ID"
   ],
   "policies_remove": [
@@ -23,5 +44,17 @@
     "anykey IT Client Standards",
     "anykey IT Fernwartung",
     "anykeyIT Fernwartung"
+  ],
+  "computergroups": [
+    "Microsoft Office Version",
+    "anyDesk ID"
+  ],
+  "packages": [
+    "HewlettPackardEssentials.pkg.zip",
+    "HewlettPackardPrinterDrivers.pkg.zip",
+    "Lernprogramme Ordner.dmg",
+    "Microsoft Office 2016.pkg.zip",
+    "Microsoft Office 2019.pkg.zip",
+    "jsssr.pkg.zip"
   ]
 }
