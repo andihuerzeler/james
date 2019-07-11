@@ -2,6 +2,8 @@
 
   repo_path="/Users/admin/GitHub"
 
+  prog_name=$(basename ${0})
+
   while [[ $# -gt 0 ]]; do
     key="${1}"
     case "${key}" in
@@ -28,15 +30,24 @@
 
   set -- "${positional[@]}"
 
+  usage() {
+
+    echo "Usage:"
+    echo "  ${prog_name} --manifest example --endpoint endpoint --object object"
+
+  }
+
   if [ -z "${manifest}" ]; then
-    echo "Error: argument manifest can not be empty" && exit 1
+    usage && exit 1
   elif [ -z "${object}" ]; then
-    echo "Error: argument object can not be empty" && exit 1
+    usage && exit 1
   elif [ -z "${endpoint}" ]; then
-    echo "Error: argument endpoint can not be empty" && exit 1
+    usage && exit 1
+  elif [ ! -s "/usr/local/bin/sponge" ]; then
+    echo "Error: ${prog_name} requires sponge, install it with Homebrew: \$ brew install moreutils" && exit 1
   fi
 
-  if [ -s "${repo_path}/james/manifests/${manifest}.json" ]; then
+  update_manifest() {
 
     echo "Manifest: '${manifest}'"
     echo "Endpoint: '${endpoint}'"
@@ -48,6 +59,16 @@
       '.[$e] |= (. + [$o] | unique)' \
       "${repo_path}/james/manifests/${manifest}.json" | sponge "${repo_path}/james/manifests/${manifest}.json"
 
+  }
+
+  if [ -s "${repo_path}/james/manifests/${manifest}.json" ]; then
+    if [ -s "/Users/admin/GitHub/james/templates/"*"${endpoint}/${object}.xml" ]; then
+      update_manifest
+    elif [ "${endpoint}" = "policies_remove" ]; then
+      update_manifest
+    else
+      echo "Error: Object '${object}' does not exist!" && exit 1
+    fi
   else
-    echo "Error: Manifest '${manifest}' not found!" && exit 1
+    echo "Error: Manifest '${manifest}' does not exist!" && exit 1
   fi
