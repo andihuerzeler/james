@@ -1,4 +1,11 @@
 {
   "url": "https://hpsz.amy.anykey.ch",
-  "managed": "false"
+  "managed": "true",
+  "categories": [
+    "Applikationen",
+    "Drucker",
+    "Kundenanpassungen",
+    "Self Service",
+    "anykey IT"
+  ]
 }

@@ -1,4 +1,11 @@
 {
   "url": "https://widen.amy.anykey.ch",
-  "managed": "false"
+  "managed": "true",
+  "categories": [
+    "Applikationen",
+    "Drucker",
+    "Kundenanpassungen",
+    "Self Service",
+    "anykey IT"
+  ]
 }
