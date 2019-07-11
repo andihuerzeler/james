@@ -1,4 +1,10 @@
 {
   "url": "https://therwil.amy.anykey.ch",
-  "managed": "true"
+  "managed": "true",
+  "categories": [
+    "Kundenanpassungen"
+  ],
+  "policies": [
+    "Firefox"
+  ]
 }
