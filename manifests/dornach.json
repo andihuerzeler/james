@@ -9,10 +9,22 @@
     "anykey IT"
   ],
   "computerextensionattributes": [
-    "Microsoft Office Version"
+    "Microsoft Office Version",
+	"anyDesk ID"
   ],
   "computergroups": [
-    "Microsoft Office Version"
+    "Clients OS X 10.13 greater than or equal",
+    "Clients OS X 10.13 less than or equal",
+    "Clients OS X 10.13",
+    "Clients OS X 10.14 greater than or equal",
+    "Clients OS X 10.14 less than or equal",
+    "Clients OS X 10.14",
+    "Microsoft Office 2016 Installed",
+    "Microsoft Office 2016 Not Installed",
+    "Microsoft Office 2019 Installed",
+    "Microsoft Office 2019 Not Installed",
+    "Macs incompatible with macOS Mojave",
+    "Macs incompatible with macOS High Sierra"
   ],
   "packages": [
     "HewlettPackardEssentials.pkg.zip",
