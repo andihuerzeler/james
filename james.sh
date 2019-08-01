@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ls "james/manifests/"*.json | while read manifests; do
+find "james/manifests/"*.json | while read -r manifests; do
 
   echo "==> Process manifest '${manifests}'"
 
@@ -13,17 +13,17 @@ ls "james/manifests/"*.json | while read manifests; do
   if [ "${managed}" == "true" ]; then
 
     if [ "$(curl -sL -w "%{http_code}" "${jps}/healthCheck.html" -o /dev/null)" == "200" ]; then
-      if [ $(curl -s "${jps}/healthCheck.html") == "[]" ]; then
+      if [ "$(curl -s "${jps}/healthCheck.html")" == "[]" ]; then
 
         echo "==> JPS '${jps}' is available and health check passed"
 
-        ls -d "james/templates/"* | while read templates; do
+        ls -d "james/templates/"* | while read -r templates; do
 
           for elements in $(jq --arg t "policies_remove" '.[$t] | length' "${manifests}"); do
-            elements=$(expr $elements - 1)
-            for n in $(seq 0 $elements); do
+            elements=$(expr "$elements" - 1)
+            for n in $(seq 0 "$elements"); do
               object=$(jq -r --arg t "policies_remove" --arg n "${n}" '.[$t][$n | tonumber]' "${manifests}")
-              object_purged=$(echo "${object}" | sed -e 's/ /%20/g' 2>/dev/null)
+              object_purged="${object// /%20}"
               if [ "$(curl -sL -H "authorization: Basic ${credentials}" -w "%{http_code}" "${jps}/JSSResource/policies/name/${object_purged}" -o /dev/null)" == "200" ]; then
                 echo "==> Remove policy '${object}' on '${jps_purged}'"
                 curl -s -o "/dev/null" --show-error -H "authorization: Basic ${credentials}" "${jps}/JSSResource/policies/name/${object_purged}" -X DELETE
@@ -31,17 +31,15 @@ ls "james/manifests/"*.json | while read manifests; do
             done
           done
 
-          templates=$(basename ${templates})
-          templates_purged=$(basename ${templates} | cut -c 4-)
+          templates=$(basename "${templates}")
+          templates_purged=$(basename "${templates}" | cut -c 4-)
           echo "==> Process resource '${templates_purged}'"
 
           for elements in $(jq --arg t "${templates_purged}" '.[$t] | length' "${manifests}"); do
-            elements=$(expr $elements - 1)
-            for n in $(seq 0 $elements); do
-
+            elements=$(expr "$elements" - 1)
+            for n in $(seq 0 "$elements"); do
               object=$(jq -r --arg t "${templates_purged}" --arg n "${n}" '.[$t][$n | tonumber]' "${manifests}")
-              object_purged=$(echo "${object}" | sed -e 's/ /%20/g' 2>/dev/null)
-
+              object_purged="${object// /%20}"
               if [ "$(curl -sL -H "authorization: Basic ${credentials}" -w "%{http_code}" "${jps}/JSSResource/${templates_purged}/name/${object_purged}" -o /dev/null)" == "200" ]; then
                 if [ -s "james/templates/${templates}/${object}.xml" ]; then
 

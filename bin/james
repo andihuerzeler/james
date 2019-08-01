@@ -2,29 +2,29 @@
 
   repo_path="/Users/admin/GitHub"
 
-  prog_name=$(basename ${0})
+  prog_name=$(basename "${0}")
 
   while [[ $# -gt 0 ]]; do
     key="${1}"
     case "${key}" in
-    -m|--manifest)
-    manifest="${2}"
-    shift
-    shift
-    ;;
-    -o|--object)
-    object="${2}"
-    shift
-    shift
-    ;;
-    -e|--endpoint)
-    endpoint="${2}"
-    shift
-    ;;
-    *)
-    positional+=("${1}")
-    shift
-    ;;
+      -m|--manifest)
+      manifest="${2}"
+      shift
+      shift
+      ;;
+      -o|--object)
+      object="${2}"
+      shift
+      shift
+      ;;
+      -e|--endpoint)
+      endpoint="${2}"
+      shift
+      ;;
+      *)
+      positional+=("${1}")
+      shift
+      ;;
     esac
   done
 
@@ -62,13 +62,17 @@
   }
 
   if [ -s "${repo_path}/james/manifests/${manifest}.json" ]; then
-    if [ -s "/Users/admin/GitHub/james/templates/"*"${endpoint}/${object}.xml" ]; then
-      update_manifest
-    elif [ "${endpoint}" = "policies_remove" ]; then
-      update_manifest
-    else
-      echo "Error: Object '${object}' does not exist!" && exit 1
-    fi
+    for template in "${repo_path}/james/templates/"*"${endpoint}/${object}.xml"; do
+      if [ -e "${template}" ]; then
+        update_manifest
+        break
+      elif [ "${template}" = "policies_remove" ]; then
+        update_manifest
+        break
+      else
+        echo "Error: Object '${object}' does not exist!" && exit 1
+      fi
+    done
   else
     echo "Error: Manifest '${manifest}' does not exist!" && exit 1
   fi
