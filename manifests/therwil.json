@@ -9,12 +9,22 @@
     "anykey IT"
   ],
   "policies": [
+    "Adobe Acrobat Reader DC",
+    "Adobe Flash Player",
     "Assimilate Ownership",
+    "Cyberduck",
     "Enable ARD",
     "Firefox",
+    "GarageBand Loops",
     "Google Chrome",
+    "Google Earth Pro",
+    "LehrerOffice",
+    "OmniDiskSweeper",
     "Oracle Java 8",
     "RemoveAllMyFilesFavorite",
+    "Skitch",
+    "Skype",
+    "TextWrangler",
     "Update Inventory",
     "VLC Player",
     "aa anykey IT jsssr",
@@ -24,7 +34,8 @@
     "anykey IT Client Tools",
     "anykey IT Maintenance",
     "anykey IT anytmp",
-    "anykey IT jamfHelper"
+    "anykey IT jamfHelper",
+    "eWolke Web"
   ],
   "computerextensionattributes": [
     "Microsoft Office Version",
@@ -52,5 +63,16 @@
     "Microsoft Office 2016.pkg.zip",
     "Microsoft Office 2019.pkg.zip",
     "jsssr.pkg.zip"
+  ],
+  "policies_remove": [
+    "Dockfixup",
+    "Google Earth",
+    "Microsoft Office 2016 Serializer",
+    "Microsoft Office 2019 Serializer",
+    "OCCNCC2EWC",
+    "OCCNCC2EWC-PLUS",
+    "anykey IT Client Standards",
+    "eWolke",
+    "eWolke Client"
   ]
 }

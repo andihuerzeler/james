@@ -66,13 +66,13 @@
       if [ -e "${template}" ]; then
         update_manifest
         break
-      elif [ "${template}" = "policies_remove" ]; then
+      elif [ "${endpoint}" = "policies_remove" ]; then
         update_manifest
         break
       else
-        echo "Error: Object '${object}' does not exist!" && exit 1
+        echo "Error: Object '${object}' does not exist" && exit 1
       fi
     done
   else
-    echo "Error: Manifest '${manifest}' does not exist!" && exit 1
+    echo "Error: Manifest '${manifest}' does not exist" && exit 1
   fi
