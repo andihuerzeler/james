@@ -14,11 +14,17 @@
     <all_computers>true</all_computers>
   </scope>
   <self_service>
-    <use_for_self_service>false</use_for_self_service>
+    <use_for_self_service>true</use_for_self_service>
     <self_service_display_name>Schweizer Weltatlas</self_service_display_name>
-    <install_button_text>Install</install_button_text>
-    <reinstall_button_text>Reinstall</reinstall_button_text>
+    <install_button_text>Installieren</install_button_text>
+    <reinstall_button_text>Installieren</reinstall_button_text>
+    <self_service_categories/>
   </self_service>
+  <package_configuration>
+    <packages>
+      <size>0</size>
+    </packages>
+  </package_configuration>
   <package_configuration>
     <packages>
       <size>1</size>

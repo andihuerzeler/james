@@ -18,7 +18,13 @@
     <self_service_display_name>StuffIt Expander</self_service_display_name>
     <install_button_text>Installieren</install_button_text>
     <reinstall_button_text>Installieren</reinstall_button_text>
+    <self_service_categories/>
   </self_service>
+  <package_configuration>
+    <packages>
+      <size>0</size>
+    </packages>
+  </package_configuration>
   <files_processes>
     <run_command>/usr/local/bin/aky stuffitexpander</run_command>
   </files_processes>
