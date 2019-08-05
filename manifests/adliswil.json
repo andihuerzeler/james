@@ -73,7 +73,8 @@
     "anykey IT Maintenance",
     "anykey IT anytmp",
     "anykey IT jamfHelper",
-    "draw.io"
+    "draw.io",
+    "eWolke-Sync"
   ],
   "policies_remove": [
     "Microsoft Office 2016 Serializer",
