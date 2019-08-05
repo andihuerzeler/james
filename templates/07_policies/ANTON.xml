@@ -18,6 +18,7 @@
     <self_service_display_name>ANTON</self_service_display_name>
     <install_button_text>Install</install_button_text>
     <reinstall_button_text>Reinstall</reinstall_button_text>
+    <self_service_categories/>
   </self_service>
   <package_configuration>
     <packages>
