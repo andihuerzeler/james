@@ -35,12 +35,31 @@
     "HewlettPackardEssentials.pkg.zip"
   ],
   "policies": [
+    "Adobe AIR",
+    "Adobe Acrobat Reader DC",
+    "Adobe Flash Player",
     "Assimilate Ownership",
+    "ClipGrab",
+    "Cyberduck",
     "Enable ARD",
+    "Evernote",
     "Firefox",
+    "Formular-Designer",
+    "GeoGebra Classic 6",
     "Google Chrome",
+    "Google Earth Pro",
+    "KompoZer",
+    "LehrerOffice",
+    "LehrerOffice Zusatz",
+    "Lernwolke",
+    "Microsoft Office 2019",
+    "OmniDiskSweeper",
     "Oracle Java 8",
     "RemoveAllMyFilesFavorite",
+    "Skitch",
+    "Slack",
+    "StuffIt Expander",
+    "The Unarchiver",
     "Update Inventory",
     "VLC Player",
     "aa anykey IT jsssr",
@@ -50,14 +69,22 @@
     "anykey IT Client Tools",
     "anykey IT Maintenance",
     "anykey IT anytmp",
-    "anykey IT jamfHelper"
+    "anykey IT jamfHelper",
+    "eWolke Web",
+    "macOS High Sierra",
+    "macOS Mojave"
   ],
   "policies_remove": [
+    "Google Earth",
+    "LehrerOffice Formular Designer",
     "Microsoft Office 2016 Serializer",
     "Microsoft Office 2019 Serializer",
+    "OCCNCC2EWC",
     "TextWrangler",
     "anykey IT Client Standards",
     "anykey IT Fernwartung",
-    "anykeyIT Fernwartung"
+    "anykeyIT Fernwartung",
+    "eWolke",
+    "eWolke Client"
   ]
 }
