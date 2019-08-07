@@ -79,6 +79,7 @@
     "anykey IT anytmp",
     "anykey IT jamfHelper",
     "eWolke Web",
+    "eWolke-Sync",
     "macOS High Sierra"
   ],
   "policies_remove": [
