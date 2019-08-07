@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policy>
+  <general>
+    <name>Make Dock Non-Immutable</name>
+    <enabled>true</enabled>
+    <trigger>EVENT</trigger>
+    <trigger_checkin>true</trigger_checkin>
+    <trigger_enrollment_complete>true</trigger_enrollment_complete>
+    <frequency>Once every day</frequency>
+    <category>
+      <name>Kundenanpassungen</name>
+    </category>
+  </general>
+  <scope>
+    <all_computers>true</all_computers>
+  </scope>
+  <files_processes>
+    <run_command>/usr/local/bin/jsssr "Make Dock Non-Immutable.sh"</run_command>
+  </files_processes>
+</policy>
