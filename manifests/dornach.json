@@ -10,7 +10,7 @@
   ],
   "computerextensionattributes": [
     "Microsoft Office Version",
-	"anyDesk ID"
+    "anyDesk ID"
   ],
   "computergroups": [
     "Clients OS X 10.13 greater than or equal",
@@ -41,6 +41,7 @@
     "Oracle Java 8",
     "RemoveAllMyFilesFavorite",
     "Update Inventory",
+    "Update Inventory Trigger",
     "VLC Player",
     "aa anykey IT jsssr",
     "anykey IT Client Bootstrap",

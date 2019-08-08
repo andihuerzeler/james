@@ -13,7 +13,7 @@
     "anyDesk ID"
   ],
   "computergroups": [
- 	"Clients OS X 10.13 greater than or equal",
+    "Clients OS X 10.13 greater than or equal",
     "Clients OS X 10.13 less than or equal",
     "Clients OS X 10.13",
     "Clients OS X 10.14 greater than or equal",
@@ -42,6 +42,7 @@
     "Oracle Java 8",
     "RemoveAllMyFilesFavorite",
     "Update Inventory",
+    "Update Inventory Trigger",
     "VLC Player",
     "aa anykey IT jsssr",
     "anyDesk Fernwartung",

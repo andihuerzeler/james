@@ -35,12 +35,12 @@
     "Macs incompatible with macOS Mojave"
   ],
   "packages": [
-    "anykey IT Logo im jamfHelper.dmg",
-    "jsssr.pkg.zip",
+    "HewlettPackardEssentials.pkg.zip",
+    "HewlettPackardPrinterDrivers.pkg.zip",
     "Microsoft Office 2016.pkg.zip",
     "Microsoft Office 2019.pkg.zip",
-    "HewlettPackardPrinterDrivers.pkg.zip",
-    "HewlettPackardEssentials.pkg.zip"
+    "anykey IT Logo im jamfHelper.dmg",
+    "jsssr.pkg.zip"
   ],
   "policies": [
     "Adobe Acrobat Reader DC",
@@ -54,6 +54,7 @@
     "GarageBand Loops",
     "Google Chrome",
     "Google Earth Pro",
+    "Hewlett Packard Printer Drivers",
     "LehrerOffice",
     "LehrerOffice Zusatz",
     "LibreOffice",
@@ -64,6 +65,7 @@
     "Skitch",
     "StuffIt Expander",
     "Update Inventory",
+    "Update Inventory Trigger",
     "VLC Player",
     "aa anykey IT jsssr",
     "anyDesk Fernwartung",

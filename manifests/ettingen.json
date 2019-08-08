@@ -9,7 +9,7 @@
     "anykey IT"
   ],
   "computerextensionattributes": [
-	"Microsoft Office Version",  
+    "Microsoft Office Version",
     "anyDesk ID"
   ],
   "policies_remove": [
@@ -21,6 +21,8 @@
     "anykeyIT Fernwartung"
   ],
   "policies": [
+    "Update Inventory",
+    "Update Inventory Trigger",
     "anyDesk Fernwartung",
     "anykey IT Client Bootstrap"
   ]

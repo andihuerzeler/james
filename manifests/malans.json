@@ -1,11 +1,15 @@
 {
   "url": "https://malans.amy.anykey.ch",
   "managed": "true",
-    "categories": [
+  "categories": [
     "Applikationen",
     "Drucker",
     "Kundenanpassungen",
     "Self Service",
     "anykey IT"
+  ],
+  "policies": [
+    "Update Inventory",
+    "Update Inventory Trigger"
   ]
 }

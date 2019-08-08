@@ -13,6 +13,8 @@
     "anykeyIT Fernwartung"
   ],
   "policies": [
+    "Update Inventory",
+    "Update Inventory Trigger",
     "anyDesk Fernwartung",
     "anykey IT Client Bootstrap"
   ],
