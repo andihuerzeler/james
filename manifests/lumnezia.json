@@ -46,11 +46,20 @@
     "Adobe Acrobat Reader DC",
     "Adobe Flash Player",
     "Assimilate Ownership",
+    "BBEdit",
+    "ClipGrab",
+    "Cyberduck",
     "Enable ARD",
     "Firefox",
+    "GIMP",
     "Google Chrome",
+    "Google Earth Pro",
+    "LehrerOffice",
+    "Microsoft Office 2016",
+    "OmniDiskSweeper",
     "Oracle Java 8",
     "RemoveAllMyFilesFavorite",
+    "Skitch",
     "Update Inventory",
     "Update Inventory Trigger",
     "VLC Player",
@@ -62,14 +71,20 @@
     "anykey IT Client Tools",
     "anykey IT Maintenance",
     "anykey IT anytmp",
-    "anykey IT jamfHelper"
+    "anykey IT jamfHelper",
+    "eWolke Web",
+    "eWolke-Sync",
+    "macOS High Sierra"
   ],
   "policies_remove": [
+    "Google Earth",
     "Microsoft Office 2016 Serializer",
     "Microsoft Office 2019 Serializer",
     "TextWrangler",
     "anykey IT Client Standards",
     "anykey IT Fernwartung",
-    "anykeyIT Fernwartung"
+    "anykeyIT Fernwartung",
+    "eWolke",
+    "eWolke Client"
   ]
 }
