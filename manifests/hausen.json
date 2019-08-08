@@ -47,10 +47,22 @@
     "Adobe Flash Player",
     "Assimilate Ownership",
     "Enable ARD",
+    "Erste Hilfe",
     "Firefox",
+    "Formular-Designer",
+    "GIMP",
+    "GarageBand Loops",
     "Google Chrome",
+    "Google Earth Pro",
+    "LehrerOffice",
+    "LehrerOffice Zusatz",
+    "LibreOffice",
+    "Microsoft Office 2016",
+    "OmniDiskSweeper",
     "Oracle Java 8",
     "RemoveAllMyFilesFavorite",
+    "Skitch",
+    "StuffIt Expander",
     "Update Inventory",
     "VLC Player",
     "aa anykey IT jsssr",
@@ -61,14 +73,20 @@
     "anykey IT Client Tools",
     "anykey IT Maintenance",
     "anykey IT anytmp",
-    "anykey IT jamfHelper"
+    "anykey IT jamfHelper",
+    "macOS Mojave"
   ],
   "policies_remove": [
+    "Google Earth",
+    "LehrerOffice Formular Designer",
     "Microsoft Office 2016 Serializer",
     "Microsoft Office 2019 Serializer",
+    "OCCNCC2EWC",
+    "OCCNCC2EWC-PLUS",
     "TextWrangler",
     "anykey IT Client Standards",
     "anykey IT Fernwartung",
-    "anykeyIT Fernwartung"
+    "anykeyIT Fernwartung",
+    "eWolke Client"
   ]
 }
