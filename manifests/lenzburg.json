@@ -49,9 +49,16 @@
     "Audacity",
     "Enable ARD",
     "Firefox",
+    "GeoGebra Classic 6",
     "Google Chrome",
+    "Google Earth Pro",
+    "Hewlett Packard Printer Drivers",
+    "Microsoft Office 2019",
+    "OmniDiskSweeper",
     "Oracle Java 8",
     "RemoveAllMyFilesFavorite",
+    "Skitch",
+    "Skype",
     "ThymioSuite",
     "Update Inventory",
     "Update Inventory Trigger",
@@ -64,15 +71,19 @@
     "anykey IT Client Tools",
     "anykey IT Maintenance",
     "anykey IT anytmp",
-    "anykey IT jamfHelper"
+    "anykey IT jamfHelper",
+    "macOS High Sierra"
   ],
   "policies_remove": [
     "Aseba",
+    "Google Earth",
     "Microsoft Office 2016 Serializer",
     "Microsoft Office 2019 Serializer",
     "TextWrangler",
     "anykey IT Client Standards",
     "anykey IT Fernwartung",
-    "anykeyIT Fernwartung"
+    "anykeyIT Fernwartung",
+    "eWolke",
+    "eWolke Client"
   ]
 }
