@@ -1,4 +1,4 @@
 {
-  "url": "https://jss2.anykeyit.ch:8443/securosys",
-  "managed": "false"
+  "url": "https://securosys.amy.anykey.ch",
+  "managed": "true"
 }

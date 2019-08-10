@@ -1,4 +1,11 @@
 {
-  "url": "https://jss2.anykeyit.ch:8443/ueken",
-  "managed": "false"
+  "url": "https://ueken.amy.anykey.ch",
+  "managed": "true",
+  "categories": [
+    "Applikationen",
+    "Drucker",
+    "Kundenanpassungen",
+    "Self Service",
+    "anykey IT"
+  ]
 }
