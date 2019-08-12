@@ -55,6 +55,7 @@
     "Google Earth Pro",
     "Hewlett Packard Printer Drivers",
     "LehrerOffice",
+    "Microsoft Office 2019",
     "OmniDiskSweeper",
     "Oracle Java 8",
     "RemoveAllMyFilesFavorite",
@@ -71,7 +72,8 @@
     "anykey IT Maintenance",
     "anykey IT anytmp",
     "anykey IT jamfHelper",
-    "eWolke Web"
+    "eWolke Web",
+    "macOS Mojave"
   ],
   "policies_remove": [
     "Microsoft Office 2016 Serializer",
