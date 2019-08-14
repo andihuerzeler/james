@@ -23,15 +23,34 @@
     "jsssr.pkg.zip"
   ],
   "policies": [
+    "Adobe AIR",
+    "Adobe Acrobat Reader DC",
+    "Adobe Flash Player",
+    "Android File Transfer",
     "Assimilate Ownership",
+    "Audacity",
+    "Backup and Sync",
+    "Cyberduck",
+    "Edulo",
     "Enable ARD",
+    "Evernote",
     "Firefox",
+    "GIMP",
     "Google Chrome",
+    "Google Earth Pro",
+    "LEGO Digital Designer",
+    "LehrerOffice",
+    "Microsoft Office 2019",
     "Oracle Java 8",
+    "Print Window",
     "RemoveAllMyFilesFavorite",
+    "Skitch",
+    "Skype",
+    "Thunderbird",
     "Update Inventory",
     "Update Inventory Trigger",
     "VLC Player",
+    "VNC Viewer",
     "aa anykey IT jsssr",
     "anyDesk Fernwartung",
     "anykey IT Client Bootstrap",
@@ -39,14 +58,21 @@
     "anykey IT Client Tools",
     "anykey IT Maintenance",
     "anykey IT anytmp",
-    "anykey IT jamfHelper"
+    "anykey IT jamfHelper",
+    "i1Studio",
+    "ifolor Mac Designer"
   ],
   "policies_remove": [
+    "Google Earth",
     "Microsoft Office 2016 Serializer",
     "Microsoft Office 2019 Serializer",
+    "OCCNCC2EWC",
+    "OCCNCC2EWC-PLUS",
     "TextWrangler",
     "anykey IT Client Standards",
     "anykey IT Fernwartung",
-    "anykeyIT Fernwartung"
+    "anykeyIT Fernwartung",
+    "eWolke",
+    "eWolke Client"
   ]
 }
