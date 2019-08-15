@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policy>
+  <general>
+    <name>Mille feuilles Clin dOeil</name>
+    <enabled>true</enabled>
+    <trigger>CHECKIN</trigger>
+    <trigger_checkin>true</trigger_checkin>
+    <frequency>Once per computer</frequency>
+    <category>
+      <name>Applikationen</name>
+    </category>
+  </general>
+  <scope>
+    <all_computers>true</all_computers>
+  </scope>
+  <self_service>
+    <use_for_self_service>true</use_for_self_service>
+    <self_service_display_name>Mille feuilles Clin dOeil</self_service_display_name>
+    <install_button_text>Installieren</install_button_text>
+    <reinstall_button_text>Installieren</reinstall_button_text>
+    <self_service_categories/>
+  </self_service>
+  <package_configuration>
+    <packages>
+      <size>1</size>
+      <package>
+        <name>Mille feuilles Clin dOeil.pkg.zip</name>
+        <action>Install</action>
+      </package>
+    </packages>
+  </package_configuration>
+</policy>
