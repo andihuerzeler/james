@@ -43,14 +43,24 @@
     "HewlettPackardEssentials.pkg.zip"
   ],
   "policies": [
+    "Adobe AIR",
     "Adobe Acrobat Reader DC",
     "Adobe Flash Player",
     "Assimilate Ownership",
+    "BBEdit",
+    "Cyberduck",
     "Enable ARD",
     "Firefox",
     "Google Chrome",
+    "Google Earth Pro",
+    "LehrerOffice",
+    "Microsoft Office 2019",
+    "OmniDiskSweeper",
     "Oracle Java 8",
     "RemoveAllMyFilesFavorite",
+    "Skitch",
+    "Skype",
+    "TIPP10",
     "Update Inventory",
     "Update Inventory Trigger",
     "VLC Player",
@@ -70,6 +80,7 @@
     "TextWrangler",
     "anykey IT Client Standards",
     "anykey IT Fernwartung",
-    "anykeyIT Fernwartung"
+    "anykeyIT Fernwartung",
+    "eWolke"
   ]
 }
