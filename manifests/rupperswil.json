@@ -84,12 +84,16 @@
     "anykey IT Client Tools",
     "anykey IT Maintenance",
     "anykey IT anytmp",
-    "anykey IT jamfHelper"
+    "anykey IT jamfHelper",
+    "macOS High Sierra"
   ],
   "policies_remove": [
+    "Google Earth",
     "Microsoft Office 2016 Serializer",
     "Microsoft Office 2019 Serializer",
+    "OCCNCC2EWC",
     "OCCNCC2EWC-PLUS",
+    "Reset Computer Name",
     "TextWrangler",
     "anykey IT ASU",
     "anykey IT Client Standards",
