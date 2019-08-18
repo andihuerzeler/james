@@ -13,34 +13,36 @@
     "anyDesk ID"
   ],
   "computergroups": [
+    "Clients OS X 10.10",
     "Clients OS X 10.10 greater than or equal",
     "Clients OS X 10.10 less than or equal",
-    "Clients OS X 10.10",
+    "Clients OS X 10.11",
     "Clients OS X 10.11 greater than or equal",
     "Clients OS X 10.11 less than or equal",
-    "Clients OS X 10.11",
+    "Clients OS X 10.12",
     "Clients OS X 10.12 greater than or equal",
     "Clients OS X 10.12 less than or equal",
-    "Clients OS X 10.12",
+    "Clients OS X 10.13",
     "Clients OS X 10.13 greater than or equal",
     "Clients OS X 10.13 less than or equal",
-    "Clients OS X 10.13",
+    "Clients OS X 10.14",
     "Clients OS X 10.14 greater than or equal",
     "Clients OS X 10.14 less than or equal",
-    "Clients OS X 10.14",
+    "Macs incompatible with macOS High Sierra",
+    "Macs incompatible with macOS Mojave",
     "Microsoft Office 2016 Installed",
     "Microsoft Office 2016 Not Installed",
     "Microsoft Office 2019 Installed",
-    "Microsoft Office 2019 Not Installed",
-    "Macs incompatible with macOS Mojave"
+    "Microsoft Office 2019 Not Installed"
   ],
   "packages": [
-    "anykey IT Logo im jamfHelper.dmg",
-    "jsssr.pkg.zip",
+    "HewlettPackardEssentials.pkg.zip",
+    "HewlettPackardPrinterDrivers.pkg.zip",
+    "Lernprogramme Ordner.dmg",
     "Microsoft Office 2016.pkg.zip",
     "Microsoft Office 2019.pkg.zip",
-    "HewlettPackardPrinterDrivers.pkg.zip",
-    "HewlettPackardEssentials.pkg.zip"
+    "anykey IT Logo im jamfHelper.dmg",
+    "jsssr.pkg.zip"
   ],
   "policies": [
     "Adobe Acrobat Reader DC",
@@ -49,8 +51,14 @@
     "Enable ARD",
     "Firefox",
     "Google Chrome",
+    "Google Earth Pro",
+    "LehrerOffice",
+    "LibreOffice",
+    "OmniDiskSweeper",
     "Oracle Java 8",
     "RemoveAllMyFilesFavorite",
+    "Skitch",
+    "StuffIt Expander",
     "Update Inventory",
     "Update Inventory Trigger",
     "VLC Player",
@@ -62,14 +70,19 @@
     "anykey IT Client Tools",
     "anykey IT Maintenance",
     "anykey IT anytmp",
-    "anykey IT jamfHelper"
+    "anykey IT jamfHelper",
+    "macOS High Sierra"
   ],
   "policies_remove": [
+    "High Sierra",
     "Microsoft Office 2016 Serializer",
     "Microsoft Office 2019 Serializer",
+    "OCCNCC2EWC",
+    "OCCNCC2EWC-PLUS",
     "TextWrangler",
     "anykey IT Client Standards",
     "anykey IT Fernwartung",
-    "anykeyIT Fernwartung"
+    "anykeyIT Fernwartung",
+    "psruenenberg-iMovie-10.1.12.pkg.zip"
   ]
 }
