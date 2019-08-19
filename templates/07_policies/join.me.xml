@@ -26,6 +26,6 @@
     </packages>
   </package_configuration>
   <files_processes>
-    <run_command>/usr/local/bin/aky joinme</run_command>
+    <run_command>/usr/local/bin/jsssr "Install join.me.sh"</run_command>
   </files_processes>
 </policy>
