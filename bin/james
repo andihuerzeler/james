@@ -1,78 +1,99 @@
 #!/bin/bash
 
-  repo_path="/Users/admin/GitHub"
+repo_path="/Users/admin/GitHub"
 
-  prog_name=$(basename "${0}")
+prog_name=$(basename "${0}")
 
-  while [[ $# -gt 0 ]]; do
-    key="${1}"
-    case "${key}" in
-      -m|--manifest)
-      manifest="${2}"
-      shift
-      shift
-      ;;
-      -o|--object)
-      object="${2}"
-      shift
-      shift
-      ;;
-      -e|--endpoint)
-      endpoint="${2}"
-      shift
-      ;;
-      *)
-      positional+=("${1}")
-      shift
-      ;;
-    esac
+while [[ $# -gt 0 ]]; do
+  key="${1}"
+  case "${key}" in
+  -m | --manifest)
+    manifest="${2}"
+    shift
+    shift
+    ;;
+  -o | --object)
+    object="${2}"
+    shift
+    shift
+    ;;
+  -e | --endpoint)
+    endpoint="${2}"
+    shift
+    ;;
+  *)
+    positional+=("${1}")
+    shift
+    ;;
+  esac
+done
+
+set -- "${positional[@]}"
+
+usage() {
+
+  echo "Usage:"
+  echo "  ${prog_name} --manifest example --endpoint endpoint --object object"
+
+}
+
+if [ -z "${manifest}" ]; then
+  usage && exit 1
+elif [ -z "${object}" ]; then
+  usage && exit 1
+elif [ -z "${endpoint}" ]; then
+  usage && exit 1
+elif [ ! -s "/usr/local/bin/sponge" ]; then
+  echo "Error: ${prog_name} requires sponge, install it with Homebrew: \$ brew install moreutils" && exit 1
+fi
+
+update_manifest() {
+
+  echo "Manifest: '${manifest}'"
+  echo "Endpoint: '${endpoint}'"
+  echo "Object: '${object}'"
+
+  endpoint_list=(
+    "categories"
+    "computerextensionattributes"
+    "computergroups"
+    "packages"
+    "policies"
+    "policies_remove"
+  )
+
+  for endpoint_item in "${endpoint_list[@]}"; do
+    for elements in $(jq --arg t "${endpoint_item}" '.[$t] | length' "${repo_path}/james/manifests/${manifest}.json"); do
+      elements=$((elements - 1))
+      for n in $(seq 0 "$elements"); do
+        if [ "$(jq -r --arg t "${endpoint_item}" --arg n "${n}" '.[$t][$n | tonumber]' "${repo_path}/james/manifests/${manifest}.json")" = "${object}" ]; then
+          jq --arg t "${endpoint_item}" --arg n "${n}" 'del(.[$t][$n | tonumber])' \
+            "${repo_path}/james/manifests/${manifest}.json" | sponge "${repo_path}/james/manifests/${manifest}.json"
+        fi
+      done
+    done
   done
 
-  set -- "${positional[@]}"
+  jq \
+    --arg e "${endpoint}" \
+    --arg o "${object}" \
+    '.[$e] |= (. + [$o] | unique)' \
+    "${repo_path}/james/manifests/${manifest}.json" | sponge "${repo_path}/james/manifests/${manifest}.json"
 
-  usage() {
+}
 
-    echo "Usage:"
-    echo "  ${prog_name} --manifest example --endpoint endpoint --object object"
-
-  }
-
-  if [ -z "${manifest}" ]; then
-    usage && exit 1
-  elif [ -z "${object}" ]; then
-    usage && exit 1
-  elif [ -z "${endpoint}" ]; then
-    usage && exit 1
-  elif [ ! -s "/usr/local/bin/sponge" ]; then
-    echo "Error: ${prog_name} requires sponge, install it with Homebrew: \$ brew install moreutils" && exit 1
-  fi
-
-  update_manifest() {
-
-    echo "Manifest: '${manifest}'"
-    echo "Endpoint: '${endpoint}'"
-    echo "Object: '${object}'"
-
-    jq \
-      --arg e "${endpoint}" \
-      --arg o "${object}" \
-      '.[$e] |= (. + [$o] | unique)' \
-      "${repo_path}/james/manifests/${manifest}.json" | sponge "${repo_path}/james/manifests/${manifest}.json"
-
-  }
-
-  if [ -s "${repo_path}/james/manifests/${manifest}.json" ]; then
-    for template in "${repo_path}/james/templates/"*"${endpoint}/${object}.xml"; do
-      if [ -e "${template}" ]; then
-        update_manifest
-        break
-      elif [ "${endpoint}" = "policies_remove" ]; then
-        update_manifest
-        break
-      else
-        echo "Error: Object '${object}' does not exist" && exit 1
-      fi
-    done
-  else
-    echo "Error: Manifest '${manifest}' does not exist" && exit 1
-  fi
+if [ -s "${repo_path}/james/manifests/${manifest}.json" ]; then
+  for template in "${repo_path}/james/templates/"*"${endpoint}/${object}.xml"; do
+    if [ -e "${template}" ]; then
+      update_manifest
+      break
+    elif [ "${endpoint}" = "policies_remove" ]; then
+      update_manifest
+      break
+    else
+      echo "Error: Object '${object}' does not exist" && exit 1
+    fi
+  done
+else
+  echo "Error: Manifest '${manifest}' does not exist" && exit 1
+fi
