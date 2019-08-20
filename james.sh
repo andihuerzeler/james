@@ -20,7 +20,7 @@ find "james/manifests/"*.json | while read -r manifests; do
         ls -d "james/templates/"* | while read -r templates; do
 
           for elements in $(jq --arg t "policies_remove" '.[$t] | length' "${manifests}"); do
-            elements=$(expr "$elements" - 1)
+            elements=$((elements - 1))
             for n in $(seq 0 "$elements"); do
               object=$(jq -r --arg t "policies_remove" --arg n "${n}" '.[$t][$n | tonumber]' "${manifests}")
               object_purged="${object// /%20}"
@@ -36,7 +36,7 @@ find "james/manifests/"*.json | while read -r manifests; do
           echo "==> Process resource '${templates_purged}'"
 
           for elements in $(jq --arg t "${templates_purged}" '.[$t] | length' "${manifests}"); do
-            elements=$(expr "$elements" - 1)
+            elements=$((elements - 1))
             for n in $(seq 0 "$elements"); do
               object=$(jq -r --arg t "${templates_purged}" --arg n "${n}" '.[$t][$n | tonumber]' "${manifests}")
               object_purged="${object// /%20}"
@@ -49,7 +49,7 @@ find "james/manifests/"*.json | while read -r manifests; do
                   if [ -s "james/icons/${object}.png" ]; then
                     icon="james/icons/${object}.png"
                     object_id=$(curl -s -H "authorization: Basic ${credentials}" -H "accept: application/xml" -X "GET" "${jps}/JSSResource/policies/name/${object_purged}" | xmllint --xpath "/policy/general/id/text()" -)
-                    if [ -z "$(curl -s -H "authorization: Basic ${credentials}" "${jps}/JSSResource/policies/name/${object_purged}" | xmllint --xpath "/policy/self_service/self_service_icon/filename/text()" - 2> /dev/null)" ]; then
+                    if [ -z "$(curl -s -H "authorization: Basic ${credentials}" "${jps}/JSSResource/policies/name/${object_purged}" | xmllint --xpath "/policy/self_service/self_service_icon/filename/text()" - 2>/dev/null)" ]; then
                       echo "Add Self Service icon '${icon}' to policy '${object_purged}'"
                       curl -s -o "/dev/null" --show-error -H "authorization: Basic ${credentials}" -X "POST" -F name=@"${icon}" "${jps}/JSSResource/fileuploads/policies/id/${object_id}"
                     fi
@@ -65,7 +65,7 @@ find "james/manifests/"*.json | while read -r manifests; do
                   if [ -s "james/icons/${object}.png" ]; then
                     icon="james/icons/${object}.png"
                     object_id=$(curl -s -H "authorization: Basic ${credentials}" -H "accept: application/xml" -X "GET" "${jps}/JSSResource/policies/name/${object_purged}" | xmllint --xpath "/policy/general/id/text()" -)
-                    if [ -z "$(curl -s -H "authorization: Basic ${credentials}" "${jps}/JSSResource/policies/name/${object_purged}" | xmllint --xpath "/policy/self_service/self_service_icon/filename/text()" - 2> /dev/null)" ]; then
+                    if [ -z "$(curl -s -H "authorization: Basic ${credentials}" "${jps}/JSSResource/policies/name/${object_purged}" | xmllint --xpath "/policy/self_service/self_service_icon/filename/text()" - 2>/dev/null)" ]; then
                       echo "Add Self Service icon '${icon}' to policy '${object_purged}'"
                       curl -s -o "/dev/null" --show-error -H "authorization: Basic ${credentials}" -X "POST" -F name=@"${icon}" "${jps}/JSSResource/fileuploads/policies/id/${object_id}"
                     fi
