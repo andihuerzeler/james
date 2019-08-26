@@ -82,7 +82,7 @@
     "anykey IT jamfHelper",
     "eWolke Web",
     "littleBits Code Kit App",
-    "macOS High Sierra"
+    "macOS Mojave"
   ],
   "policies_remove": [
     "Google Earth",
@@ -96,6 +96,7 @@
     "anykey IT Fernwartung",
     "anykeyIT Fernwartung",
     "eWolke",
-    "eWolke Client"
+    "eWolke Client",
+    "macOS High Sierra"
   ]
 }
