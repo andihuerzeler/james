@@ -59,8 +59,16 @@
     "anykey IT anytmp"
   ],
   "policies_remove": [
+    "Change Hostname",
+    "Login Screen mit Name und Kennwort",
     "Microsoft Office 2016 Serializer",
     "Microsoft Office 2019 Serializer",
+    "Remove Silverlight Plugin",
+    "Rename Computer",
+    "Set DNS-Server",
+    "Set Devicename",
+    "Set Wallpaper",
+    "Switch Off ipv6",
     "TextWrangler",
     "Update Inventory Trigger",
     "anykey IT Client Standards",
