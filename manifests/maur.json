@@ -77,7 +77,7 @@
     "anykey IT anytmp",
     "anykey IT jamfHelper",
     "eWolke Web",
-    "macOS High Sierra"
+    "macOS Mojave"
   ],
   "policies_remove": [
     "Microsoft Office 2016 Serializer",
@@ -85,6 +85,7 @@
     "TextWrangler",
     "anykey IT Client Standards",
     "anykey IT Fernwartung",
-    "anykeyIT Fernwartung"
+    "anykeyIT Fernwartung",
+    "macOS High Sierra"
   ]
 }
