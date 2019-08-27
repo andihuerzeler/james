@@ -40,12 +40,14 @@
     "cdn.anykeyit.ch"
   ],
   "packages": [
-    "anykey IT Logo im jamfHelper.dmg",
-    "jsssr.pkg.zip",
+    "HewlettPackardEssentials.pkg.zip",
+    "HewlettPackardPrinterDrivers.pkg.zip",
     "Microsoft Office 2016.pkg.zip",
     "Microsoft Office 2019.pkg.zip",
-    "HewlettPackardPrinterDrivers.pkg.zip",
-    "HewlettPackardEssentials.pkg.zip"
+    "Microsoft_Office_2016_VL_Serializer_2.0.pkg.zip",
+    "Microsoft_Office_2019_VL_Serializer.pkg.zip",
+    "anykey IT Logo im jamfHelper.dmg",
+    "jsssr.pkg.zip"
   ],
   "scripts": [
     "Dock Administrator"
@@ -77,7 +79,9 @@
     "LehrerOffice",
     "LehrerOffice Zusatz",
     "Lernwolke",
+    "Microsoft AutoUpdate",
     "Microsoft Office 2019",
+    "Microsoft Office 2019 Self Service",
     "Microsoft Teams",
     "Oracle Java 8",
     "Purge Legacy Apple Apps",
