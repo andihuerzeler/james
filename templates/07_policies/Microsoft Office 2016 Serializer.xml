@@ -7,7 +7,7 @@
     <trigger_checkin>true</trigger_checkin>
     <frequency>Once every day</frequency>
     <category>
-      <name>anykey IT</name>
+      <name>Kundenanpassungen</name>
     </category>
   </general>
   <scope>
@@ -24,6 +24,7 @@
       <size>1</size>
       <package>
         <name>Microsoft_Office_2016_VL_Serializer_2.0.pkg.zip</name>
+        <action>Install</action>
       </package>
     </packages>
   </package_configuration>
