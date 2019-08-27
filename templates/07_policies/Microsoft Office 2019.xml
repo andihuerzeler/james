@@ -12,16 +12,7 @@
     </category>
   </general>
   <scope>
-    <all_computers>false</all_computers>
-    <computers/>
-    <computer_groups>
-      <computer_group>
-        <name>Microsoft Office 2016 Installed</name>
-      </computer_group>
-      <computer_group>
-        <name>Microsoft Office 2019 Not Installed</name>
-      </computer_group>
-    </computer_groups>
+    <all_computers>true</all_computers>
     <exclusions>
       <computers/>
       <computer_groups>
