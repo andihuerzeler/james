@@ -80,8 +80,10 @@
     "LehrerOffice Zusatz",
     "Lernwolke",
     "Microsoft AutoUpdate",
+    "Microsoft Office 2016 Serializer",
     "Microsoft Office 2019",
     "Microsoft Office 2019 Self Service",
+    "Microsoft Office 2019 Serializer",
     "Microsoft Teams",
     "Oracle Java 8",
     "Purge Legacy Apple Apps",
@@ -107,8 +109,6 @@
     "macOS Mojave"
   ],
   "policies_remove": [
-    "Microsoft Office 2016 Serializer",
-    "Microsoft Office 2019 Serializer",
     "TextWrangler",
     "anykey IT ASU",
     "anykey IT Client Standards",
