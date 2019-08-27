@@ -14,11 +14,7 @@
     <all_computers>true</all_computers>
   </scope>
   <self_service>
-    <use_for_self_service>true</use_for_self_service>
-    <self_service_display_name>CheatSheet</self_service_display_name>
-    <install_button_text>Installieren</install_button_text>
-    <reinstall_button_text>Installieren</reinstall_button_text>
-    <self_service_categories/>
+    <use_for_self_service>false</use_for_self_service>
   </self_service>
   <package_configuration>
     <packages>

@@ -49,9 +49,11 @@ fi
 
 update_manifest() {
 
-  echo "Manifest: '${manifest}'"
-  echo "Endpoint: '${endpoint}'"
-  echo "Object: '${object}'"
+  if [[ ! "${object}" == *"Self Service"* ]]; then
+    echo "Manifest: '${manifest}'"
+    echo "Endpoint: '${endpoint}'"
+    echo "Object: '${object}'"
+  fi
 
   endpoint_list=(
     "categories"
@@ -86,9 +88,11 @@ if [ -s "${repo_path}/james/manifests/${manifest}.json" ]; then
   for template in "${repo_path}/james/templates/"*"${endpoint}/${object}.xml"; do
     if [ -e "${template}" ]; then
       update_manifest
+      [ -s "/Users/admin/GitHub/james/templates/07_policies/${object} Self Service.xml" ] && object="${object} Self Service" && update_manifest
       break
     elif [ "${endpoint}" = "policies_remove" ]; then
       update_manifest
+      [ -s "/Users/admin/GitHub/james/templates/07_policies/${object} Self Service.xml" ] && object="${object} Self Service" && update_manifest
       break
     else
       echo "Error: Object '${object}' does not exist" && exit 1

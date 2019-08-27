@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <policy>
   <general>
-    <name>Hype2</name>
+    <name>Resilio Sync Self Service</name>
     <enabled>true</enabled>
-    <trigger>EVENT</trigger>
-    <trigger_checkin>true</trigger_checkin>
-    <frequency>Once every day</frequency>
+    <trigger>USER_INITIATED</trigger>
+    <frequency>Ongoing</frequency>
+    <offline>false</offline>
     <category>
       <name>Applikationen</name>
     </category>
@@ -15,7 +15,7 @@
   </scope>
   <self_service>
     <use_for_self_service>true</use_for_self_service>
-    <self_service_display_name>Hype2</self_service_display_name>
+    <self_service_display_name>Resilio Sync</self_service_display_name>
     <install_button_text>Installieren</install_button_text>
     <reinstall_button_text>Installieren</reinstall_button_text>
     <self_service_categories/>
@@ -26,6 +26,6 @@
     </packages>
   </package_configuration>
   <files_processes>
-    <run_command>/usr/local/bin/aky hype</run_command>
+    <run_command>/usr/local/bin/aky resiliosync</run_command>
   </files_processes>
 </policy>

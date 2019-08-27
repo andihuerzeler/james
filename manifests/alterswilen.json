@@ -35,12 +35,14 @@
     "Macs incompatible with macOS Mojave"
   ],
   "packages": [
-    "anykey IT Logo im jamfHelper.dmg",
-    "jsssr.pkg.zip",
+    "HewlettPackardEssentials.pkg.zip",
+    "HewlettPackardPrinterDrivers.pkg.zip",
     "Microsoft Office 2016.pkg.zip",
     "Microsoft Office 2019.pkg.zip",
-    "HewlettPackardPrinterDrivers.pkg.zip",
-    "HewlettPackardEssentials.pkg.zip"
+    "Microsoft_Office_2016_VL_Serializer_2.0.pkg.zip",
+    "Microsoft_Office_2019_VL_Serializer.pkg.zip",
+    "anykey IT Logo im jamfHelper.dmg",
+    "jsssr.pkg.zip"
   ],
   "policies": [
     "Adobe Acrobat Reader DC",
@@ -56,7 +58,11 @@
     "Hewlett Packard Printer Drivers",
     "LehrerOffice",
     "LibreOffice",
-    "Microsoft Office 2016",
+    "Microsoft AutoUpdate",
+    "Microsoft Office 2016 Serializer",
+    "Microsoft Office 2019",
+    "Microsoft Office 2019 Self Service",
+    "Microsoft Office 2019 Serializer",
     "OmniDiskSweeper",
     "Oracle Java 8",
     "Rechentraining 5",
@@ -82,8 +88,7 @@
     "macOS Mojave"
   ],
   "policies_remove": [
-    "Microsoft Office 2016 Serializer",
-    "Microsoft Office 2019 Serializer",
+    "Microsoft Office 2016",
     "TextWrangler",
     "anykey IT Client Standards",
     "anykey IT Fernwartung",

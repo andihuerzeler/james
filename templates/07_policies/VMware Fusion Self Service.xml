@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policy>
+  <general>
+    <name>VMware Fusion Self Service</name>
+    <enabled>true</enabled>
+    <trigger>USER_INITIATED</trigger>
+    <frequency>Ongoing</frequency>
+    <offline>false</offline>
+    <category>
+      <name>Applikationen</name>
+    </category>
+  </general>
+  <scope>
+    <all_computers>true</all_computers>
+  </scope>
+  <self_service>
+    <use_for_self_service>true</use_for_self_service>
+    <self_service_display_name>VMware Fusion</self_service_display_name>
+    <install_button_text>Installieren</install_button_text>
+    <reinstall_button_text>Installieren</reinstall_button_text>
+    <self_service_categories/>
+  </self_service>
+  <package_configuration>
+    <packages>
+      <size>0</size>
+    </packages>
+  </package_configuration>
+  <files_processes>
+    <run_command>/usr/local/bin/aky vmwarefusion</run_command>
+  </files_processes>
+</policy>

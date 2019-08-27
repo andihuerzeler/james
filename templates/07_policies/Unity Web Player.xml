@@ -12,6 +12,9 @@
   <scope>
     <all_computers>true</all_computers>
   </scope>
+  <self_service>
+    <use_for_self_service>false</use_for_self_service>
+  </self_service>
   <package_configuration>
     <packages>
       <size>1</size>
