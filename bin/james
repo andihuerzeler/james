@@ -20,6 +20,11 @@ while [[ $# -gt 0 ]]; do
   -e | --endpoint)
     endpoint="${2}"
     shift
+    shift
+    ;;
+  -c | --cat)
+    cat="true"
+    shift
     ;;
   *)
     positional+=("${1}")
@@ -33,12 +38,19 @@ set -- "${positional[@]}"
 usage() {
 
   echo "Usage:"
-  echo "  ${prog_name} --manifest example --endpoint endpoint --object object"
+  echo
+  echo "  Update manifest:"
+  echo "    ${prog_name} --manifest example --endpoint endpoint --object object"
+  echo
+  echo "  Dump raw source of the given manifest to the standard output:"
+  echo "    ${prog_name} --manifest example --cat"
 
 }
 
 if [ -z "${manifest}" ]; then
   usage && exit 1
+elif [ "${cat}" = "true" ]; then
+  jq '.' "${repo_path}/james/manifests/${manifest}.json" && exit 0
 elif [ -z "${object}" ]; then
   usage && exit 1
 elif [ -z "${endpoint}" ]; then
