@@ -61,11 +61,7 @@ fi
 
 update_manifest() {
 
-  if [[ ! "${object}" == *"Self Service"* ]]; then
-    echo "Manifest: '${manifest}'"
-    echo "Endpoint: '${endpoint}'"
-    echo "Object: '${object}'"
-  fi
+  echo "=> Update manifest '${manifest}' with object '${object}' on endpoint '${endpoint}'"
 
   endpoint_list=(
     "categories"
