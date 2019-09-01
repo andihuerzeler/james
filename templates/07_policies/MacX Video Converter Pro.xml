@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <policy>
   <general>
-    <name>VideoProc</name>
+    <name>MacX Video Converter Pro</name>
     <enabled>true</enabled>
     <trigger>EVENT</trigger>
     <trigger_checkin>true</trigger_checkin>
@@ -22,6 +22,6 @@
     </packages>
   </package_configuration>
   <files_processes>
-    <run_command>/usr/local/bin/aky videoproc</run_command>
+    <run_command>/usr/local/bin/aky macxvideoconverterpro</run_command>
   </files_processes>
 </policy>
