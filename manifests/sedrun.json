@@ -1,5 +1,5 @@
 {
-  "url": "https://anver.amy.anykey.ch",
+  "url": "https://sedrun.amy.anykey.ch",
   "managed": "true",
   "categories": [
     "Applikationen",
@@ -23,41 +23,39 @@
     "Microsoft Office 2016 Not Installed",
     "Microsoft Office 2019 Installed",
     "Microsoft Office 2019 Not Installed",
-    "Macs incompatible with macOS High Sierra",
     "Macs incompatible with macOS Mojave"
   ],
-  "distributionpoints": [
-    "cdn-cloud.anykeyit.ch",
-    "cdn.anykeyit.ch"
-  ],
   "packages": [
-    "HewlettPackardEssentials.pkg.zip",
-    "HewlettPackardPrinterDrivers.pkg.zip",
+    "anykey IT Logo im jamfHelper.dmg",
+    "jsssr.pkg.zip",
     "Microsoft Office 2016.pkg.zip",
     "Microsoft Office 2019.pkg.zip",
-    "Microsoft_Office_2016_VL_Serializer_2.0.pkg.zip",
-    "Microsoft_Office_2019_VL_Serializer.pkg.zip",
-    "anykey IT Logo im jamfHelper.dmg",
-    "jsssr.pkg.zip"
-  ],
-  "scripts": [
-    "Dock Administrator"
+    "HewlettPackardPrinterDrivers.pkg.zip",
+    "HewlettPackardEssentials.pkg.zip"
   ],
   "policies": [
+    "Adobe Acrobat Reader DC",
+    "Adobe Flash Player",
+    "Apple Command Line Tools",
     "Assimilate Ownership",
-    "Audacity",
-    "Audacity Self Service",
     "Automatic Apple Software Update",
-    "Microsoft AutoUpdate",
-    "Microsoft Office 2016 Serializer",
+    "Enable ARD",
+    "Firefox",
+    "Formular-Designer",
+    "Google Chrome",
+    "Hewlett Packard Printer Drivers",
+    "LehrerOffice",
+    "LehrerOffice Zusatz",
     "Microsoft Office 2019",
-    "Microsoft Office 2019 Self Service",
-    "Microsoft Office 2019 Serializer",
+    "Oracle Java 8",
+    "Purge Legacy Apple Apps",
     "Update Inventory",
     "Update Inventory Trigger",
+    "VLC Player",
     "aa anykey IT jsssr",
     "anyDesk Fernwartung",
     "anykey IT Browser Bootstrap",
+    "anykey IT Client Bootstrap",
     "anykey IT Client Logout",
     "anykey IT Client Security",
     "anykey IT Client Tools",
@@ -67,11 +65,11 @@
     "macOS Mojave"
   ],
   "policies_remove": [
+    "Microsoft Office 2016 Serializer",
+    "Microsoft Office 2019 Serializer",
     "TextWrangler",
-    "anykey IT ASU",
     "anykey IT Client Standards",
     "anykey IT Fernwartung",
-    "anykeyIT Fernwartung",
-    "macOS High Sierra"
+    "anykeyIT Fernwartung"
   ]
 }

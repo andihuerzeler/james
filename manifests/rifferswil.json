@@ -1,5 +1,5 @@
 {
-  "url": "https://anver.amy.anykey.ch",
+  "url": "https://rifferswil.amy.anykey.ch",
   "managed": "true",
   "categories": [
     "Applikationen",
@@ -13,6 +13,15 @@
     "anyDesk ID"
   ],
   "computergroups": [
+    "Clients OS X 10.10 greater than or equal",
+    "Clients OS X 10.10 less than or equal",
+    "Clients OS X 10.10",
+    "Clients OS X 10.11 greater than or equal",
+    "Clients OS X 10.11 less than or equal",
+    "Clients OS X 10.11",
+    "Clients OS X 10.12 greater than or equal",
+    "Clients OS X 10.12 less than or equal",
+    "Clients OS X 10.12",
     "Clients OS X 10.13 greater than or equal",
     "Clients OS X 10.13 less than or equal",
     "Clients OS X 10.13",
@@ -23,55 +32,44 @@
     "Microsoft Office 2016 Not Installed",
     "Microsoft Office 2019 Installed",
     "Microsoft Office 2019 Not Installed",
-    "Macs incompatible with macOS High Sierra",
     "Macs incompatible with macOS Mojave"
   ],
-  "distributionpoints": [
-    "cdn-cloud.anykeyit.ch",
-    "cdn.anykeyit.ch"
-  ],
   "packages": [
-    "HewlettPackardEssentials.pkg.zip",
-    "HewlettPackardPrinterDrivers.pkg.zip",
+    "anykey IT Logo im jamfHelper.dmg",
+    "jsssr.pkg.zip",
     "Microsoft Office 2016.pkg.zip",
     "Microsoft Office 2019.pkg.zip",
-    "Microsoft_Office_2016_VL_Serializer_2.0.pkg.zip",
-    "Microsoft_Office_2019_VL_Serializer.pkg.zip",
-    "anykey IT Logo im jamfHelper.dmg",
-    "jsssr.pkg.zip"
-  ],
-  "scripts": [
-    "Dock Administrator"
+    "HewlettPackardPrinterDrivers.pkg.zip",
+    "HewlettPackardEssentials.pkg.zip"
   ],
   "policies": [
+    "Adobe Acrobat Reader DC",
+    "Adobe Flash Player",
     "Assimilate Ownership",
-    "Audacity",
-    "Audacity Self Service",
-    "Automatic Apple Software Update",
-    "Microsoft AutoUpdate",
-    "Microsoft Office 2016 Serializer",
-    "Microsoft Office 2019",
-    "Microsoft Office 2019 Self Service",
-    "Microsoft Office 2019 Serializer",
+    "Enable ARD",
+    "Firefox",
+    "Google Chrome",
+    "Oracle Java 8",
+    "RemoveAllMyFilesFavorite",
     "Update Inventory",
     "Update Inventory Trigger",
+    "VLC Player",
     "aa anykey IT jsssr",
     "anyDesk Fernwartung",
-    "anykey IT Browser Bootstrap",
-    "anykey IT Client Logout",
+    "anykey IT ASU",
+    "anykey IT Client Bootstrap",
     "anykey IT Client Security",
     "anykey IT Client Tools",
     "anykey IT Maintenance",
     "anykey IT anytmp",
-    "anykey IT jamfHelper",
-    "macOS Mojave"
+    "anykey IT jamfHelper"
   ],
   "policies_remove": [
+    "Microsoft Office 2016 Serializer",
+    "Microsoft Office 2019 Serializer",
     "TextWrangler",
-    "anykey IT ASU",
     "anykey IT Client Standards",
     "anykey IT Fernwartung",
-    "anykeyIT Fernwartung",
-    "macOS High Sierra"
+    "anykeyIT Fernwartung"
   ]
 }

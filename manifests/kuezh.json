@@ -1,5 +1,5 @@
 {
-  "url": "https://anver.amy.anykey.ch",
+  "url": "https://jss5.anykeyit.ch/kuezh",
   "managed": "true",
   "categories": [
     "Applikationen",
@@ -23,55 +23,57 @@
     "Microsoft Office 2016 Not Installed",
     "Microsoft Office 2019 Installed",
     "Microsoft Office 2019 Not Installed",
-    "Macs incompatible with macOS High Sierra",
     "Macs incompatible with macOS Mojave"
   ],
-  "distributionpoints": [
-    "cdn-cloud.anykeyit.ch",
-    "cdn.anykeyit.ch"
-  ],
   "packages": [
-    "HewlettPackardEssentials.pkg.zip",
-    "HewlettPackardPrinterDrivers.pkg.zip",
+    "jsssr.pkg.zip",
     "Microsoft Office 2016.pkg.zip",
     "Microsoft Office 2019.pkg.zip",
-    "Microsoft_Office_2016_VL_Serializer_2.0.pkg.zip",
-    "Microsoft_Office_2019_VL_Serializer.pkg.zip",
-    "anykey IT Logo im jamfHelper.dmg",
-    "jsssr.pkg.zip"
-  ],
-  "scripts": [
-    "Dock Administrator"
+    "HewlettPackardPrinterDrivers.pkg.zip",
+    "HewlettPackardEssentials.pkg.zip"
   ],
   "policies": [
+    "Adobe Flash Player",
     "Assimilate Ownership",
-    "Audacity",
-    "Audacity Self Service",
-    "Automatic Apple Software Update",
-    "Microsoft AutoUpdate",
-    "Microsoft Office 2016 Serializer",
+    "Atom",
+    "Brave Browser",
+    "Enable ARD",
+    "Firefox",
+    "GarageBand Loops",
+    "GeoGebra Classic 6",
     "Microsoft Office 2019",
-    "Microsoft Office 2019 Self Service",
-    "Microsoft Office 2019 Serializer",
-    "Update Inventory",
-    "Update Inventory Trigger",
+    "Microsoft Teams",
+    "Python Launcher",
+    "RemoveAllMyFilesFavorite",
+    "Stellarium",
+    "The Unarchiver",
+    "VLC Player",
+    "Vernier Graphical Analysis",
     "aa anykey IT jsssr",
     "anyDesk Fernwartung",
-    "anykey IT Browser Bootstrap",
-    "anykey IT Client Logout",
+    "anykey IT ASU",
+    "anykey IT Client Bootstrap",
     "anykey IT Client Security",
     "anykey IT Client Tools",
     "anykey IT Maintenance",
-    "anykey IT anytmp",
-    "anykey IT jamfHelper",
-    "macOS Mojave"
+    "anykey IT anytmp"
   ],
   "policies_remove": [
+    "Change Hostname",
+    "Login Screen mit Name und Kennwort",
+    "Microsoft Office 2016 Serializer",
+    "Microsoft Office 2019 Serializer",
+    "Remove Silverlight Plugin",
+    "Rename Computer",
+    "Set DNS-Server",
+    "Set Devicename",
+    "Set Wallpaper",
+    "Switch Off ipv6",
     "TextWrangler",
-    "anykey IT ASU",
+    "Update Inventory Trigger",
     "anykey IT Client Standards",
     "anykey IT Fernwartung",
     "anykeyIT Fernwartung",
-    "macOS High Sierra"
+    "python-3.7.0-macosx10.9"
   ]
 }
