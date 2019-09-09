@@ -160,7 +160,6 @@
     "aa anykey IT jsssr",
     "anyDesk Fernwartung",
     "anykey IT Browser Bootstrap",
-    "anykey IT Client Bootstrap",
     "anykey IT Client Logout",
     "anykey IT Client Security",
     "anykey IT Client Tools",
@@ -176,5 +175,13 @@
     "anykey IT Fernwartung",
     "anykeyIT Fernwartung",
     "macOS High Sierra"
+  ],
+  "osxconfigurationprofiles": [
+    "Microsoft Office 2016 Bootstrap",
+    "Microsoft Office 2016 Update",
+    "Microsoft Office 2019 Bootstrap",
+    "Microsoft Office 2019 Update",
+    "anykey IT Client Bootstrap",
+    "anykey IT Client Localisation"
   ]
 }

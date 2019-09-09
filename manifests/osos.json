@@ -1,8 +1,0 @@
-{
-  "url": "https://osos.amy.anykey.ch",
-  "managed": "true",
-  "policies": [
-    "Update Inventory",
-    "Update Inventory Trigger"
-  ]
-}
