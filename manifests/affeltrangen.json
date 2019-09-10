@@ -13,25 +13,27 @@
     "anyDesk ID"
   ],
   "computergroups": [
+    "Clients OS X 10.13",
     "Clients OS X 10.13 greater than or equal",
     "Clients OS X 10.13 less than or equal",
-    "Clients OS X 10.13",
+    "Clients OS X 10.14",
     "Clients OS X 10.14 greater than or equal",
     "Clients OS X 10.14 less than or equal",
-    "Clients OS X 10.14",
+    "Macs incompatible with macOS High Sierra",
+    "Macs incompatible with macOS Mojave",
     "Microsoft Office 2016 Installed",
     "Microsoft Office 2016 Not Installed",
     "Microsoft Office 2019 Installed",
-    "Microsoft Office 2019 Not Installed",
-    "Macs incompatible with macOS Mojave",
-    "Macs incompatible with macOS High Sierra"
+    "Microsoft Office 2019 Not Installed"
   ],
   "packages": [
-    "jsssr.pkg.zip",
+    "HewlettPackardEssentials.pkg.zip",
+    "HewlettPackardPrinterDrivers.pkg.zip",
     "Microsoft Office 2016.pkg.zip",
     "Microsoft Office 2019.pkg.zip",
-    "HewlettPackardPrinterDrivers.pkg.zip",
-    "HewlettPackardEssentials.pkg.zip"
+    "Microsoft_Office_2016_VL_Serializer_2.0.pkg.zip",
+    "Microsoft_Office_2019_VL_Serializer.pkg.zip",
+    "jsssr.pkg.zip"
   ],
   "policies": [
     "Assimilate Ownership",
@@ -51,6 +53,11 @@
     "Hewlett Packard Printer Drivers",
     "LehrerOffice",
     "LehrerOffice Zusatz",
+    "Microsoft AutoUpdate",
+    "Microsoft Office 2016 Serializer",
+    "Microsoft Office 2019",
+    "Microsoft Office 2019 Self Service",
+    "Microsoft Office 2019 Serializer",
     "OmniDiskSweeper",
     "OneDrive",
     "Oracle Java 8",
@@ -75,8 +82,6 @@
   "policies_remove": [
     "Google Earth",
     "LehrerOffice Formular Designer",
-    "Microsoft Office 2016 Serializer",
-    "Microsoft Office 2019 Serializer",
     "OCCNCC2EWC",
     "OCCNCC2EWC-PLUS",
     "Plex Home Theater",
