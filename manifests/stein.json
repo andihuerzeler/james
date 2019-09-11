@@ -1,5 +1,5 @@
 {
-  "url": "https://stein.amy.anykey.ch/",
+  "url": "https://stein.amy.anykey.ch",
   "managed": "true",
   "categories": [
     "Applikationen",
@@ -7,5 +7,5 @@
     "Kundenanpassungen",
     "Self Service",
     "anykey IT"
-  ],
-  }
+  ]
+}
