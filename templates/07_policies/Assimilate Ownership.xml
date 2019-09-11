@@ -6,6 +6,7 @@
     <trigger>EVENT</trigger>
     <trigger_login>true</trigger_login>
     <frequency>Ongoing</frequency>
+    <offline>true</offline>
     <category>
       <name>anykey IT</name>
     </category>
