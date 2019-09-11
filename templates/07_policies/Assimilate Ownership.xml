@@ -4,8 +4,8 @@
     <name>Assimilate Ownership</name>
     <enabled>true</enabled>
     <trigger>EVENT</trigger>
-    <trigger_checkin>true</trigger_checkin>
-    <frequency>Once every day</frequency>
+    <trigger_login>true</trigger_login>
+    <frequency>Ongoing</frequency>
     <category>
       <name>anykey IT</name>
     </category>
