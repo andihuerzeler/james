@@ -46,8 +46,8 @@ find "james/manifests/"*.json | while read -r manifests; do
                   echo "[$n] Update resource '${templates_purged}/${object}' on '${jps_purged}'"
                   curl -s -w "\n" -S -H "Authorization: Basic ${credentials}" -H "Content-Type: application/xml" -T "james/templates/${templates}/${object}.xml" "${jps}/JSSResource/${templates_purged}/name/${object_purged}" -X PUT
 
-                  if [ -s "james/icons/${object}.png" ]; then
-                    icon="james/icons/${object}.png"
+                  if [ -s "james/icons/${object/ Self Service/}.png" ]; then
+                    icon="james/icons/${object/ Self Service/}.png"
                     object_id=$(curl -s -H "Authorization: Basic ${credentials}" -H "Accept: application/xml" -X "GET" "${jps}/JSSResource/policies/name/${object_purged}" | xmllint --xpath "/policy/general/id/text()" -)
                     if [ -z "$(curl -s -H "Authorization: Basic ${credentials}" "${jps}/JSSResource/policies/name/${object_purged}" | xmllint --xpath "/policy/self_service/self_service_icon/filename/text()" - 2>/dev/null)" ]; then
                       echo "Add Self Service icon '${icon}' to policy '${object_purged}'"

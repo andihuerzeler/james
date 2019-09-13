@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <policy>
   <general>
-    <name>eWolke-Sync</name>
+    <name>eWolke-Sync Self Service</name>
     <enabled>true</enabled>
     <trigger>USER_INITIATED</trigger>
     <frequency>Ongoing</frequency>
