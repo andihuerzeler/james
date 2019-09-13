@@ -41,6 +41,8 @@
     "HewlettPackardPrinterDrivers.pkg.zip",
     "Microsoft Office 2016.pkg.zip",
     "Microsoft Office 2019.pkg.zip",
+    "Microsoft_Office_2016_VL_Serializer_2.0.pkg.zip",
+    "Microsoft_Office_2019_VL_Serializer.pkg.zip",
     "anykey IT Logo im jamfHelper.dmg",
     "jsssr.pkg.zip"
   ],
@@ -61,6 +63,11 @@
     "Google Earth Pro",
     "LehrerOffice",
     "LehrerOffice Zusatz",
+    "Microsoft AutoUpdate",
+    "Microsoft Office 2016 Serializer",
+    "Microsoft Office 2019",
+    "Microsoft Office 2019 Self Service",
+    "Microsoft Office 2019 Serializer",
     "OmniDiskSweeper",
     "Oracle Java 8",
     "Rechentraining 5",
@@ -84,8 +91,8 @@
     "draw.io"
   ],
   "policies_remove": [
-    "Microsoft Office 2016 Serializer",
-    "Microsoft Office 2019 Serializer",
+    "Microsoft Office 2016",
+    "Microsoft Office 2016 Self Service",
     "OCCNCC2EWC",
     "TextWrangler",
     "anykey IT ASU",

@@ -13,6 +13,10 @@
     "anyDesk ID"
   ],
   "computergroups": [
+    "Microsoft Office 2016 Installed",
+    "Microsoft Office 2016 Not Installed",
+    "Microsoft Office 2019 Installed",
+    "Microsoft Office 2019 Not Installed",
     "Microsoft Office Version"
   ],
   "packages": [
@@ -20,6 +24,8 @@
     "HewlettPackardPrinterDrivers.pkg.zip",
     "Microsoft Office 2016.pkg.zip",
     "Microsoft Office 2019.pkg.zip",
+    "Microsoft_Office_2016_VL_Serializer_2.0.pkg.zip",
+    "Microsoft_Office_2019_VL_Serializer.pkg.zip",
     "jsssr.pkg.zip"
   ],
   "policies": [
@@ -41,7 +47,11 @@
     "LehrerOffice",
     "LehrerOffice Zusatz",
     "LibreOffice",
-    "Microsoft Office 2016",
+    "Microsoft AutoUpdate",
+    "Microsoft Office 2016 Serializer",
+    "Microsoft Office 2019",
+    "Microsoft Office 2019 Self Service",
+    "Microsoft Office 2019 Serializer",
     "OmniDiskSweeper",
     "Oracle Java 8",
     "RemoveAllMyFilesFavorite",
@@ -67,8 +77,8 @@
     "Kill Dropbox",
     "LehrerOffice Formular Designer",
     "Library lokal und im Netzwerk oeffnen",
-    "Microsoft Office 2016 Serializer",
-    "Microsoft Office 2019 Serializer",
+    "Microsoft Office 2016",
+    "Microsoft Office 2016 Self Service",
     "OCCNCC2EWC",
     "Office 2016 Downgrade",
     "System Reparatur",

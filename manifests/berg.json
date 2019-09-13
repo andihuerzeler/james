@@ -13,18 +13,18 @@
     "anyDesk ID"
   ],
   "computergroups": [
+    "Clients OS X 10.13",
     "Clients OS X 10.13 greater than or equal",
     "Clients OS X 10.13 less than or equal",
-    "Clients OS X 10.13",
+    "Clients OS X 10.14",
     "Clients OS X 10.14 greater than or equal",
     "Clients OS X 10.14 less than or equal",
-    "Clients OS X 10.14",
+    "Macs incompatible with macOS High Sierra",
+    "Macs incompatible with macOS Mojave",
     "Microsoft Office 2016 Installed",
     "Microsoft Office 2016 Not Installed",
     "Microsoft Office 2019 Installed",
-    "Microsoft Office 2019 Not Installed",
-    "Macs incompatible with macOS Mojave",
-    "Macs incompatible with macOS High Sierra"
+    "Microsoft Office 2019 Not Installed"
   ],
   "packages": [
     "HewlettPackardEssentials.pkg.zip",
@@ -86,6 +86,8 @@
     "Adobe Reader DC",
     "Inkscape",
     "LehrerOffice Formular Designer",
+    "Microsoft Office 2016",
+    "Microsoft Office 2016 Self Service",
     "OCCNCC2EWC",
     "OmniDiskSweeper",
     "Scratch 2",
