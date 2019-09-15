@@ -104,6 +104,11 @@ if [ -s "${repo_path}/james/manifests/${manifest}.json" ]; then
       [ -s "/Users/admin/GitHub/james/templates/07_policies/${object} Self Service.xml" ] && object="${object} Self Service" && update_manifest
       break
     else
+      for endpoint_check in "${repo_path}/james/templates/"*"${endpoint}"; do
+        if [ ! -d "${endpoint_check}" ]; then
+          echo "Error: Endpoint '${endpoint}' does not exist" && exit 1
+        fi
+      done
       echo "Error: Object '${object}' does not exist" && exit 1
     fi
   done
