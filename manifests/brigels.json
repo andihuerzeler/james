@@ -1,0 +1,15 @@
+{
+  "url": "https://brigels.amy.anykey.ch",
+  "managed": "true",
+  "categories": [
+    "Applikationen",
+    "Drucker",
+    "Kundenanpassungen",
+    "Self Service",
+    "anykey IT"
+  ],
+  "policies": [
+    "Update Inventory",
+    "Update Inventory Trigger"
+  ]
+}

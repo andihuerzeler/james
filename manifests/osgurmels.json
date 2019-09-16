@@ -1,0 +1,17 @@
+{
+  "url": "https://osgurmels.amy.anykey.ch",
+  "managed": "true",
+  "categories": [
+    "Applikationen",
+    "Drucker",
+    "Kundenanpassungen",
+    "Self Service",
+    "anykey IT"
+  ],
+  "policies": [
+    "Adobe Acrobat Reader DC",
+    "Adobe Acrobat Reader DC Self Service",
+    "Update Inventory",
+    "Update Inventory Trigger"
+  ]
+}
