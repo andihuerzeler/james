@@ -16,11 +16,10 @@
   </scope>
   <package_configuration>
     <packages>
-      <size>1</size>
-      <package>
-        <name>jsssr.pkg.zip</name>
-        <action>Install</action>
-      </package>
+      <size>0</size>
     </packages>
   </package_configuration>
+  <files_processes>
+    <run_command>rm -f "/usr/local/bin/jsssr" &amp;&amp; curl -so "/usr/local/bin/jsssr" "https://raw.githubusercontent.com/jedetaste/jsssr/master/bin/jsssr" &amp;&amp; chmod +x "/usr/local/bin/jsssr"</run_command>
+  </files_processes>
 </policy>
