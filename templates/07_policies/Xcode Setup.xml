@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policy>
+  <general>
+    <name>Xcode Setup</name>
+    <enabled>true</enabled>
+    <trigger>CHECKIN</trigger>
+    <trigger_checkin>true</trigger_checkin>
+    <frequency>Once per computer</frequency>
+    <category>
+      <name>Kundenanpassungen</name>
+    </category>
+  </general>
+  <scope>
+    <all_computers>true</all_computers>
+  </scope>
+  <self_service>
+    <use_for_self_service>false</use_for_self_service>
+  </self_service>
+  <package_configuration>
+    <packages>
+      <size>0</size>
+    </packages>
+  </package_configuration>
+  <scripts>
+    <size>0</size>
+  </scripts>
+  <files_processes>
+    <run_command>/usr/local/bin/jsssr "Xcode Setup.sh"</run_command>
+  </files_processes>
+</policy>
