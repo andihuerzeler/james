@@ -1,0 +1,23 @@
+<computer_extension_attribute>
+  <name>Current SSID</name>
+  <description/>
+  <data_type>String</data_type>
+  <input_type>
+    <type>script</type>
+    <platform>Mac</platform>
+    <script>#!/bin/bash&#13;
+&#13;
+wifi_name=$(networksetup -getairportnetwork en0)&#13;
+&#13;
+if [[ "${wifi_name}" != "en0 is not a Wi-Fi interface"* ]]; then&#13;
+  result="${wifi_name//Current Wi-Fi Network: /}"&#13;
+else&#13;
+  result="No Wi-Fi"&#13;
+fi&#13;
+&#13;
+echo "<result>${result}</result>"&#13;
+</script>
+  </input_type>
+  <inventory_display>Extension Attributes</inventory_display>
+  <recon_display>Extension Attributes</recon_display>
+</computer_extension_attribute>
