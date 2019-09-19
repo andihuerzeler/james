@@ -88,7 +88,9 @@
     "anykey IT Maintenance",
     "anykey IT anytmp",
     "anykey IT jamfHelper",
-    "eWolke Web"
+    "eWolke Web",
+    "macOS High Sierra",
+    "macOS Mojave"
   ],
   "policies_remove": [
     "Geogebra",
