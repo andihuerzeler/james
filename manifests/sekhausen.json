@@ -63,6 +63,8 @@
     "Microsoft Office 2019 Serializer",
     "OmniDiskSweeper",
     "Oracle Java 8",
+    "Python Launcher",
+    "Python Launcher Self Service",
     "RemoveAllMyFilesFavorite",
     "Skitch",
     "Stellarium",
@@ -98,6 +100,7 @@
     "anykeyIT Fernwartung",
     "eWolke Client",
     "macOS High Sierra",
-    "macOS Sierra"
+    "macOS Sierra",
+    "python"
   ]
 }
