@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <computer_extension_attribute>
   <name>Current SSID</name>
   <description/>
@@ -10,13 +11,12 @@
 wifi_name=$(networksetup -getairportnetwork en0)&#13;
 &#13;
 if [[ "${wifi_name}" != "en0 is not a Wi-Fi interface"* ]]; then&#13;
-  result="${wifi_name//Current Wi-Fi Network: /}"&#13;
+	result="${wifi_name//Current Wi-Fi Network: /}"&#13;
 else&#13;
-  result="No Wi-Fi"&#13;
+	result="No Wi-Fi"&#13;
 fi&#13;
 &#13;
-echo "<result>${result}</result>"&#13;
-</script>
+echo "&lt;result&gt;${result}&lt;/result&gt;"</script>
   </input_type>
   <inventory_display>Extension Attributes</inventory_display>
   <recon_display>Extension Attributes</recon_display>
