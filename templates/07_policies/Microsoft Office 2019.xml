@@ -33,4 +33,16 @@
       </package>
     </packages>
   </package_configuration>
+  <maintenance>
+    <recon>true</recon>
+    <reset_name>true</reset_name>
+    <install_all_cached_packages>false</install_all_cached_packages>
+    <heal>false</heal>
+    <prebindings>false</prebindings>
+    <permissions>false</permissions>
+    <byhost>false</byhost>
+    <system_cache>false</system_cache>
+    <user_cache>false</user_cache>
+    <verify>false</verify>
+  </maintenance>
 </policy>
