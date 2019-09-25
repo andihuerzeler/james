@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <policy>
   <general>
-    <name>Google AdWords Editor</name>
+    <name>Google Ads Editor</name>
     <enabled>true</enabled>
     <trigger>EVENT</trigger>
     <trigger_checkin>true</trigger_checkin>
@@ -21,6 +21,6 @@
     </packages>
   </package_configuration>
   <files_processes>
-    <run_command>/usr/local/bin/aky googleadwordseditor</run_command>
+    <run_command>/usr/local/bin/aky googleadseditor</run_command>
   </files_processes>
 </policy>
