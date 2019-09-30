@@ -1,6 +1,6 @@
 #!/bin/bash
 
-repo_path="/Users/admin/GitHub"
+repo_path="~/GitHub"
 
 prog_name=$(basename "${0}")
 
