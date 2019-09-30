@@ -34,6 +34,6 @@
     echo "&lt;result&gt;Microsoft Office Not Installed&lt;/result&gt;"
   fi</script>
   </input_type>
-  <inventory_display>Operating System</inventory_display>
+  <inventory_display>Extension Attributes</inventory_display>
   <recon_display>Extension Attributes</recon_display>
 </computer_extension_attribute>
