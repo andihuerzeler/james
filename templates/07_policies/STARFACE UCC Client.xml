@@ -22,6 +22,6 @@
     </packages>
   </package_configuration>
   <files_processes>
-    <run_command>/usr/local/bin/aky starface</run_command>
+    <run_command>/usr/local/bin/aky starface &amp;&amp; installer -pkg "/Applications/STARFACE UCC Client.app/Contents/Resources/HelperFiles.pkg" -target /</run_command>
   </files_processes>
 </policy>
