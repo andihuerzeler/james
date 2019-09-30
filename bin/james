@@ -1,6 +1,6 @@
 #!/bin/bash
 
-repo_path="~/GitHub"
+repo_path="/Users/admin/GitHub"
 
 prog_name=$(basename "${0}")
 
@@ -97,11 +97,11 @@ if [ -s "${repo_path}/james/manifests/${manifest}.json" ]; then
   for template in "${repo_path}/james/templates/"*"${endpoint}/${object}.xml"; do
     if [ -e "${template}" ]; then
       update_manifest
-      [ -s "/Users/admin/GitHub/james/templates/07_policies/${object} Self Service.xml" ] && object="${object} Self Service" && update_manifest
+      [ -s "${repo_path}/GitHub/james/templates/07_policies/${object} Self Service.xml" ] && object="${object} Self Service" && update_manifest
       break
     elif [ "${endpoint}" = "policies_remove" ]; then
       update_manifest
-      [ -s "/Users/admin/GitHub/james/templates/07_policies/${object} Self Service.xml" ] && object="${object} Self Service" && update_manifest
+      [ -s "${repo_path}/GitHub/james/templates/07_policies/${object} Self Service.xml" ] && object="${object} Self Service" && update_manifest
       break
     else
       for endpoint_check in "${repo_path}/james/templates/"*"${endpoint}"; do
