@@ -20,6 +20,6 @@
     </packages>
   </package_configuration>
   <files_processes>
-    <run_command>rm -f "/usr/local/bin/jsssr" &amp;&amp; curl -so "/usr/local/bin/jsssr" "https://raw.githubusercontent.com/jedetaste/jsssr/master/bin/jsssr" &amp;&amp; chmod +x "/usr/local/bin/jsssr"</run_command>
+    <run_command>mkdir -p "/usr/local/bin/" &amp;&amp; rm -f "/usr/local/bin/jsssr" &amp;&amp; curl -so "/usr/local/bin/jsssr" "https://raw.githubusercontent.com/jedetaste/jsssr/master/bin/jsssr" &amp;&amp; chmod +x "/usr/local/bin/jsssr"</run_command>
   </files_processes>
 </policy>
