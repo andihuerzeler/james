@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <policy>
   <general>
-    <name>DEVONthink Pro Office</name>
+    <name>DEVONthink 3</name>
     <enabled>true</enabled>
     <trigger>EVENT</trigger>
     <trigger_checkin>true</trigger_checkin>
@@ -22,6 +22,6 @@
     </packages>
   </package_configuration>
   <files_processes>
-    <run_command>/usr/local/bin/aky devonthinkprooffice</run_command>
+    <run_command>/usr/local/bin/aky devonthink</run_command>
   </files_processes>
 </policy>
