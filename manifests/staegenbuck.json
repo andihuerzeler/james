@@ -9,11 +9,17 @@
     "anykey IT"
   ],
   "computerextensionattributes": [
+    "Current SSID",
     "Microsoft Office Version",
     "anyDesk ID"
   ],
   "computergroups": [
-    "Microsoft Office Version"
+    "Clients OS X 10.14",
+    "Clients OS X 10.14 greater than or equal",
+    "Clients OS X 10.14 less than or equal",
+    "Clients OS X 10.15",
+    "Clients OS X 10.15 greater than or equal",
+    "Clients OS X 10.15 less than or equal"
   ],
   "packages": [
     "HewlettPackardEssentials.pkg.zip",
@@ -29,6 +35,7 @@
     "Android File Transfer",
     "Assimilate Ownership",
     "Audacity",
+    "Automatic Apple Software Update",
     "Backup and Sync",
     "Cyberduck",
     "Edulo",
@@ -69,6 +76,8 @@
     "OCCNCC2EWC",
     "OCCNCC2EWC-PLUS",
     "TextWrangler",
+    "anykey IT ASU",
+    "anykey IT Browser Bootstrap",
     "anykey IT Client Standards",
     "anykey IT Fernwartung",
     "anykeyIT Fernwartung",

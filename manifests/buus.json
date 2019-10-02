@@ -9,6 +9,7 @@
     "anykey IT"
   ],
   "computerextensionattributes": [
+    "Current SSID",
     "Microsoft Office Version",
     "anyDesk ID"
   ],
@@ -19,6 +20,9 @@
     "Clients OS X 10.14",
     "Clients OS X 10.14 greater than or equal",
     "Clients OS X 10.14 less than or equal",
+    "Clients OS X 10.15",
+    "Clients OS X 10.15 greater than or equal",
+    "Clients OS X 10.15 less than or equal",
     "Macs incompatible with macOS High Sierra",
     "Macs incompatible with macOS Mojave",
     "Microsoft Office 2016 Installed",
@@ -39,6 +43,7 @@
     "Adobe Acrobat Reader DC",
     "Adobe Flash Player",
     "Assimilate Ownership",
+    "Automatic Apple Software Update",
     "Enable ARD",
     "Firefox",
     "Google Chrome",
@@ -72,6 +77,8 @@
     "OCCNCC2EWC",
     "OCCNCC2EWC-PLUS",
     "TextWrangler",
+    "anykey IT ASU",
+    "anykey IT Browser Bootstrap",
     "anykey IT Client Logout",
     "anykey IT Client Standards",
     "anykey IT Fernwartung",

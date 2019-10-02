@@ -9,22 +9,26 @@
     "anykey IT"
   ],
   "computerextensionattributes": [
+    "Current SSID",
     "Microsoft Office Version",
     "anyDesk ID"
   ],
   "computergroups": [
+    "Clients OS X 10.13",
     "Clients OS X 10.13 greater than or equal",
     "Clients OS X 10.13 less than or equal",
-    "Clients OS X 10.13",
+    "Clients OS X 10.14",
     "Clients OS X 10.14 greater than or equal",
     "Clients OS X 10.14 less than or equal",
-    "Clients OS X 10.14",
+    "Clients OS X 10.15",
+    "Clients OS X 10.15 greater than or equal",
+    "Clients OS X 10.15 less than or equal",
+    "Macs incompatible with macOS High Sierra",
+    "Macs incompatible with macOS Mojave",
     "Microsoft Office 2016 Installed",
     "Microsoft Office 2016 Not Installed",
     "Microsoft Office 2019 Installed",
-    "Microsoft Office 2019 Not Installed",
-    "Macs incompatible with macOS Mojave",
-    "Macs incompatible with macOS High Sierra"
+    "Microsoft Office 2019 Not Installed"
   ],
   "packages": [
     "jsssr.pkg.zip",
@@ -36,6 +40,7 @@
   "policies": [
     "Adobe Acrobat Reader DC",
     "Adobe Flash Player",
+    "Automatic Apple Software Update",
     "BBEdit",
     "Cyberduck",
     "Dropbox",
@@ -68,6 +73,8 @@
     "Microsoft Office 2016 Serializer",
     "Microsoft Office 2019 Serializer",
     "TextWrangler",
+    "anykey IT ASU",
+    "anykey IT Browser Bootstrap",
     "anykey IT Client Standards",
     "anykey IT Fernwartung",
     "anykeyIT Fernwartung"

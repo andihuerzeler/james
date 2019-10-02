@@ -9,30 +9,34 @@
     "anykey IT"
   ],
   "computerextensionattributes": [
+    "Current SSID",
     "Microsoft Office Version",
     "anyDesk ID"
   ],
   "computergroups": [
+    "Clients OS X 10.10",
     "Clients OS X 10.10 greater than or equal",
     "Clients OS X 10.10 less than or equal",
-    "Clients OS X 10.10",
+    "Clients OS X 10.11",
     "Clients OS X 10.11 greater than or equal",
     "Clients OS X 10.11 less than or equal",
-    "Clients OS X 10.11",
+    "Clients OS X 10.12",
     "Clients OS X 10.12 greater than or equal",
     "Clients OS X 10.12 less than or equal",
-    "Clients OS X 10.12",
+    "Clients OS X 10.13",
     "Clients OS X 10.13 greater than or equal",
     "Clients OS X 10.13 less than or equal",
-    "Clients OS X 10.13",
+    "Clients OS X 10.14",
     "Clients OS X 10.14 greater than or equal",
     "Clients OS X 10.14 less than or equal",
-    "Clients OS X 10.14",
+    "Clients OS X 10.15",
+    "Clients OS X 10.15 greater than or equal",
+    "Clients OS X 10.15 less than or equal",
+    "Macs incompatible with macOS Mojave",
     "Microsoft Office 2016 Installed",
     "Microsoft Office 2016 Not Installed",
     "Microsoft Office 2019 Installed",
-    "Microsoft Office 2019 Not Installed",
-    "Macs incompatible with macOS Mojave"
+    "Microsoft Office 2019 Not Installed"
   ],
   "packages": [
     "anykey IT Logo im jamfHelper.dmg",
@@ -67,7 +71,6 @@
     "VLC Player",
     "aa anykey IT jsssr",
     "anyDesk Fernwartung",
-    "anykey IT ASU",
     "anykey IT Client Bootstrap",
     "anykey IT Client Logout",
     "anykey IT Client Security",
@@ -86,6 +89,7 @@
     "OneDrive",
     "TextWrangler",
     "anykey IT ASU",
+    "anykey IT Browser Bootstrap",
     "anykey IT Client Standards",
     "anykey IT Fernwartung",
     "anykeyIT Fernwartung"

@@ -7,6 +7,7 @@
     "Adobe Flash Player",
     "Apple Command Line Tools",
     "Assimilate Ownership",
+    "Automatic Apple Software Update",
     "ClipGrab",
     "Enable ARD",
     "Firefox",
@@ -46,7 +47,10 @@
     "Google Earth",
     "Microsoft Office 2019 Serializer",
     "Microsoft OneDrive",
-    "OmniDiskSweeper"
+    "OmniDiskSweeper",
+    "anykey IT ASU",
+    "anykey IT Browser Bootstrap",
+    "anykey IT Client Standards"
   ],
   "categories": [
     "Applikationen",
@@ -56,6 +60,7 @@
     "anykey IT"
   ],
   "computerextensionattributes": [
+    "Current SSID",
     "Microsoft Office Version",
     "anyDesk ID"
   ],
@@ -66,6 +71,9 @@
     "Clients OS X 10.14",
     "Clients OS X 10.14 greater than or equal",
     "Clients OS X 10.14 less than or equal",
+    "Clients OS X 10.15",
+    "Clients OS X 10.15 greater than or equal",
+    "Clients OS X 10.15 less than or equal",
     "Macs incompatible with macOS High Sierra",
     "Macs incompatible with macOS Mojave",
     "Microsoft Office 2016 Installed",

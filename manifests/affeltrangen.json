@@ -9,6 +9,7 @@
     "anykey IT"
   ],
   "computerextensionattributes": [
+    "Current SSID",
     "Microsoft Office Version",
     "anyDesk ID"
   ],
@@ -19,6 +20,9 @@
     "Clients OS X 10.14",
     "Clients OS X 10.14 greater than or equal",
     "Clients OS X 10.14 less than or equal",
+    "Clients OS X 10.15",
+    "Clients OS X 10.15 greater than or equal",
+    "Clients OS X 10.15 less than or equal",
     "Macs incompatible with macOS High Sierra",
     "Macs incompatible with macOS Mojave",
     "Microsoft Office 2016 Installed",
@@ -39,6 +43,7 @@
     "Adobe Acrobat Reader DC",
     "Assimilate Ownership",
     "Audacity",
+    "Automatic Apple Software Update",
     "Brother CanvasWorkspace",
     "Brother CanvasWorkspace Self Service",
     "ClipGrab",
@@ -91,6 +96,7 @@
     "TextWrangler",
     "anykey IT ASU",
     "anykey IT Apple Software Update Lehrpersonen",
+    "anykey IT Browser Bootstrap",
     "anykey IT Client Standards",
     "anykey IT Fernwartung",
     "anykeyIT Fernwartung",

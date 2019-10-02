@@ -9,6 +9,7 @@
     "anykey IT"
   ],
   "computerextensionattributes": [
+    "Current SSID",
     "Microsoft Office Version",
     "anyDesk ID"
   ],
@@ -28,12 +29,14 @@
     "Clients OS X 10.14",
     "Clients OS X 10.14 greater than or equal",
     "Clients OS X 10.14 less than or equal",
+    "Clients OS X 10.15",
+    "Clients OS X 10.15 greater than or equal",
+    "Clients OS X 10.15 less than or equal",
     "Macs incompatible with macOS Mojave",
     "Microsoft Office 2016 Installed",
     "Microsoft Office 2016 Not Installed",
     "Microsoft Office 2019 Installed",
-    "Microsoft Office 2019 Not Installed",
-    "Microsoft Office Version"
+    "Microsoft Office 2019 Not Installed"
   ],
   "packages": [
     "HewlettPackardEssentials.pkg.zip",
@@ -51,6 +54,7 @@
     "Assimilate Ownership",
     "Audacity",
     "Audacity Self Service",
+    "Automatic Apple Software Update",
     "Burn",
     "Burn Self Service",
     "Carbon Copy Cloner",
@@ -96,7 +100,6 @@
     "VLC Player Self Service",
     "aa anykey IT jsssr",
     "anyDesk Fernwartung",
-    "anykey IT ASU",
     "anykey IT Client Bootstrap",
     "anykey IT Client Security",
     "anykey IT Client Tools",
@@ -111,6 +114,8 @@
     "Lehreroffice Formular Designer",
     "OCCNCC2EWC",
     "TextWrangler",
+    "anykey IT ASU",
+    "anykey IT Browser Bootstrap",
     "anykey IT Client Standards",
     "anykey IT Fernwartung",
     "anykeyIT Fernwartung",

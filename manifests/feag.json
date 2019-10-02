@@ -1,4 +1,27 @@
 {
   "url": "https://feag.amy.anykey.ch",
-  "managed": "true"
+  "managed": "true",
+  "computerextensionattributes": [
+    "Current SSID",
+    "Microsoft Office Version",
+    "anyDesk ID"
+  ],
+  "policies": [
+    "Automatic Apple Software Update",
+    "Update Inventory",
+    "Update Inventory Trigger"
+  ],
+  "computergroups": [
+    "Clients OS X 10.14",
+    "Clients OS X 10.14 greater than or equal",
+    "Clients OS X 10.14 less than or equal",
+    "Clients OS X 10.15",
+    "Clients OS X 10.15 greater than or equal",
+    "Clients OS X 10.15 less than or equal"
+  ],
+  "policies_remove": [
+    "anykey IT ASU",
+    "anykey IT Browser Bootstrap",
+    "anykey IT Client Standards"
+  ]
 }

@@ -9,7 +9,9 @@
     "Self Service"
   ],
   "computerextensionattributes": [
-    "Microsoft Office Version"
+    "Current SSID",
+    "Microsoft Office Version",
+    "anyDesk ID"
   ],
   "computergroups": [
     "Clients OS X 10.13",
@@ -18,6 +20,9 @@
     "Clients OS X 10.14",
     "Clients OS X 10.14 greater than or equal",
     "Clients OS X 10.14 less than or equal",
+    "Clients OS X 10.15",
+    "Clients OS X 10.15 greater than or equal",
+    "Clients OS X 10.15 less than or equal",
     "Macs incompatible with macOS High Sierra",
     "Macs incompatible with macOS Mojave",
     "Microsoft Office 2016 Installed",
@@ -87,6 +92,9 @@
     "User Template ersetzen",
     "WifiOffBeiEthernet",
     "aa Lernprogramme Ordner",
+    "anykey IT ASU",
+    "anykey IT Browser Bootstrap",
+    "anykey IT Client Standards",
     "eWolke",
     "eWolke Client"
   ]

@@ -12,6 +12,7 @@
     "Adobe Acrobat Reader DC",
     "Adobe Flash Player",
     "Assimilate Ownership",
+    "Automatic Apple Software Update",
     "Cyberduck",
     "Enable ARD",
     "Firefox",
@@ -39,6 +40,7 @@
     "eWolke Web"
   ],
   "computerextensionattributes": [
+    "Current SSID",
     "Microsoft Office Version",
     "anyDesk ID"
   ],
@@ -49,6 +51,9 @@
     "Clients OS X 10.14",
     "Clients OS X 10.14 greater than or equal",
     "Clients OS X 10.14 less than or equal",
+    "Clients OS X 10.15",
+    "Clients OS X 10.15 greater than or equal",
+    "Clients OS X 10.15 less than or equal",
     "Macs incompatible with macOS High Sierra",
     "Macs incompatible with macOS Mojave",
     "Macs incompatible with macOS Sierra",
@@ -72,6 +77,8 @@
     "Microsoft Office 2019 Serializer",
     "OCCNCC2EWC",
     "OCCNCC2EWC-PLUS",
+    "anykey IT ASU",
+    "anykey IT Browser Bootstrap",
     "anykey IT Client Standards",
     "eWolke",
     "eWolke Client"

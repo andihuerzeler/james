@@ -9,6 +9,7 @@
     "anykey IT"
   ],
   "computerextensionattributes": [
+    "Current SSID",
     "Microsoft Office Version",
     "anyDesk ID"
   ],
@@ -28,6 +29,9 @@
     "Clients OS X 10.14",
     "Clients OS X 10.14 greater than or equal",
     "Clients OS X 10.14 less than or equal",
+    "Clients OS X 10.15",
+    "Clients OS X 10.15 greater than or equal",
+    "Clients OS X 10.15 less than or equal",
     "Macs incompatible with macOS Mojave",
     "Microsoft Office 2016 Installed",
     "Microsoft Office 2016 Not Installed",
@@ -53,6 +57,7 @@
     "Assimilate Ownership",
     "Audacity",
     "Audacity Self Service",
+    "Automatic Apple Software Update",
     "Burn",
     "Burn Self Service",
     "Citrix Workspace",
@@ -99,7 +104,6 @@
     "VLC Player Self Service",
     "aa anykey IT jsssr",
     "anyDesk Fernwartung",
-    "anykey IT ASU",
     "anykey IT Client Bootstrap",
     "anykey IT Client Security",
     "anykey IT Client Tools",
@@ -119,6 +123,8 @@
     "TextWrangler",
     "Tor Browser",
     "Tor Browser Self Service",
+    "anykey IT ASU",
+    "anykey IT Browser Bootstrap",
     "anykey IT Client Standards",
     "anykey IT Fernwartung",
     "anykeyIT Fernwartung",

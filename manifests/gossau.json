@@ -9,6 +9,7 @@
     "anykey IT"
   ],
   "computerextensionattributes": [
+    "Current SSID",
     "Microsoft Office Version",
     "anyDesk ID"
   ],
@@ -28,6 +29,9 @@
     "Clients OS X 10.14",
     "Clients OS X 10.14 greater than or equal",
     "Clients OS X 10.14 less than or equal",
+    "Clients OS X 10.15",
+    "Clients OS X 10.15 greater than or equal",
+    "Clients OS X 10.15 less than or equal",
     "Macs incompatible with macOS Mojave",
     "Microsoft Office 2016 Installed",
     "Microsoft Office 2016 Not Installed",
@@ -50,6 +54,7 @@
     "Adobe Flash Player",
     "Assimilate Ownership",
     "Audacity",
+    "Automatic Apple Software Update",
     "Burn",
     "Caffeine",
     "Carbon Copy Cloner",
@@ -112,6 +117,7 @@
     "TextWrangler",
     "User Template Lokal",
     "anykey IT ASU",
+    "anykey IT Browser Bootstrap",
     "anykey IT Client Standards",
     "anykey IT Fernwartung",
     "anykeyIT Fernwartung",
