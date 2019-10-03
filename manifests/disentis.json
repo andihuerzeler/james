@@ -1,0 +1,82 @@
+{
+  "url": "https://disentis.amy.anykey.ch",
+  "managed": "true",
+  "categories": [
+    "Applikationen",
+    "Drucker",
+    "Kundenanpassungen",
+    "Self Service",
+    "anykey IT"
+  ],
+  "computerextensionattributes": [
+    "Current SSID",
+    "Microsoft Office Version",
+    "anyDesk ID"
+  ],
+  "computergroups": [
+    "Clients OS X 10.13",
+    "Clients OS X 10.13 greater than or equal",
+    "Clients OS X 10.13 less than or equal",
+    "Clients OS X 10.14",
+    "Clients OS X 10.14 greater than or equal",
+    "Clients OS X 10.14 less than or equal",
+    "Clients OS X 10.15",
+    "Clients OS X 10.15 greater than or equal",
+    "Clients OS X 10.15 less than or equal",
+    "Macs incompatible with macOS Mojave",
+    "Microsoft Office 2016 Installed",
+    "Microsoft Office 2016 Not Installed",
+    "Microsoft Office 2019 Installed",
+    "Microsoft Office 2019 Not Installed"
+  ],
+  "packages": [
+    "HewlettPackardEssentials.pkg.zip",
+    "HewlettPackardPrinterDrivers.pkg.zip",
+    "Microsoft Office 2016.pkg.zip",
+    "Microsoft Office 2019.pkg.zip",
+    "Microsoft_Office_2016_VL_Serializer_2.0.pkg.zip",
+    "Microsoft_Office_2019_VL_Serializer.pkg.zip",
+    "anykey IT Logo im jamfHelper.dmg",
+    "jsssr.pkg.zip"
+  ],
+  "policies": [
+    "Adobe Acrobat Reader DC",
+    "Adobe Flash Player",
+    "Assimilate Ownership",
+    "Automatic Apple Software Update",
+    "Enable ARD",
+    "Firefox",
+    "Formular-Designer",
+    "Google Chrome",
+    "LehrerOffice",
+    "LehrerOffice Zusatz",
+    "Microsoft AutoUpdate",
+    "Microsoft Office 2016 Serializer",
+    "Microsoft Office 2019",
+    "Microsoft Office 2019 Self Service",
+    "Microsoft Office 2019 Serializer",
+    "OmniDiskSweeper",
+    "Oracle Java 8",
+    "RemoveAllMyFilesFavorite",
+    "Update Inventory",
+    "Update Inventory Trigger",
+    "VLC Player",
+    "aa anykey IT jsssr",
+    "anyDesk Fernwartung",
+    "anykey IT Client Bootstrap",
+    "anykey IT Client Security",
+    "anykey IT Client Tools",
+    "anykey IT Maintenance",
+    "anykey IT anytmp",
+    "anykey IT jamfHelper",
+    "macOS Mojave"
+  ],
+  "policies_remove": [
+    "TextWrangler",
+    "anykey IT ASU",
+    "anykey IT Browser Bootstrap",
+    "anykey IT Client Standards",
+    "anykey IT Fernwartung",
+    "anykeyIT Fernwartung"
+  ]
+}
