@@ -71,6 +71,9 @@ update_manifest() {
     "policies"
     "osxconfigurationprofiles"
     "policies_remove"
+    "mobiledeviceextensionattributes"
+    "mobiledevicegroups"
+    "mobiledeviceapplications"
   )
 
   for endpoint_item in "${endpoint_list[@]}"; do

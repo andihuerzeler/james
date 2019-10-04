@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mobile_device_application>
+  <general>
+    <name>eWolke iOS</name>
+    <display_name>eWolke iOS</display_name>
+    <bundle_id>ch.anykeyit.eWolkeiOS</bundle_id>
+    <version>2.22.2.005</version>
+    <internal_app>false</internal_app>
+    <os_type>iOS</os_type>
+    <category>
+      <name>anykey IT</name>
+    </category>
+    <make_available_after_install>true</make_available_after_install>
+    <deployment_type>Install Automatically/Prompt Users to Install</deployment_type>
+    <deploy_automatically>true</deploy_automatically>
+    <deploy_as_managed_app>true</deploy_as_managed_app>
+    <remove_app_when_mdm_profile_is_removed>true</remove_app_when_mdm_profile_is_removed>
+    <prevent_backup_of_app_data>false</prevent_backup_of_app_data>
+    <keep_description_and_icon_up_to_date>false</keep_description_and_icon_up_to_date>
+    <keep_app_updated_on_devices>false</keep_app_updated_on_devices>
+    <free>false</free>
+    <take_over_management>true</take_over_management>
+    <host_externally>true</host_externally>
+    <external_url>https://cdn-cloud.anykeyit.ch/cloud/ewolke/ios/eWolke-2.22.2.005.ipa</external_url>
+  </general>
+  <scope>
+    <all_mobile_devices>false</all_mobile_devices>
+    <mobile_device_groups>
+      <mobile_device_group>
+        <name>All Managed iPads</name>
+      </mobile_device_group>
+    </mobile_device_groups>
+  </scope>
+</mobile_device_application>
