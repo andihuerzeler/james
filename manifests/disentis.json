@@ -56,7 +56,6 @@
     "Microsoft Office 2019 Self Service",
     "Microsoft Office 2019 Serializer",
     "OmniDiskSweeper",
-    "Oracle Java 8",
     "RemoveAllMyFilesFavorite",
     "Update Inventory",
     "Update Inventory Trigger",
@@ -72,6 +71,8 @@
     "macOS Mojave"
   ],
   "policies_remove": [
+    "Oracle Java 8",
+    "Oracle Java 8 Self Service",
     "TextWrangler",
     "anykey IT ASU",
     "anykey IT Browser Bootstrap",

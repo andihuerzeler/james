@@ -74,7 +74,6 @@
     "Microsoft Office 2019 Serializer",
     "OmniDiskSweeper",
     "OneDrive",
-    "Oracle Java 8",
     "RemoveAllMyFilesFavorite",
     "Silhouette Studio",
     "Skitch",
@@ -97,6 +96,8 @@
   "policies_remove": [
     "Microsoft Office 2016",
     "Microsoft Office 2016 Self Service",
+    "Oracle Java 8",
+    "Oracle Java 8 Self Service",
     "TextWrangler",
     "anykey IT ASU",
     "anykey IT Browser Bootstrap",

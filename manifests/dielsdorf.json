@@ -68,7 +68,6 @@
     "Microsoft Office 2019",
     "Microsoft Office 2019 Self Service",
     "Microsoft Office 2019 Serializer",
-    "Oracle Java 8",
     "PDFsam Basic",
     "Purge Legacy Apple Apps",
     "RemoveAllMyFilesFavorite",
@@ -94,6 +93,8 @@
     "macOS Mojave"
   ],
   "policies_remove": [
+    "Oracle Java 8",
+    "Oracle Java 8 Self Service",
     "TextWrangler",
     "anykey IT ASU",
     "anykey IT Browser Bootstrap",

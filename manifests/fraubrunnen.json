@@ -74,7 +74,6 @@
     "Microsoft Office 2019 Serializer",
     "OmniDiskSweeper",
     "OmniDiskSweeper Self Service",
-    "Oracle Java 8",
     "RemoveAllMyFilesFavorite",
     "Skitch",
     "Skitch Self Service",
@@ -97,6 +96,8 @@
   ],
   "policies_remove": [
     "Google Earth",
+    "Oracle Java 8",
+    "Oracle Java 8 Self Service",
     "TextWrangler",
     "anykey IT ASU",
     "anykey IT Browser Bootstrap",

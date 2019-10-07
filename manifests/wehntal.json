@@ -9,6 +9,8 @@
   "policies_remove": [
     "Microsoft Office 2016 Serializer",
     "Microsoft Office 2019 Serializer",
+    "Oracle Java 8",
+    "Oracle Java 8 Self Service",
     "TextWrangler",
     "anyDesk Fernwartung",
     "anykey IT ASU",

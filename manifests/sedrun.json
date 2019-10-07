@@ -51,7 +51,6 @@
     "LehrerOffice",
     "LehrerOffice Zusatz",
     "Microsoft Office 2019",
-    "Oracle Java 8",
     "Purge Legacy Apple Apps",
     "Update Inventory",
     "Update Inventory Trigger",
@@ -70,6 +69,8 @@
   "policies_remove": [
     "Microsoft Office 2016 Serializer",
     "Microsoft Office 2019 Serializer",
+    "Oracle Java 8",
+    "Oracle Java 8 Self Service",
     "TextWrangler",
     "anykey IT ASU",
     "anykey IT Browser Bootstrap",

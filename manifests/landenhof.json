@@ -44,7 +44,6 @@
     "Enable ARD",
     "Firefox",
     "Google Chrome",
-    "Oracle Java 8",
     "RemoveAllMyFilesFavorite",
     "Update Inventory",
     "Update Inventory Trigger",
@@ -59,6 +58,8 @@
     "anykey IT jamfHelper"
   ],
   "policies_remove": [
+    "Oracle Java 8",
+    "Oracle Java 8 Self Service",
     "anykey IT ASU",
     "anykey IT Browser Bootstrap",
     "anykey IT Client Standards"

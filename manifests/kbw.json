@@ -58,7 +58,6 @@
     "Microsoft Office 2019",
     "Microsoft Teams Self Service",
     "OneDrive Self Service",
-    "Oracle Java 8",
     "Private Tax",
     "RemoveAllMyFilesFavorite",
     "Scratch Desktop",
@@ -80,6 +79,8 @@
   "policies_remove": [
     "Microsoft Office 2016 Serializer",
     "Microsoft Office 2019 Serializer",
+    "Oracle Java 8",
+    "Oracle Java 8 Self Service",
     "Scratch 2",
     "TextWrangler",
     "VLC",

@@ -85,8 +85,6 @@
     "Microsoft Office 2019 Serializer",
     "OmniDiskSweeper",
     "OmniDiskSweeper Self Service",
-    "Oracle Java 8",
-    "Oracle Java 8 Self Service",
     "Purge Legacy Apple Apps",
     "Purge Unmanaged Configuration Profiles",
     "RemoveAllMyFilesFavorite",
@@ -113,6 +111,8 @@
   "policies_remove": [
     "Lehreroffice Formular Designer",
     "OCCNCC2EWC",
+    "Oracle Java 8",
+    "Oracle Java 8 Self Service",
     "TextWrangler",
     "anykey IT ASU",
     "anykey IT Browser Bootstrap",
