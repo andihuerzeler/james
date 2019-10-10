@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<restricted_software>
+  <general>
+    <name>Install macOS Catalina.app</name>
+    <process_name>Install macOS Catalina.app</process_name>
+    <match_exact_process_name>false</match_exact_process_name>
+    <send_notification>false</send_notification>
+    <kill_process>true</kill_process>
+    <delete_executable>false</delete_executable>
+    <display_message>Die App 'Install macOS Catalina.app' wurde noch nicht freigegeben</display_message>
+  </general>
+  <scope>
+    <all_computers>true</all_computers>
+  </scope>
+</restricted_software>

@@ -24,6 +24,7 @@ find "james/manifests/"*.json | while read -r manifests; do
           "packages"
           "policies"
           "osxconfigurationprofiles"
+          "restrictedsoftware"
           "mobiledeviceextensionattributes"
           "mobiledevicegroups"
           "mobiledeviceapplications"
