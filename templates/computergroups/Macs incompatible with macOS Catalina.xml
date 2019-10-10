@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<computer_group>
+  <name>Macs incompatible with macOS Catalina</name>
+  <is_smart>true</is_smart>
+  <criteria>
+    <size>59</size>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>0</priority>
+      <and_or>and</and_or>
+      <search_type>is</search_type>
+      <value>MacBookPro4,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>1</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>MacPro2,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>2</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>MacBookPro5,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>3</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>MacBookPro1,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>4</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>MacBookPro5,3</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>5</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>MacBookPro5,2</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>6</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>iMac8,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>7</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>MacBookPro5,4</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>8</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>iMac5,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>9</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>iMac5,2</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>10</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>iMac6,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>11</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>MacBookPro3,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>12</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>MacBookPro1,2</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>13</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>iMac9,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>14</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>Macmini3,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>15</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>Macmini1,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>16</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>iMac4,2</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>17</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>MacBookPro2,2</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>18</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>MacBookPro2,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>19</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>MacBook3,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>20</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>MacBook5,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>21</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>MacBook5,2</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>22</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>MacBook2,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>23</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>iMac4,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>24</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>MacBook1,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>25</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>MacBookPro5,5</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>26</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>Xserve2,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>27</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>MacBookAir1,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>28</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>Xserve3,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>29</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>MacBookAir2,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>30</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>Xserve1,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>31</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>Macmini2,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>32</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>MacPro3,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>33</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>iMac7,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>34</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>MacBook4,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>35</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>MacPro1,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>36</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>MacPro4,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>37</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>MacBook6,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>38</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>MacBook7,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>39</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>MacBookPro7,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>40</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>MacBookPro6,2</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>41</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>MacBookPro6,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>42</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>MacBookPro8,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>43</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>MacBookPro8,2</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>44</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>MacBookPro8,3</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>45</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>MacBookAir3,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>46</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>MacBookAir3,2</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>47</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>MacBookAir4,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>48</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>MacBookAir4,2</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>49</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>Macmini4,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>50</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>Macmini5,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>51</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>Macmini5,2</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>52</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>Macmini5,3</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>53</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>iMac10,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>54</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>iMac11,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>55</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>iMac11,2</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>56</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>iMac11,3</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>57</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>iMac12,1</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+    <criterion>
+      <name>Model Identifier</name>
+      <priority>58</priority>
+      <and_or>or</and_or>
+      <search_type>is</search_type>
+      <value>iMac12,2</value>
+      <opening_paren>false</opening_paren>
+      <closing_paren>false</closing_paren>
+    </criterion>
+  </criteria>
+</computer_group>
