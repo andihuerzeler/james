@@ -1,5 +1,5 @@
 {
-  "url": "https://anver.amy.anykey.ch",
+  "url": "https://diessbach.amy.anykey.ch",
   "managed": "true",
   "categories": [
     "Applikationen",
@@ -30,51 +30,36 @@
     "Microsoft Office 2019 Installed",
     "Microsoft Office 2019 Not Installed"
   ],
-  "distributionpoints": [
-    "cdn-cloud.anykeyit.ch",
-    "cdn.anykeyit.ch"
-  ],
   "packages": [
-    "HewlettPackardEssentials.pkg.zip",
-    "HewlettPackardPrinterDrivers.pkg.zip",
+    "anykey IT Logo im jamfHelper.dmg",
+    "jsssr.pkg.zip",
     "Microsoft Office 2016.pkg.zip",
     "Microsoft Office 2019.pkg.zip",
-    "Microsoft_Office_2016_VL_Serializer_2.0.pkg.zip",
-    "Microsoft_Office_2019_VL_Serializer.pkg.zip",
-    "anykey IT Logo im jamfHelper.dmg",
-    "jsssr.pkg.zip"
-  ],
-  "scripts": [
-    "Dock Administrator"
+    "HewlettPackardPrinterDrivers.pkg.zip",
+    "HewlettPackardEssentials.pkg.zip"
   ],
   "policies": [
     "Assimilate Ownership",
-    "Audacity",
-    "Audacity Self Service",
     "Automatic Apple Software Update",
-    "Cache Latest macOS Installer",
+    "Enable ARD",
     "Firefox",
-    "Firefox Self Service",
-    "Microsoft AutoUpdate",
-    "Microsoft Office 2016 Serializer",
-    "Microsoft Office 2019",
-    "Microsoft Office 2019 Self Service",
-    "Microsoft Office 2019 Serializer",
-    "Oxford Learners Bookshelf",
-    "Oxford Learners Bookshelf Self Service",
+    "Google Chrome",
+    "RemoveAllMyFilesFavorite",
     "Update Inventory",
     "Update Inventory Trigger",
+    "VLC Player",
     "aa anykey IT jsssr",
     "anyDesk Fernwartung",
-    "anykey IT Client Logout",
+    "anykey IT Client Bootstrap",
     "anykey IT Client Security",
     "anykey IT Client Tools",
     "anykey IT Maintenance",
     "anykey IT anytmp",
-    "anykey IT jamfHelper",
-    "macOS Mojave"
+    "anykey IT jamfHelper"
   ],
   "policies_remove": [
+    "Microsoft Office 2016 Serializer",
+    "Microsoft Office 2019 Serializer",
     "Oracle Java 8",
     "Oracle Java 8 Self Service",
     "TextWrangler",
@@ -82,19 +67,6 @@
     "anykey IT Browser Bootstrap",
     "anykey IT Client Standards",
     "anykey IT Fernwartung",
-    "anykeyIT Fernwartung",
-    "macOS High Sierra"
-  ],
-  "osxconfigurationprofiles": [
-    "Microsoft Office 2016 Bootstrap",
-    "Microsoft Office 2016 Update",
-    "Microsoft Office 2019 Bootstrap",
-    "Microsoft Office 2019 Update",
-    "Privacy Preferences Policy Control com.apple.sessionlogoutd",
-    "anykey IT Client Bootstrap",
-    "anykey IT Client Localisation"
-  ],
-  "restrictedsoftware": [
-    "Install macOS Catalina.app"
+    "anykeyIT Fernwartung"
   ]
 }

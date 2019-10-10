@@ -1,5 +1,5 @@
 {
-  "url": "https://anver.amy.anykey.ch",
+  "url": "https://turbenthal.amy.anykey.ch",
   "managed": "true",
   "categories": [
     "Applikationen",
@@ -14,6 +14,15 @@
     "anyDesk ID"
   ],
   "computergroups": [
+    "Clients OS X 10.10",
+    "Clients OS X 10.10 greater than or equal",
+    "Clients OS X 10.10 less than or equal",
+    "Clients OS X 10.11",
+    "Clients OS X 10.11 greater than or equal",
+    "Clients OS X 10.11 less than or equal",
+    "Clients OS X 10.12",
+    "Clients OS X 10.12 greater than or equal",
+    "Clients OS X 10.12 less than or equal",
     "Clients OS X 10.13",
     "Clients OS X 10.13 greater than or equal",
     "Clients OS X 10.13 less than or equal",
@@ -23,16 +32,11 @@
     "Clients OS X 10.15",
     "Clients OS X 10.15 greater than or equal",
     "Clients OS X 10.15 less than or equal",
-    "Macs incompatible with macOS High Sierra",
     "Macs incompatible with macOS Mojave",
     "Microsoft Office 2016 Installed",
     "Microsoft Office 2016 Not Installed",
     "Microsoft Office 2019 Installed",
     "Microsoft Office 2019 Not Installed"
-  ],
-  "distributionpoints": [
-    "cdn-cloud.anykeyit.ch",
-    "cdn.anykeyit.ch"
   ],
   "packages": [
     "HewlettPackardEssentials.pkg.zip",
@@ -44,37 +48,54 @@
     "anykey IT Logo im jamfHelper.dmg",
     "jsssr.pkg.zip"
   ],
-  "scripts": [
-    "Dock Administrator"
-  ],
   "policies": [
+    "Adobe Acrobat Reader DC",
+    "Adobe Flash Player",
     "Assimilate Ownership",
-    "Audacity",
-    "Audacity Self Service",
     "Automatic Apple Software Update",
-    "Cache Latest macOS Installer",
+    "BBEdit",
+    "Burn",
+    "Cyberduck",
+    "Dropbox",
+    "Enable ARD",
+    "Evernote",
+    "FinanceMissionHeroes",
     "Firefox",
-    "Firefox Self Service",
+    "GeoGebra Classic 6",
+    "Google Chrome",
+    "Google Earth Pro",
+    "Intaglio",
+    "Krita",
+    "LehrerOffice",
     "Microsoft AutoUpdate",
     "Microsoft Office 2016 Serializer",
     "Microsoft Office 2019",
     "Microsoft Office 2019 Self Service",
     "Microsoft Office 2019 Serializer",
-    "Oxford Learners Bookshelf",
-    "Oxford Learners Bookshelf Self Service",
+    "OmniDiskSweeper",
+    "OneDrive",
+    "RemoveAllMyFilesFavorite",
+    "Silhouette Studio",
+    "Skitch",
+    "Skype",
+    "Sophia",
+    "Stellarium",
     "Update Inventory",
     "Update Inventory Trigger",
+    "VLC Player",
     "aa anykey IT jsssr",
     "anyDesk Fernwartung",
-    "anykey IT Client Logout",
+    "anykey IT Client Bootstrap",
     "anykey IT Client Security",
     "anykey IT Client Tools",
     "anykey IT Maintenance",
     "anykey IT anytmp",
     "anykey IT jamfHelper",
-    "macOS Mojave"
+    "eWolke Web"
   ],
   "policies_remove": [
+    "Microsoft Office 2016",
+    "Microsoft Office 2016 Self Service",
     "Oracle Java 8",
     "Oracle Java 8 Self Service",
     "TextWrangler",
@@ -82,19 +103,6 @@
     "anykey IT Browser Bootstrap",
     "anykey IT Client Standards",
     "anykey IT Fernwartung",
-    "anykeyIT Fernwartung",
-    "macOS High Sierra"
-  ],
-  "osxconfigurationprofiles": [
-    "Microsoft Office 2016 Bootstrap",
-    "Microsoft Office 2016 Update",
-    "Microsoft Office 2019 Bootstrap",
-    "Microsoft Office 2019 Update",
-    "Privacy Preferences Policy Control com.apple.sessionlogoutd",
-    "anykey IT Client Bootstrap",
-    "anykey IT Client Localisation"
-  ],
-  "restrictedsoftware": [
-    "Install macOS Catalina.app"
+    "anykeyIT Fernwartung"
   ]
 }

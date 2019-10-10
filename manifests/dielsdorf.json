@@ -1,5 +1,5 @@
 {
-  "url": "https://anver.amy.anykey.ch",
+  "url": "https://dielsdorf.amy.anykey.ch",
   "managed": "true",
   "categories": [
     "Applikationen",
@@ -23,55 +23,73 @@
     "Clients OS X 10.15",
     "Clients OS X 10.15 greater than or equal",
     "Clients OS X 10.15 less than or equal",
-    "Macs incompatible with macOS High Sierra",
     "Macs incompatible with macOS Mojave",
     "Microsoft Office 2016 Installed",
     "Microsoft Office 2016 Not Installed",
     "Microsoft Office 2019 Installed",
     "Microsoft Office 2019 Not Installed"
   ],
-  "distributionpoints": [
-    "cdn-cloud.anykeyit.ch",
-    "cdn.anykeyit.ch"
-  ],
   "packages": [
+    "Aseba.pkg.zip",
     "HewlettPackardEssentials.pkg.zip",
     "HewlettPackardPrinterDrivers.pkg.zip",
+    "Lernprogramme Ordner.dmg",
     "Microsoft Office 2016.pkg.zip",
     "Microsoft Office 2019.pkg.zip",
     "Microsoft_Office_2016_VL_Serializer_2.0.pkg.zip",
     "Microsoft_Office_2019_VL_Serializer.pkg.zip",
+    "SDP-850DX Viewer.pkg.zip",
+    "Schweizer Weltatlas.pkg.zip",
+    "SketchUp 2017.pkg.zip",
+    "TigerJython.pkg.zip",
     "anykey IT Logo im jamfHelper.dmg",
     "jsssr.pkg.zip"
   ],
-  "scripts": [
-    "Dock Administrator"
-  ],
   "policies": [
+    "Adobe Acrobat Reader DC",
+    "Adobe Flash Player",
+    "Aseba",
     "Assimilate Ownership",
     "Audacity",
-    "Audacity Self Service",
     "Automatic Apple Software Update",
-    "Cache Latest macOS Installer",
+    "Cyberduck",
+    "EasyFind",
+    "Enable ARD",
     "Firefox",
-    "Firefox Self Service",
+    "FreeMind",
+    "GIMP",
+    "Google Chrome",
+    "Google Earth Pro",
+    "LehrerOffice",
+    "LehrerOffice Self Service",
+    "Lernprogramme Ordner",
     "Microsoft AutoUpdate",
     "Microsoft Office 2016 Serializer",
     "Microsoft Office 2019",
     "Microsoft Office 2019 Self Service",
     "Microsoft Office 2019 Serializer",
-    "Oxford Learners Bookshelf",
-    "Oxford Learners Bookshelf Self Service",
+    "PDFsam Basic",
+    "Purge Legacy Apple Apps",
+    "RemoveAllMyFilesFavorite",
+    "SDP-850DX Viewer",
+    "Schweizer Weltatlas",
+    "SketchUp 2017",
+    "Skype",
+    "TNEF's Enough",
+    "The Unarchiver",
+    "TigerJython",
     "Update Inventory",
     "Update Inventory Trigger",
+    "VLC Player",
     "aa anykey IT jsssr",
     "anyDesk Fernwartung",
-    "anykey IT Client Logout",
+    "anykey IT Client Bootstrap",
     "anykey IT Client Security",
     "anykey IT Client Tools",
     "anykey IT Maintenance",
     "anykey IT anytmp",
     "anykey IT jamfHelper",
+    "eWolke Web",
     "macOS Mojave"
   ],
   "policies_remove": [
@@ -82,19 +100,6 @@
     "anykey IT Browser Bootstrap",
     "anykey IT Client Standards",
     "anykey IT Fernwartung",
-    "anykeyIT Fernwartung",
-    "macOS High Sierra"
-  ],
-  "osxconfigurationprofiles": [
-    "Microsoft Office 2016 Bootstrap",
-    "Microsoft Office 2016 Update",
-    "Microsoft Office 2019 Bootstrap",
-    "Microsoft Office 2019 Update",
-    "Privacy Preferences Policy Control com.apple.sessionlogoutd",
-    "anykey IT Client Bootstrap",
-    "anykey IT Client Localisation"
-  ],
-  "restrictedsoftware": [
-    "Install macOS Catalina.app"
+    "anykeyIT Fernwartung"
   ]
 }

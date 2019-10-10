@@ -1,5 +1,5 @@
 {
-  "url": "https://anver.amy.anykey.ch",
+  "url": "https://fraubrunnen.amy.anykey.ch",
   "managed": "true",
   "categories": [
     "Applikationen",
@@ -30,10 +30,6 @@
     "Microsoft Office 2019 Installed",
     "Microsoft Office 2019 Not Installed"
   ],
-  "distributionpoints": [
-    "cdn-cloud.anykeyit.ch",
-    "cdn.anykeyit.ch"
-  ],
   "packages": [
     "HewlettPackardEssentials.pkg.zip",
     "HewlettPackardPrinterDrivers.pkg.zip",
@@ -44,37 +40,62 @@
     "anykey IT Logo im jamfHelper.dmg",
     "jsssr.pkg.zip"
   ],
-  "scripts": [
-    "Dock Administrator"
-  ],
   "policies": [
+    "Adobe Acrobat Reader DC",
+    "Adobe Acrobat Reader DC Self Service",
+    "Adobe Flash Player",
     "Assimilate Ownership",
     "Audacity",
     "Audacity Self Service",
     "Automatic Apple Software Update",
-    "Cache Latest macOS Installer",
+    "BBEdit",
+    "BBEdit Self Service",
+    "ClipGrab",
+    "ClipGrab Self Service",
+    "Cyberduck",
+    "Cyberduck Self Service",
+    "Dropbox",
+    "Dropbox Self Service",
+    "Enable ARD",
     "Firefox",
     "Firefox Self Service",
+    "GIMP",
+    "GIMP Self Service",
+    "Google Chrome",
+    "Google Chrome Self Service",
+    "Google Earth Pro",
+    "Google Earth Pro Self Service",
+    "LehrerOffice",
+    "LehrerOffice Self Service",
     "Microsoft AutoUpdate",
+    "Microsoft Office 2016",
+    "Microsoft Office 2016 Self Service",
     "Microsoft Office 2016 Serializer",
-    "Microsoft Office 2019",
-    "Microsoft Office 2019 Self Service",
     "Microsoft Office 2019 Serializer",
-    "Oxford Learners Bookshelf",
-    "Oxford Learners Bookshelf Self Service",
+    "OmniDiskSweeper",
+    "OmniDiskSweeper Self Service",
+    "RemoveAllMyFilesFavorite",
+    "Skitch",
+    "Skitch Self Service",
+    "Skype",
+    "Skype Self Service",
     "Update Inventory",
     "Update Inventory Trigger",
+    "VLC Player",
+    "VLC Player Self Service",
     "aa anykey IT jsssr",
     "anyDesk Fernwartung",
-    "anykey IT Client Logout",
+    "anykey IT Client Bootstrap",
     "anykey IT Client Security",
     "anykey IT Client Tools",
     "anykey IT Maintenance",
     "anykey IT anytmp",
     "anykey IT jamfHelper",
-    "macOS Mojave"
+    "eWolke Web",
+    "eWolke Web Self Service"
   ],
   "policies_remove": [
+    "Google Earth",
     "Oracle Java 8",
     "Oracle Java 8 Self Service",
     "TextWrangler",
@@ -82,19 +103,6 @@
     "anykey IT Browser Bootstrap",
     "anykey IT Client Standards",
     "anykey IT Fernwartung",
-    "anykeyIT Fernwartung",
-    "macOS High Sierra"
-  ],
-  "osxconfigurationprofiles": [
-    "Microsoft Office 2016 Bootstrap",
-    "Microsoft Office 2016 Update",
-    "Microsoft Office 2019 Bootstrap",
-    "Microsoft Office 2019 Update",
-    "Privacy Preferences Policy Control com.apple.sessionlogoutd",
-    "anykey IT Client Bootstrap",
-    "anykey IT Client Localisation"
-  ],
-  "restrictedsoftware": [
-    "Install macOS Catalina.app"
+    "anykeyIT Fernwartung"
   ]
 }

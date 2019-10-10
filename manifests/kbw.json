@@ -1,5 +1,5 @@
 {
-  "url": "https://anver.amy.anykey.ch",
+  "url": "https://kbw.amy.anykey.ch",
   "managed": "true",
   "categories": [
     "Applikationen",
@@ -23,78 +23,71 @@
     "Clients OS X 10.15",
     "Clients OS X 10.15 greater than or equal",
     "Clients OS X 10.15 less than or equal",
-    "Macs incompatible with macOS High Sierra",
     "Macs incompatible with macOS Mojave",
     "Microsoft Office 2016 Installed",
     "Microsoft Office 2016 Not Installed",
     "Microsoft Office 2019 Installed",
     "Microsoft Office 2019 Not Installed"
   ],
-  "distributionpoints": [
-    "cdn-cloud.anykeyit.ch",
-    "cdn.anykeyit.ch"
-  ],
   "packages": [
-    "HewlettPackardEssentials.pkg.zip",
-    "HewlettPackardPrinterDrivers.pkg.zip",
+    "anykey IT Logo im jamfHelper.dmg",
+    "jsssr.pkg.zip",
     "Microsoft Office 2016.pkg.zip",
     "Microsoft Office 2019.pkg.zip",
-    "Microsoft_Office_2016_VL_Serializer_2.0.pkg.zip",
-    "Microsoft_Office_2019_VL_Serializer.pkg.zip",
-    "anykey IT Logo im jamfHelper.dmg",
-    "jsssr.pkg.zip"
-  ],
-  "scripts": [
-    "Dock Administrator"
+    "HewlettPackardPrinterDrivers.pkg.zip",
+    "HewlettPackardEssentials.pkg.zip"
   ],
   "policies": [
+    "Adobe Acrobat Reader DC",
+    "Adobe Flash Player",
+    "AdoptOpenJDK 8",
+    "Apple Command Line Tools",
+    "Arduino",
     "Assimilate Ownership",
     "Audacity",
-    "Audacity Self Service",
     "Automatic Apple Software Update",
-    "Cache Latest macOS Installer",
+    "Brackets",
+    "Cyberduck",
+    "EasyFind",
+    "Enable ARD",
     "Firefox",
-    "Firefox Self Service",
-    "Microsoft AutoUpdate",
-    "Microsoft Office 2016 Serializer",
+    "Google Chrome",
+    "Google Chrome Self Service",
+    "Google Earth Pro",
+    "Hewlett Packard Printer Drivers",
     "Microsoft Office 2019",
-    "Microsoft Office 2019 Self Service",
-    "Microsoft Office 2019 Serializer",
-    "Oxford Learners Bookshelf",
-    "Oxford Learners Bookshelf Self Service",
+    "Microsoft Teams Self Service",
+    "OneDrive Self Service",
+    "Private Tax",
+    "RemoveAllMyFilesFavorite",
+    "Scratch Desktop",
+    "Stellarium",
+    "TIPP10",
     "Update Inventory",
     "Update Inventory Trigger",
+    "VLC Player",
+    "Zotero",
     "aa anykey IT jsssr",
     "anyDesk Fernwartung",
-    "anykey IT Client Logout",
+    "anykey IT Client Bootstrap",
     "anykey IT Client Security",
     "anykey IT Client Tools",
     "anykey IT Maintenance",
     "anykey IT anytmp",
-    "anykey IT jamfHelper",
-    "macOS Mojave"
+    "anykey IT jamfHelper"
   ],
   "policies_remove": [
+    "Microsoft Office 2016 Serializer",
+    "Microsoft Office 2019 Serializer",
     "Oracle Java 8",
     "Oracle Java 8 Self Service",
+    "Scratch 2",
     "TextWrangler",
+    "VLC",
     "anykey IT ASU",
     "anykey IT Browser Bootstrap",
     "anykey IT Client Standards",
     "anykey IT Fernwartung",
-    "anykeyIT Fernwartung",
-    "macOS High Sierra"
-  ],
-  "osxconfigurationprofiles": [
-    "Microsoft Office 2016 Bootstrap",
-    "Microsoft Office 2016 Update",
-    "Microsoft Office 2019 Bootstrap",
-    "Microsoft Office 2019 Update",
-    "Privacy Preferences Policy Control com.apple.sessionlogoutd",
-    "anykey IT Client Bootstrap",
-    "anykey IT Client Localisation"
-  ],
-  "restrictedsoftware": [
-    "Install macOS Catalina.app"
+    "anykeyIT Fernwartung"
   ]
 }
