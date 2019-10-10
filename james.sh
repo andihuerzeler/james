@@ -17,7 +17,19 @@ find "james/manifests/"*.json | while read -r manifests; do
 
         echo "==> JPS '${jps}' is available and health check passed"
 
-        ls -d "james/templates/"* | while read -r templates; do
+        endpoint_list=(
+          "categories"
+          "computerextensionattributes"
+          "computergroups"
+          "packages"
+          "policies"
+          "osxconfigurationprofiles"
+          "mobiledeviceextensionattributes"
+          "mobiledevicegroups"
+          "mobiledeviceapplications"
+        )
+
+        for endpoint in "${endpoint_list[@]}"; do
 
           for elements in $(jq --arg t "policies_remove" '.[$t] | length' "${manifests}"); do
             elements=$((elements - 1))
@@ -31,20 +43,18 @@ find "james/manifests/"*.json | while read -r manifests; do
             done
           done
 
-          templates=$(basename "${templates}")
-          templates_purged=$(basename "${templates}" | cut -c 4-)
-          echo "==> Process resource '${templates_purged}'"
+          echo "==> Process resource '${endpoint}'"
 
-          for elements in $(jq --arg t "${templates_purged}" '.[$t] | length' "${manifests}"); do
+          for elements in $(jq --arg t "${endpoint}" '.[$t] | length' "${manifests}"); do
             elements=$((elements - 1))
             for n in $(seq 0 "$elements"); do
-              object=$(jq -r --arg t "${templates_purged}" --arg n "${n}" '.[$t][$n | tonumber]' "${manifests}")
+              object=$(jq -r --arg t "${endpoint}" --arg n "${n}" '.[$t][$n | tonumber]' "${manifests}")
               object_purged="${object// /%20}"
-              if [ "$(curl -sL -H "Authorization: Basic ${credentials}" -w "%{http_code}" "${jps}/JSSResource/${templates_purged}/name/${object_purged}" -o /dev/null)" == "200" ]; then
-                if [ -s "james/templates/${templates}/${object}.xml" ]; then
+              if [ "$(curl -sL -H "Authorization: Basic ${credentials}" -w "%{http_code}" "${jps}/JSSResource/${endpoint}/name/${object_purged}" -o /dev/null)" == "200" ]; then
+                if [ -s "james/templates/${endpoint}/${object}.xml" ]; then
 
-                  echo "[$n] Update resource '${templates_purged}/${object}' on '${jps_purged}'"
-                  curl -s -w "\n" -S -H "Authorization: Basic ${credentials}" -H "Content-Type: application/xml" -T "james/templates/${templates}/${object}.xml" "${jps}/JSSResource/${templates_purged}/name/${object_purged}" -X PUT
+                  echo "[$n] Update resource '${endpoint}/${object}' on '${jps_purged}'"
+                  curl -s -w "\n" -S -H "Authorization: Basic ${credentials}" -H "Content-Type: application/xml" -T "james/templates/${endpoint}/${object}.xml" "${jps}/JSSResource/${endpoint}/name/${object_purged}" -X PUT
 
                   if [ -s "james/icons/${object/ Self Service/}.png" ]; then
                     icon="james/icons/${object/ Self Service/}.png"
@@ -56,11 +66,11 @@ find "james/manifests/"*.json | while read -r manifests; do
                   fi
 
                 fi
-              elif [ "$(curl -sL -H "Authorization: Basic ${credentials}" -w "%{http_code}" "${jps}/JSSResource/${templates_purged}/name/${object_purged}" -o /dev/null)" == "404" ]; then
-                if [ -s "james/templates/${templates}/${object}.xml" ]; then
+              elif [ "$(curl -sL -H "Authorization: Basic ${credentials}" -w "%{http_code}" "${jps}/JSSResource/${endpoint}/name/${object_purged}" -o /dev/null)" == "404" ]; then
+                if [ -s "james/templates/${endpoint}/${object}.xml" ]; then
 
-                  echo "[$n] Add resource '${templates_purged}/${object}' on '${jps_purged}'"
-                  curl -s -w "\n" -S -H "Authorization: Basic ${credentials}" -H "Content-Type: application/xml" -T "james/templates/${templates}/${object}.xml" "${jps}/JSSResource/${templates_purged}/id/0" -X POST
+                  echo "[$n] Add resource '${endpoint}/${object}' on '${jps_purged}'"
+                  curl -s -w "\n" -S -H "Authorization: Basic ${credentials}" -H "Content-Type: application/xml" -T "james/templates/${endpoint}/${object}.xml" "${jps}/JSSResource/${endpoint}/id/0" -X POST
 
                   if [ -s "james/icons/${object/ Self Service/}.png" ]; then
                     icon="james/icons/${object/ Self Service/}.png"
