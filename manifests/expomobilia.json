@@ -8,6 +8,7 @@
   ],
   "policies": [
     "Automatic Apple Software Update",
+    "Ignore macOS Catalina Update",
     "Update Inventory",
     "Update Inventory Trigger"
   ],
@@ -25,5 +26,8 @@
     "anykey IT ASU",
     "anykey IT Browser Bootstrap",
     "anykey IT Client Standards"
+  ],
+  "restrictedsoftware": [
+    "Install macOS Catalina.app"
   ]
 }
