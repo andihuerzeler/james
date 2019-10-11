@@ -67,9 +67,9 @@
     "anykey IT Client Tools",
     "anykey IT Maintenance",
     "anykey IT anytmp",
-    "anykey IT jamfHelper"
-    "Microsoft Office 2019"
-    "Microsoft Office 2019 Serializer"
+    "anykey IT jamfHelper",
+    "Microsoft Office 2019",
+    "Microsoft Office 2019 Serializer",
     "Microsoft Office 2019 Self Service"
   ],
   "policies_remove": [
