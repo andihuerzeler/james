@@ -2,7 +2,7 @@
 <policy>
   <general>
     <name>Adobe Acrobat Reader DC Self Service</name>
-    <enabled>false</enabled>
+    <enabled>true</enabled>
     <trigger>USER_INITIATED</trigger>
     <frequency>Ongoing</frequency>
     <offline>false</offline>
