@@ -69,7 +69,6 @@ update_manifest() {
     "computergroups"
     "packages"
     "policies"
-    "osxconfigurationprofiles"
     "restrictedsoftware"
     "policies_remove"
     "mobiledeviceextensionattributes"
