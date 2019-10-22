@@ -124,6 +124,7 @@
     "ifolor Designer",
     "ifolor Mac Designer",
     "ifolor Mac Designer Self Service",
+    "macOS High Sierra",
     "macOS Mojave"
   ],
   "policies_remove": [
@@ -153,7 +154,6 @@
     "anykeyIT Fernwartung",
     "eWolke",
     "eWolke Client",
-    "macOS High Sierra",
     "macOS Sierra"
   ]
 }
