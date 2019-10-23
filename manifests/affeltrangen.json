@@ -46,6 +46,8 @@
     "Automatic Apple Software Update",
     "Brother CanvasWorkspace",
     "Brother CanvasWorkspace Self Service",
+    "Citrix Workspace",
+    "Citrix Workspace Self Service",
     "ClipGrab",
     "Comic Life 3",
     "Cyberduck",
@@ -87,6 +89,8 @@
     "macOS Mojave"
   ],
   "policies_remove": [
+    "Citrix Receiver",
+    "Citrix Receiver Self Service",
     "Google Earth",
     "LehrerOffice Formular Designer",
     "OCCNCC2EWC",
