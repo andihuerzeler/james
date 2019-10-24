@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <policy>
   <general>
-    <name>A Better Finder Rename 10</name>
+    <name>A Better Finder Rename 11</name>
     <enabled>true</enabled>
     <trigger>EVENT</trigger>
     <trigger_checkin>true</trigger_checkin>

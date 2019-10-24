@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <policy>
   <general>
-    <name>A Better Finder Rename 10 Self Service</name>
+    <name>A Better Finder Rename 11 Self Service</name>
     <enabled>true</enabled>
     <trigger>USER_INITIATED</trigger>
     <frequency>Ongoing</frequency>
@@ -15,7 +15,7 @@
   </scope>
   <self_service>
     <use_for_self_service>true</use_for_self_service>
-    <self_service_display_name>A Better Finder Rename 10</self_service_display_name>
+    <self_service_display_name>A Better Finder Rename 11</self_service_display_name>
     <install_button_text>Installieren</install_button_text>
     <reinstall_button_text>Installieren</reinstall_button_text>
     <self_service_categories/>
