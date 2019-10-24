@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <policy>
   <general>
-    <name>TeamViewerQS Self Service</name>
+    <name>Comic Life 2 Self Service</name>
     <enabled>true</enabled>
     <trigger>USER_INITIATED</trigger>
     <frequency>Ongoing</frequency>
@@ -15,7 +15,7 @@
   </scope>
   <self_service>
     <use_for_self_service>true</use_for_self_service>
-    <self_service_display_name>TeamViewerQS</self_service_display_name>
+    <self_service_display_name>Comic Life 2</self_service_display_name>
     <install_button_text>Installieren</install_button_text>
     <reinstall_button_text>Installieren</reinstall_button_text>
     <self_service_categories/>
@@ -26,6 +26,6 @@
     </packages>
   </package_configuration>
   <files_processes>
-    <run_command>/usr/local/bin/aky teamviewerqs &amp;&amp; open "/Applications/TeamViewerQS.app"</run_command>
+    <run_command>/usr/local/bin/aky comiclife2</run_command>
   </files_processes>
 </policy>
