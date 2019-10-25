@@ -1,0 +1,52 @@
+{
+  "url": "https://solothurn.amy.anykey.ch",
+  "managed": "false",
+  "categories": [
+    "Applikationen",
+    "Drucker",
+    "Kundenanpassungen",
+    "Self Service",
+    "anykey IT"
+  ],
+  "computerextensionattributes": [
+    "Microsoft Office Version",
+    "anyDesk ID"
+  ],
+  "computergroups": [
+    "Microsoft Office Version"
+  ],
+  "packages": [
+    "HewlettPackardEssentials.pkg.zip",
+    "HewlettPackardPrinterDrivers.pkg.zip",
+    "Microsoft Office 2016.pkg.zip",
+    "Microsoft Office 2019.pkg.zip",
+    "jsssr.pkg.zip"
+  ],
+  "policies": [
+    "Assimilate Ownership",
+    "Enable ARD",
+    "Firefox",
+    "Google Chrome",
+    "Oracle Java 8",
+    "RemoveAllMyFilesFavorite",
+    "Update Inventory",
+    "Update Inventory Trigger",
+    "VLC Player",
+    "aa anykey IT jsssr",
+    "anyDesk Fernwartung",
+    "anykey IT Client Bootstrap",
+    "anykey IT Client Security",
+    "anykey IT Client Tools",
+    "anykey IT Maintenance",
+    "anykey IT anytmp",
+    "anykey IT jamfHelper"
+  ],
+  "policies_remove": [
+    "Microsoft Office 2016 Serializer",
+    "Microsoft Office 2019 Serializer",
+    "TextWrangler",
+    "anykey IT Client Standards",
+    "anykey IT Fernwartung",
+    "anykeyIT Fernwartung"
+  ]
+}

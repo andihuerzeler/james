@@ -1,0 +1,103 @@
+{
+  "url": "https://anver.amy.anykey.ch",
+  "settings": "true",
+  "managed": "true",
+  "categories": [
+    "Applikationen",
+    "Drucker",
+    "Kundenanpassungen",
+    "Self Service",
+    "anykey IT"
+  ],
+  "computerextensionattributes": [
+    "Current SSID",
+    "Microsoft Office Version",
+    "anyDesk ID"
+  ],
+  "computergroups": [
+    "Clients OS X 10.13",
+    "Clients OS X 10.13 greater than or equal",
+    "Clients OS X 10.13 less than or equal",
+    "Clients OS X 10.14",
+    "Clients OS X 10.14 greater than or equal",
+    "Clients OS X 10.14 less than or equal",
+    "Clients OS X 10.15",
+    "Clients OS X 10.15 greater than or equal",
+    "Clients OS X 10.15 less than or equal",
+    "Macs incompatible with macOS Catalina",
+    "Macs incompatible with macOS High Sierra",
+    "Macs incompatible with macOS Mojave",
+    "Microsoft Office 2016 Installed",
+    "Microsoft Office 2016 Not Installed",
+    "Microsoft Office 2019 Installed",
+    "Microsoft Office 2019 Not Installed"
+  ],
+  "distributionpoints": [
+    "cdn-cloud.anykeyit.ch",
+    "cdn.anykeyit.ch"
+  ],
+  "packages": [
+    "HewlettPackardEssentials.pkg.zip",
+    "HewlettPackardPrinterDrivers.pkg.zip",
+    "Microsoft Office 2016.pkg.zip",
+    "Microsoft Office 2019.pkg.zip",
+    "Microsoft_Office_2016_VL_Serializer_2.0.pkg.zip",
+    "Microsoft_Office_2019_VL_Serializer.pkg.zip",
+    "anykey IT Logo im jamfHelper.dmg",
+    "jsssr.pkg.zip"
+  ],
+  "scripts": [
+    "Dock Administrator"
+  ],
+  "policies": [
+    "Assimilate Ownership",
+    "Audacity",
+    "Audacity Self Service",
+    "Automatic Apple Software Update",
+    "Cache Latest macOS Installer",
+    "Firefox",
+    "Firefox Self Service",
+    "Microsoft AutoUpdate",
+    "Microsoft Office 2016 Serializer",
+    "Microsoft Office 2019",
+    "Microsoft Office 2019 Self Service",
+    "Microsoft Office 2019 Serializer",
+    "Oxford Learners Bookshelf",
+    "Oxford Learners Bookshelf Self Service",
+    "Update Inventory",
+    "Update Inventory Trigger",
+    "aa anykey IT jsssr",
+    "anyDesk Fernwartung",
+    "anykey IT Client Logout",
+    "anykey IT Client Security",
+    "anykey IT Client Tools",
+    "anykey IT Maintenance",
+    "anykey IT anytmp",
+    "anykey IT jamfHelper",
+    "macOS Catalina"
+  ],
+  "policies_remove": [
+    "Oracle Java 8",
+    "Oracle Java 8 Self Service",
+    "TextWrangler",
+    "anykey IT ASU",
+    "anykey IT Browser Bootstrap",
+    "anykey IT Client Standards",
+    "anykey IT Fernwartung",
+    "anykeyIT Fernwartung",
+    "macOS High Sierra",
+    "macOS Mojave"
+  ],
+  "osxconfigurationprofiles": [
+    "Microsoft Office 2016 Bootstrap",
+    "Microsoft Office 2016 Update",
+    "Microsoft Office 2019 Bootstrap",
+    "Microsoft Office 2019 Update",
+    "Privacy Preferences Policy Control com.apple.sessionlogoutd",
+    "anykey IT Client Bootstrap",
+    "anykey IT Client Localisation"
+  ],
+  "restrictedsoftware": [
+    "Install macOS Catalina.app"
+  ]
+}
