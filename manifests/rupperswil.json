@@ -88,7 +88,7 @@
     "anykey IT Maintenance",
     "anykey IT anytmp",
     "anykey IT jamfHelper",
-    "macOS High Sierra"
+    "macOS Mojave"
   ],
   "policies_remove": [
     "Google Earth",
@@ -106,6 +106,7 @@
     "anykey IT Browser Bootstrap",
     "anykey IT Client Standards",
     "anykey IT Fernwartung",
-    "anykeyIT Fernwartung"
+    "anykeyIT Fernwartung",
+    "macOS High Sierra"
   ]
 }
