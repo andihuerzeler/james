@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policy>
+  <general>
+    <name>Microsoft Office 2019 Retail</name>
+    <enabled>true</enabled>
+    <trigger>EVENT</trigger>
+    <trigger_checkin>true</trigger_checkin>
+    <trigger_enrollment_complete>true</trigger_enrollment_complete>
+    <frequency>Once every day</frequency>
+    <category>
+      <name>Applikationen</name>
+    </category>
+  </general>
+  <scope>
+    <all_computers>true</all_computers>
+    <exclusions>
+      <computers/>
+      <computer_groups>
+        <computer_group>
+          <name>Microsoft Office 2019 Installed</name>
+        </computer_group>
+      </computer_groups>
+    </exclusions>
+  </scope>
+  <self_service>
+    <use_for_self_service>false</use_for_self_service>
+  </self_service>
+  <package_configuration>
+    <packages>
+      <package>
+        <name>Microsoft Office 2019 Retail.pkg.zip</name>
+        <action>Install</action>
+      </package>
+    </packages>
+  </package_configuration>
+  <maintenance>
+    <recon>true</recon>
+    <reset_name>true</reset_name>
+    <install_all_cached_packages>false</install_all_cached_packages>
+    <heal>false</heal>
+    <prebindings>false</prebindings>
+    <permissions>false</permissions>
+    <byhost>false</byhost>
+    <system_cache>false</system_cache>
+    <user_cache>false</user_cache>
+    <verify>false</verify>
+  </maintenance>
+</policy>

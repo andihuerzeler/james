@@ -96,8 +96,5 @@
     "Privacy Preferences Policy Control com.apple.sessionlogoutd",
     "anykey IT Client Bootstrap",
     "anykey IT Client Localisation"
-  ],
-  "restrictedsoftware": [
-    "Install macOS Catalina.app"
   ]
 }
