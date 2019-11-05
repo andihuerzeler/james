@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <policy>
   <general>
-    <name>Merlin Project 5 Self Service</name>
+    <name>Merlin Project 6 Self Service</name>
     <enabled>true</enabled>
     <trigger>USER_INITIATED</trigger>
     <frequency>Ongoing</frequency>
@@ -15,7 +15,7 @@
   </scope>
   <self_service>
     <use_for_self_service>true</use_for_self_service>
-    <self_service_display_name>Merlin Project 5</self_service_display_name>
+    <self_service_display_name>Merlin Project 6</self_service_display_name>
     <install_button_text>Installieren</install_button_text>
     <reinstall_button_text>Installieren</reinstall_button_text>
     <self_service_categories/>
