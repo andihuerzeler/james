@@ -3,9 +3,9 @@
   <general>
     <name>Cache Latest macOS Installer</name>
     <enabled>true</enabled>
-    <trigger>EVENT</trigger>
+    <trigger>CHECKIN</trigger>
     <trigger_checkin>true</trigger_checkin>
-    <frequency>Once every day</frequency>
+    <frequency>Once per computer</frequency>
     <category>
       <name>anykey IT</name>
     </category>
