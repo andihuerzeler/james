@@ -11,6 +11,7 @@
   "computerextensionattributes": [
     "Current SSID",
     "Microsoft Office Version",
+    "Public IP Address",
     "anyDesk ID"
   ],
   "computergroups": [
