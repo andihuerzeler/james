@@ -11,6 +11,7 @@
   "computerextensionattributes": [
     "Current SSID",
     "Microsoft Office Version",
+    "Public IP Address",
     "anyDesk ID"
   ],
   "computergroups": [
@@ -32,6 +33,8 @@
     "Clients OS X 10.15",
     "Clients OS X 10.15 greater than or equal",
     "Clients OS X 10.15 less than or equal",
+    "Macs incompatible with macOS Catalina",
+    "Macs incompatible with macOS High Sierra",
     "Macs incompatible with macOS Mojave",
     "Microsoft Office 2016 Installed",
     "Microsoft Office 2016 Not Installed",
@@ -39,25 +42,52 @@
     "Microsoft Office 2019 Not Installed"
   ],
   "packages": [
-    "anykey IT Logo im jamfHelper.dmg",
-    "jsssr.pkg.zip",
+    "HewlettPackardEssentials.pkg.zip",
+    "HewlettPackardPrinterDrivers.pkg.zip",
+    "Lernprogramme Ordner.dmg",
     "Microsoft Office 2016.pkg.zip",
     "Microsoft Office 2019.pkg.zip",
-    "HewlettPackardPrinterDrivers.pkg.zip",
-    "HewlettPackardEssentials.pkg.zip"
+    "Microsoft_Office_2016_VL_Serializer_2.0.pkg.zip",
+    "Microsoft_Office_2019_VL_Serializer.pkg.zip",
+    "anykey IT Logo im jamfHelper.dmg",
+    "jsssr.pkg.zip"
   ],
   "policies": [
     "Adobe Acrobat Reader DC",
+    "Adobe Acrobat Reader DC Self Service",
     "Adobe Flash Player",
     "Assimilate Ownership",
     "Automatic Apple Software Update",
+    "Cyberduck",
+    "Cyberduck Self Service",
     "Enable ARD",
+    "Evernote",
+    "Evernote Self Service",
     "Firefox",
+    "Firefox Self Service",
+    "Formular-Designer",
+    "Formular-Designer Self Service",
     "Google Chrome",
+    "Google Chrome Self Service",
+    "Google Earth Pro",
+    "Google Earth Pro Self Service",
+    "LehrerOffice",
+    "LehrerOffice Self Service",
+    "LehrerOffice Zusatz",
+    "LehrerOffice Zusatz Self Service",
+    "Microsoft AutoUpdate",
+    "Microsoft Office 2019",
+    "Microsoft Office 2019 Self Service",
+    "Microsoft Office 2019 Serializer",
+    "OmniDiskSweeper",
+    "OmniDiskSweeper Self Service",
     "RemoveAllMyFilesFavorite",
+    "Skitch",
+    "Skitch Self Service",
     "Update Inventory",
     "Update Inventory Trigger",
     "VLC Player",
+    "VLC Player Self Service",
     "aa anykey IT jsssr",
     "anyDesk Fernwartung",
     "anykey IT Client Bootstrap",
@@ -65,11 +95,16 @@
     "anykey IT Client Tools",
     "anykey IT Maintenance",
     "anykey IT anytmp",
-    "anykey IT jamfHelper"
+    "anykey IT jamfHelper",
+    "eWolke Web",
+    "eWolke Web Self Service",
+    "macOS Mojave"
   ],
   "policies_remove": [
+    "Google Earth",
+    "Microsoft Office 2016",
+    "Microsoft Office 2016 Self Service",
     "Microsoft Office 2016 Serializer",
-    "Microsoft Office 2019 Serializer",
     "Oracle Java 8",
     "Oracle Java 8 Self Service",
     "TextWrangler",
@@ -77,6 +112,8 @@
     "anykey IT Browser Bootstrap",
     "anykey IT Client Standards",
     "anykey IT Fernwartung",
-    "anykeyIT Fernwartung"
+    "anykeyIT Fernwartung",
+    "eWolke",
+    "eWolke Client"
   ]
 }
