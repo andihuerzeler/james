@@ -49,6 +49,7 @@
     "jsssr.pkg.zip"
   ],
   "policies": [
+    "Adobe AIR",
     "Adobe Acrobat Reader DC",
     "Adobe Flash Player",
     "Assimilate Ownership",
