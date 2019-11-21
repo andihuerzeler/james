@@ -58,7 +58,7 @@ find "james/manifests/"*.json | while read -r manifests; do
 
                   if [ "${endpoint}" = "osxconfigurationprofiles" ]; then
                     existing_uuid=$(curl -s -w "\n" -S -H "Authorization: Basic ${credentials}" -H "Content-Type: application/xml" -X GET "${jps}/JSSResource/${endpoint}/name/${object_purged}" | xmllint --xpath "/os_x_configuration_profile/general/uuid/text()" -)
-                    xml ed -i "/os_x_configuration_profile/general/redeploy_on_update" -t elem -n uuid -v "${existing_uuid}" "/tmp/${object}.xml" | sponge "/tmp/${object}.xml"
+                    xmlstarlet ed -i "/os_x_configuration_profile/general/redeploy_on_update" -t elem -n uuid -v "${existing_uuid}" "/tmp/${object}.xml" | sponge "/tmp/${object}.xml"
                     curl -s -w "\n" -S -H "Authorization: Basic ${credentials}" -H "Content-Type: application/xml" -T "/tmp/${object}.xml" "${jps}/JSSResource/${endpoint}/name/${object_purged}" -X PUT
                     rm -f "/tmp/${object}.xml"
                   else
