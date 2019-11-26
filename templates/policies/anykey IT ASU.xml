@@ -22,4 +22,14 @@
       </package>
     </packages>
   </package_configuration>
+  <files_processes>
+    <search_by_path/>
+    <delete_file>false</delete_file>
+    <locate_file/>
+    <update_locate_database>false</update_locate_database>
+    <spotlight_search/>
+    <search_for_process/>
+    <kill_process>false</kill_process>
+    <run_command/>
+  </files_processes>
 </policy>
