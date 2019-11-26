@@ -9,6 +9,9 @@
     <category>
       <name>anykey IT</name>
     </category>
+    <override_default_settings>
+      <distribution_point>cdn-cloud.anykeyit.ch</distribution_point>
+    </override_default_settings>
   </general>
   <scope>
     <all_computers>true</all_computers>
