@@ -13,7 +13,13 @@
   <scope>
     <all_computers>true</all_computers>
   </scope>
-  <files_processes>
-    <run_command>/usr/local/bin/jsssr "anykey IT ASU.sh"</run_command>
-  </files_processes>
+  <package_configuration>
+    <packages>
+      <size>1</size>
+      <package>
+        <name>install_or_defer.pkg.zip</name>
+        <action>Install</action>
+      </package>
+    </packages>
+  </package_configuration>
 </policy>
