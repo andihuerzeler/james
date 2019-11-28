@@ -11,6 +11,7 @@
   "computerextensionattributes": [
     "Current SSID",
     "Microsoft Office Version",
+    "Public IP Address",
     "anyDesk ID"
   ],
   "computergroups": [
@@ -32,6 +33,8 @@
     "Clients OS X 10.15",
     "Clients OS X 10.15 greater than or equal",
     "Clients OS X 10.15 less than or equal",
+    "Macs incompatible with macOS Catalina",
+    "Macs incompatible with macOS High Sierra",
     "Macs incompatible with macOS Mojave",
     "Microsoft Office 2016 Installed",
     "Microsoft Office 2016 Not Installed",
@@ -91,7 +94,8 @@
     "anykey IT Client Tools",
     "anykey IT Maintenance",
     "anykey IT anytmp",
-    "anykey IT jamfHelper"
+    "anykey IT jamfHelper",
+    "macOS Catalina"
   ],
   "policies_remove": [
     "Formular Designer",
