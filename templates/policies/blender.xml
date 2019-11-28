@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <policy>
   <general>
-    <name>blender</name>
+    <name>Blender</name>
     <enabled>true</enabled>
     <trigger>EVENT</trigger>
     <trigger_checkin>true</trigger_checkin>
@@ -22,6 +22,13 @@
     </packages>
   </package_configuration>
   <files_processes>
+    <search_by_path>/Applications/blender</search_by_path>
+    <delete_file>true</delete_file>
+    <locate_file/>
+    <update_locate_database>false</update_locate_database>
+    <spotlight_search/>
+    <search_for_process/>
+    <kill_process>false</kill_process>
     <run_command>/usr/local/bin/aky blender</run_command>
   </files_processes>
 </policy>
