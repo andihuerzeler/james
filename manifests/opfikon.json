@@ -58,6 +58,8 @@
     "Formular-Designer",
     "Google Chrome",
     "Google Earth Pro",
+    "LMVZ",
+    "LMVZ Self Service",
     "LehrerOffice",
     "Microsoft Office 2019",
     "OmniDiskSweeper",
@@ -84,6 +86,7 @@
   "policies_remove": [
     "Dropbox",
     "Google Earth",
+    "LMVZ Online",
     "LehrerOffice Formular Designer",
     "Microsoft Office 2016 Serializer",
     "Microsoft Office 2019 Serializer",
