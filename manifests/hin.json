@@ -22,7 +22,6 @@
   "policies_remove": [
     "Oracle Java 8",
     "Oracle Java 8 Self Service",
-    "anykey IT ASU",
     "anykey IT Browser Bootstrap",
     "anykey IT Client Standards"
   ]
