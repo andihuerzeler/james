@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <policy>
   <general>
-    <name>Snagit 2019 Self Service</name>
+    <name>Snagit 2020 Self Service</name>
     <enabled>true</enabled>
     <trigger>USER_INITIATED</trigger>
     <frequency>Ongoing</frequency>
@@ -15,7 +15,7 @@
   </scope>
   <self_service>
     <use_for_self_service>true</use_for_self_service>
-    <self_service_display_name>Snagit 2019</self_service_display_name>
+    <self_service_display_name>Snagit 2020</self_service_display_name>
     <install_button_text>Installieren</install_button_text>
     <reinstall_button_text>Installieren</reinstall_button_text>
     <self_service_categories/>
@@ -26,6 +26,13 @@
     </packages>
   </package_configuration>
   <files_processes>
+    <search_by_path>/Applications/Snagit 2019.app</search_by_path>
+    <delete_file>true</delete_file>
+    <locate_file/>
+    <update_locate_database>false</update_locate_database>
+    <spotlight_search/>
+    <search_for_process/>
+    <kill_process>false</kill_process>
     <run_command>/usr/local/bin/aky snagit</run_command>
   </files_processes>
 </policy>
