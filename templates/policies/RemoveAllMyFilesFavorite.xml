@@ -4,8 +4,9 @@
     <name>RemoveAllMyFilesFavorite</name>
     <enabled>true</enabled>
     <trigger>EVENT</trigger>
-    <trigger_checkin>true</trigger_checkin>
-    <frequency>Once every day</frequency>
+    <trigger_login>true</trigger_login>
+    <frequency>Ongoing</frequency>
+    <offline>true</offline>
     <category>
       <name>anykey IT</name>
     </category>
