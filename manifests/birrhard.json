@@ -7,9 +7,31 @@
     "anyDesk ID"
   ],
   "policies": [
+    "Adobe AIR",
+    "Adobe Acrobat Reader DC",
+    "Adobe Acrobat Reader DC Self Service",
     "Automatic Apple Software Update",
+    "BBEdit",
+    "BBEdit Self Service",
+    "Firefox",
+    "Firefox Self Service",
+    "Google Chrome",
+    "Google Chrome Self Service",
+    "Google Earth Pro",
+    "Google Earth Pro Self Service",
+    "LibreOffice",
+    "LibreOffice Self Service",
+    "OmniDiskSweeper",
+    "OmniDiskSweeper Self Service",
+    "Skitch",
+    "Skitch Self Service",
+    "Skype",
+    "Skype Self Service",
     "Update Inventory",
-    "Update Inventory Trigger"
+    "Update Inventory Trigger",
+    "VLC Player",
+    "VLC Player Self Service",
+    "macOS Mojave"
   ],
   "computergroups": [
     "Clients OS X 10.14",
