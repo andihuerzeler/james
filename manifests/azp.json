@@ -1,5 +1,5 @@
 {
-  "url": "http://azp.amy.anykey.ch",
+  "url": "https://azp.amy.anykey.ch",
   "managed": "true",
   "categories": [
     "Applikationen",
@@ -42,7 +42,6 @@
     "Microsoft_Office_2019_VL_Serializer.pkg.zip"
   ],
   "policies": [
-    "Assimilate Ownership",
     "Automatic Apple Software Update",
     "Enable ARD",
     "Firefox",
@@ -59,7 +58,6 @@
     "anykey IT Client Security",
     "anykey IT Client Tools",
     "anykey IT Maintenance",
-    "anykey IT anytmp",
     "anykey IT jamfHelper"
   ]
 }
