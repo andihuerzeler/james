@@ -51,6 +51,7 @@
     "Dock Administrator"
   ],
   "policies": [
+    "Apple Software Update",
     "Assimilate Ownership",
     "Audacity",
     "Audacity Self Service",
