@@ -1,0 +1,65 @@
+{
+  "url": "https://uzh.amy.anykey.ch",
+  "managed": "true",
+  "categories": [
+    "Applikationen",
+    "Drucker",
+    "Kundenanpassungen",
+    "Self Service",
+    "anykey IT"
+  ],
+  "computerextensionattributes": [
+    "Current SSID",
+    "Microsoft Office Version",
+  ],
+  "computergroups": [
+    "Clients OS X 10.10",
+    "Clients OS X 10.10 greater than or equal",
+    "Clients OS X 10.10 less than or equal",
+    "Clients OS X 10.11",
+    "Clients OS X 10.11 greater than or equal",
+    "Clients OS X 10.11 less than or equal",
+    "Clients OS X 10.12",
+    "Clients OS X 10.12 greater than or equal",
+    "Clients OS X 10.12 less than or equal",
+    "Clients OS X 10.13",
+    "Clients OS X 10.13 greater than or equal",
+    "Clients OS X 10.13 less than or equal",
+    "Clients OS X 10.14",
+    "Clients OS X 10.14 greater than or equal",
+    "Clients OS X 10.14 less than or equal",
+    "Clients OS X 10.15",
+    "Clients OS X 10.15 greater than or equal",
+    "Clients OS X 10.15 less than or equal",
+    "Macs incompatible with macOS High Sierra",
+    "Macs incompatible with macOS Mojave",
+    "Macs incompatible with macOS Sierra",
+    "Macs incompatible with macOS Catalina",
+    "Microsoft Office 2016 Installed",
+    "Microsoft Office 2016 Not Installed",
+    "Microsoft Office 2019 Installed",
+    "Microsoft Office 2019 Not Installed"
+  ],
+  "packages": [
+    "HewlettPackardEssentials.pkg.zip",
+    "HewlettPackardPrinterDrivers.pkg.zip",
+    "Microsoft Office 2019.pkg.zip",
+    "Microsoft_Office_2019_VL_Serializer.pkg.zip",
+    "anykey IT Logo im jamfHelper.dmg",
+    "jsssr.pkg.zip"
+  ],
+  "policies": [
+    "BBEdit Self Service",
+    "Citrix Workspace Self Service",
+    "Firefox Self Service",
+    "Google Chrome Self Service",
+    "Microsoft Office 2019 Self Service",
+    "Microsoft Office 2019 Serializer",
+    "Update Inventory",
+    "Update Inventory Trigger",
+    "macOS Catalina"
+    "macOS Mojave"
+  ],
+  "policies_remove": [
+  ]
+}
