@@ -4,26 +4,85 @@
   "computerextensionattributes": [
     "Current SSID",
     "Microsoft Office Version",
+    "Public IP Address",
     "anyDesk ID"
   ],
   "policies": [
+    "Adobe Acrobat Reader DC",
+    "Adobe Acrobat Reader DC Self Service",
+    "Assimilate Ownership",
     "Automatic Apple Software Update",
+    "Enable ARD",
+    "Firefox",
+    "Firefox Self Service",
+    "Google Chrome",
+    "Google Chrome Self Service",
+    "Google Earth Pro",
+    "Google Earth Pro Self Service",
+    "LibreOffice",
+    "LibreOffice Self Service",
+    "Microsoft AutoUpdate",
+    "Microsoft Office 2019",
+    "Microsoft Office 2019 Self Service",
+    "Microsoft Office 2019 Serializer",
+    "RemoveAllMyFilesFavorite",
     "Update Inventory",
-    "Update Inventory Trigger"
+    "Update Inventory Trigger",
+    "VLC Player",
+    "VLC Player Self Service",
+    "aa anykey IT jsssr",
+    "anyDesk Fernwartung",
+    "anykey IT Client Bootstrap",
+    "anykey IT Client Security",
+    "anykey IT Client Tools",
+    "anykey IT Maintenance",
+    "anykey IT anytmp",
+    "anykey IT jamfHelper",
+    "macOS Mojave"
   ],
   "computergroups": [
+    "Clients OS X 10.13",
+    "Clients OS X 10.13 greater than or equal",
+    "Clients OS X 10.13 less than or equal",
     "Clients OS X 10.14",
     "Clients OS X 10.14 greater than or equal",
     "Clients OS X 10.14 less than or equal",
     "Clients OS X 10.15",
     "Clients OS X 10.15 greater than or equal",
-    "Clients OS X 10.15 less than or equal"
+    "Clients OS X 10.15 less than or equal",
+    "Macs incompatible with macOS Catalina",
+    "Macs incompatible with macOS High Sierra",
+    "Macs incompatible with macOS Mojave",
+    "Microsoft Office 2016 Installed",
+    "Microsoft Office 2016 Not Installed",
+    "Microsoft Office 2019 Installed",
+    "Microsoft Office 2019 Not Installed"
   ],
   "policies_remove": [
+    "Google Earth",
+    "Microsoft Office 2016",
+    "Microsoft Office 2016 Self Service",
     "Oracle Java 8",
     "Oracle Java 8 Self Service",
     "anykey IT ASU",
+    "anykey IT ASU.sh",
     "anykey IT Browser Bootstrap",
     "anykey IT Client Standards"
+  ],
+  "categories": [
+    "Applikationen",
+    "Drucker",
+    "Kundenanpassungen",
+    "Self Service",
+    "anykey IT"
+  ],
+  "packages": [
+    "HewlettPackardEssentials.pkg.zip",
+    "HewlettPackardPrinterDrivers.pkg.zip",
+    "Lernprogramme Ordner.dmg",
+    "Microsoft Office 2016.pkg.zip",
+    "Microsoft Office 2019.pkg.zip",
+    "Microsoft_Office_2016_VL_Serializer_2.0.pkg.zip",
+    "Microsoft_Office_2019_VL_Serializer.pkg.zip"
   ]
 }
