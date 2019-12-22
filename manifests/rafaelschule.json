@@ -63,9 +63,9 @@
     "anykey IT Client Bootstrap",
     "anykey IT Client Security",
     "anykey IT Client Tools",
-    "anykey IT Maintenance",
     "anykey IT anytmp",
-    "anykey IT jamfHelper"
+    "anykey IT jamfHelper",
+    "macOS Mojave"
   ],
   "policies_remove": [
     "Microsoft Office 2016",
