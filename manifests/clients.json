@@ -1,0 +1,58 @@
+{
+  "url": "https://clients.amy.anykey.ch",
+  "managed": "true",
+  "policies": [
+    "Adobe Acrobat Reader DC",
+    "Adobe Acrobat Reader DC Self Service",
+    "Adobe Flash Player",
+    "Cyberduck",
+    "Cyberduck Self Service",
+    "Firefox",
+    "Firefox Self Service",
+    "Google Chrome",
+    "Google Chrome Self Service",
+    "Microsoft AutoUpdate",
+    "VLC Player",
+    "VLC Player Self Service",
+    "aa anykey IT jsssr",
+    "anykey IT Client Tools"
+  ],
+  "categories": [
+    "Applikationen",
+    "Drucker",
+    "Kundenanpassungen",
+    "Self Service",
+    "anykey IT"
+  ],
+  "computerextensionattributes": [
+    "Microsoft Office Version",
+    "anyDesk ID"
+  ],
+  "computergroups": [
+    "Clients OS X 10.13",
+    "Clients OS X 10.13 greater than or equal",
+    "Clients OS X 10.13 less than or equal",
+    "Clients OS X 10.14",
+    "Clients OS X 10.14 greater than or equal",
+    "Clients OS X 10.14 less than or equal",
+    "Clients OS X 10.15",
+    "Clients OS X 10.15 greater than or equal",
+    "Clients OS X 10.15 less than or equal",
+    "Macs incompatible with macOS Catalina",
+    "Macs incompatible with macOS High Sierra",
+    "Macs incompatible with macOS Mojave",
+    "Microsoft Office 2016 Installed",
+    "Microsoft Office 2016 Not Installed",
+    "Microsoft Office 2019 Installed",
+    "Microsoft Office 2019 Not Installed"
+  ],
+  "packages": [
+    "HewlettPackardEssentials.pkg.zip",
+    "HewlettPackardPrinterDrivers.pkg.zip",
+    "Lernprogramme Ordner.dmg",
+    "Microsoft Office 2016.pkg.zip",
+    "Microsoft Office 2019.pkg.zip",
+    "Microsoft_Office_2016_VL_Serializer_2.0.pkg.zip",
+    "Microsoft_Office_2019_VL_Serializer.pkg.zip"
+  ]
+}

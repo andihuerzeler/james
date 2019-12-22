@@ -1,0 +1,59 @@
+{
+  "url": "https://wagerenhof.amy.anykey.ch",
+  "managed": "true",
+  "computerextensionattributes": [
+    "Current SSID",
+    "Microsoft Office Version",
+    "anyDesk ID"
+  ],
+  "policies": [
+    "Adobe Acrobat Reader DC",
+    "Adobe Acrobat Reader DC Self Service",
+    "Adobe Flash Player",
+    "Automatic Apple Software Update",
+    "BBEdit",
+    "BBEdit Self Service",
+    "Firefox",
+    "Firefox Self Service",
+    "Freemind Self Service",
+    "Google Chrome",
+    "Google Chrome Self Service",
+    "Google Earth Pro Self Service",
+    "Microsoft AutoUpdate",
+    "Microsoft Office 2019",
+    "Microsoft Office 2019 Self Service",
+    "Microsoft Office 2019 Serializer",
+    "Update Inventory",
+    "Update Inventory Trigger",
+    "VLC Player Self Service",
+    "aa anykey IT jsssr",
+    "anykey IT Client Bootstrap"
+  ],
+  "computergroups": [
+    "Clients OS X 10.14",
+    "Clients OS X 10.14 greater than or equal",
+    "Clients OS X 10.14 less than or equal",
+    "Clients OS X 10.15",
+    "Clients OS X 10.15 greater than or equal",
+    "Clients OS X 10.15 less than or equal",
+    "Microsoft Office 2016 Installed",
+    "Microsoft Office 2016 Not Installed",
+    "Microsoft Office 2019 Installed",
+    "Microsoft Office 2019 Not Installed"
+  ],
+  "policies_remove": [
+    "Microsoft Office 2016",
+    "Microsoft Office 2016 Self Service",
+    "Oracle Java 8",
+    "Oracle Java 8 Self Service",
+    "anykey IT ASU",
+    "anykey IT Browser Bootstrap",
+    "anykey IT Client Standards"
+  ],
+  "packages": [
+    "Microsoft Office 2016.pkg.zip",
+    "Microsoft Office 2019.pkg.zip",
+    "Microsoft_Office_2016_VL_Serializer_2.0.pkg.zip",
+    "Microsoft_Office_2019_VL_Serializer.pkg.zip"
+  ]
+}

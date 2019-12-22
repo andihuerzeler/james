@@ -1,0 +1,43 @@
+{
+  "url": "https://wehntal.amy.anykey.ch",
+  "managed": "true",
+  "computerextensionattributes": [
+    "Current SSID",
+    "Microsoft Office Version",
+    "anyDesk ID"
+  ],
+  "policies_remove": [
+    "Microsoft Office 2016 Serializer",
+    "Microsoft Office 2019 Serializer",
+    "Oracle Java 8",
+    "Oracle Java 8 Self Service",
+    "TextWrangler",
+    "anyDesk Fernwartung",
+    "anykey IT ASU",
+    "anykey IT Browser Bootstrap",
+    "anykey IT Client Standards",
+    "anykey IT Fernwartung",
+    "anykeyIT Fernwartung"
+  ],
+  "policies": [
+    "Automatic Apple Software Update",
+    "Update Inventory",
+    "Update Inventory Trigger",
+    "anykey IT Client Bootstrap"
+  ],
+  "categories": [
+    "Applikationen",
+    "Drucker",
+    "Kundenanpassungen",
+    "Self Service",
+    "anykey IT"
+  ],
+  "computergroups": [
+    "Clients OS X 10.14",
+    "Clients OS X 10.14 greater than or equal",
+    "Clients OS X 10.14 less than or equal",
+    "Clients OS X 10.15",
+    "Clients OS X 10.15 greater than or equal",
+    "Clients OS X 10.15 less than or equal"
+  ]
+}
