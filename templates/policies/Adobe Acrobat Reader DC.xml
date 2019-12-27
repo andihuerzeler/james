@@ -2,7 +2,7 @@
 <policy>
   <general>
     <name>Adobe Acrobat Reader DC</name>
-    <enabled>true</enabled>
+    <enabled>false</enabled>
     <trigger>EVENT</trigger>
     <trigger_checkin>true</trigger_checkin>
     <frequency>Once every day</frequency>
