@@ -25,6 +25,11 @@ while [[ $# -gt 0 ]]; do
   -c | --cat)
     cat="true"
     shift
+    shift
+    ;;
+  -p | --push)
+    push="true"
+    shift
     ;;
   *)
     positional+=("${1}")
@@ -37,13 +42,18 @@ set -- "${positional[@]}"
 
 usage() {
 
-  echo "Usage:"
+  echo "${prog_name} Usage:"
   echo
   echo "  Update manifest:"
   echo "    ${prog_name} --manifest example --endpoint endpoint --object object"
   echo
   echo "  Dump raw source of the given manifest to the standard output:"
   echo "    ${prog_name} --manifest example --cat"
+  echo
+  echo "  Update JPS instead of manifest:"
+  echo "    ${prog_name} --manifest example --endpoint endpoint --object object --push"
+  echo "      Attention: Provide Base64 encoded credentials via variable"
+  echo "        $ export credentials=\"abcdefgh=\""
 
 }
 
@@ -96,6 +106,101 @@ update_manifest() {
     "${repo_path}/james/manifests/${manifest}.json" | sponge "${repo_path}/james/manifests/${manifest}.json"
 
 }
+
+if [ "${push}" = "true" ]; then
+  if [ -z "${credentials}" ]; then
+    echo "Error: Missing 'credentials', please provide Base64 encoded credentials via variable"
+    echo "  $ export credentials=\"abcdefgh=\""
+    exit 1
+  else
+
+    if [ -s "${repo_path}/james/manifests/${manifest}.json" ]; then
+
+      jps=$(jq -r '.url' "${repo_path}/james/manifests/${manifest}.json")
+      jps="${jps%/}"
+      jps_purged=$(jq -r '.url' "${repo_path}/james/manifests/${manifest}.json" | sed 's~http[s]*://~~g')
+
+      if [ "$(curl -sL -w "%{http_code}" "${jps}/healthCheck.html" -o /dev/null)" == "200" ]; then
+        if [ "$(curl -s "${jps}/healthCheck.html")" == "[]" ]; then
+
+          for endpoint_check in "${repo_path}/james/templates/"*"${endpoint}/${object}.xml"; do
+
+            object_purged="${object// /%20}"
+
+            if [ "$(curl -sL -H "Authorization: Basic ${credentials}" -w "%{http_code}" "${jps}/JSSResource/${endpoint}/name/${object_purged}" -o /dev/null)" == "200" ]; then
+
+              echo "=> Update resource '${endpoint}/${object}' on '${jps_purged}'"
+
+              if [ "${endpoint}" = "osxconfigurationprofiles" ]; then
+                echo "Error: Endpoint '${endpoint}' not supported" && exit 1
+              fi
+
+              curl \
+                -s \
+                -w "\n" \
+                -S \
+                -H "Authorization: Basic ${credentials}" \
+                -H "Content-Type: application/xml" \
+                -T "${repo_path}/james/templates/${endpoint}/${object}.xml" \
+                -X PUT \
+                "${jps}/JSSResource/${endpoint}/name/${object_purged}"
+
+              if [ -s "${repo_path}/james/icons/${object/ Self Service/}.png" ]; then
+                icon="${repo_path}/james/icons/${object/ Self Service/}.png"
+                object_id=$(curl -s -H "Authorization: Basic ${credentials}" -H "Accept: application/xml" -X "GET" "${jps}/JSSResource/policies/name/${object_purged}" | xmllint --xpath "/policy/general/id/text()" -)
+                if [ -z "$(curl -s -H "Authorization: Basic ${credentials}" "${jps}/JSSResource/policies/name/${object_purged}" | xmllint --xpath "/policy/self_service/self_service_icon/filename/text()" - 2>/dev/null)" ]; then
+                  echo "=> Add Self Service icon '${icon}' to policy '${object_purged}'"
+                  curl -s -w "\n" -S -H "Authorization: Basic ${credentials}" -X "POST" -F name=@"${icon}" "${jps}/JSSResource/fileuploads/policies/id/${object_id}"
+                fi
+              fi
+
+              exit 0
+
+            else
+
+              echo "=> Add resource '${endpoint}/${object}' on '${jps_purged}'"
+
+              if [ "${endpoint}" = "osxconfigurationprofiles" ]; then
+                echo "Error: Endpoint '${endpoint}' not supported" && exit 1
+              fi
+
+              curl \
+                -s \
+                -w "\n" \
+                -S \
+                -H "Authorization: Basic ${credentials}" \
+                -H "Content-Type: application/xml" \
+                -T "${repo_path}/james/templates/${endpoint}/${object}.xml" \
+                -X POST \
+                "${jps}/JSSResource/${endpoint}/id/0"
+
+              if [ -s "${repo_path}/james/icons/${object/ Self Service/}.png" ]; then
+                icon="${repo_path}/james/icons/${object/ Self Service/}.png"
+                object_id=$(curl -s -H "Authorization: Basic ${credentials}" -H "Accept: application/xml" -X "GET" "${jps}/JSSResource/policies/name/${object_purged}" | xmllint --xpath "/policy/general/id/text()" -)
+                if [ -z "$(curl -s -H "Authorization: Basic ${credentials}" "${jps}/JSSResource/policies/name/${object_purged}" | xmllint --xpath "/policy/self_service/self_service_icon/filename/text()" - 2>/dev/null)" ]; then
+                  echo "=> Add Self Service icon '${icon}' to policy '${object_purged}'"
+                  curl -s -w "\n" -S -H "Authorization: Basic ${credentials}" -X "POST" -F name=@"${icon}" "${jps}/JSSResource/fileuploads/policies/id/${object_id}"
+                fi
+              fi
+
+              exit 0
+
+            fi
+
+          done
+
+        fi
+
+      fi
+
+    else
+
+      echo "Error: Manifest '${manifest}' does not exist" && exit 1
+    fi
+
+  fi
+
+fi
 
 if [ -s "${repo_path}/james/manifests/${manifest}.json" ]; then
   for template in "${repo_path}/james/templates/"*"${endpoint}/${object}.xml"; do
