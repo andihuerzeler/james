@@ -123,7 +123,7 @@ if [ "${push}" = "true" ]; then
       if [ "$(curl -sL -w "%{http_code}" "${jps}/healthCheck.html" -o /dev/null)" == "200" ]; then
         if [ "$(curl -s "${jps}/healthCheck.html")" == "[]" ]; then
 
-          for endpoint_check in "${repo_path}/james/templates/"*"${endpoint}/${object}.xml"; do
+          if [ -s "${repo_path}/james/templates/${endpoint}/${object}.xml" ]; then
 
             object_purged="${object// /%20}"
 
@@ -187,7 +187,9 @@ if [ "${push}" = "true" ]; then
 
             fi
 
-          done
+          else
+            echo "Error: Object '${object}' does not exist" && exit 1
+          fi
 
         else
           echo "Error: JPS '${jps}' seems to be offline" && exit 1
