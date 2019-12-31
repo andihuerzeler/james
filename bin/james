@@ -189,12 +189,14 @@ if [ "${push}" = "true" ]; then
 
           done
 
+        else
+          echo "Error: JPS '${jps}' seems to be offline" && exit 1
         fi
-
+      else
+        echo "Error: JPS '${jps}' seems to be offline" && exit 1
       fi
 
     else
-
       echo "Error: Manifest '${manifest}' does not exist" && exit 1
     fi
 
