@@ -110,5 +110,8 @@
     "eWolke",
     "eWolke Client",
     "macOS High Sierra"
+  ],
+  "mobiledeviceextensionattributes": [
+    "Wartungsmodus"
   ]
 }

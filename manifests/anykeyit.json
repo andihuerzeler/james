@@ -49,8 +49,8 @@
   "policies": [
     "Adobe Acrobat Reader DC",
     "Adobe Flash Player",
-    "Adium Self Service",   
-    "anyDesk Fernwartung",    
+    "Adium Self Service",
+    "anyDesk Fernwartung",
     "Assimilate Ownership",
     "Automatic Apple Software Update",
     "Enable ARD",
@@ -81,5 +81,8 @@
     "anykey IT Client Standards",
     "anykey IT Fernwartung",
     "anykeyIT Fernwartung"
+  ],
+  "mobiledeviceextensionattributes": [
+    "Wartungsmodus"
   ]
 }

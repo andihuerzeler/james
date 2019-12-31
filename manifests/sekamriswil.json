@@ -107,5 +107,8 @@
     "eWolke",
     "eWolke Client",
     "eWolke Web"
+  ],
+  "mobiledeviceextensionattributes": [
+    "Wartungsmodus"
   ]
 }

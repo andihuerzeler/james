@@ -126,5 +126,8 @@
     "macOS High Sierra",
     "ownCloud",
     "ownCloud Self Service"
+  ],
+  "mobiledeviceextensionattributes": [
+    "Wartungsmodus"
   ]
 }

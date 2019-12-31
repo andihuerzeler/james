@@ -102,5 +102,8 @@
     "anykeyIT Fernwartung",
     "macOS High Sierra",
     "macOS Sierra"
+  ],
+  "mobiledeviceextensionattributes": [
+    "Wartungsmodus"
   ]
 }

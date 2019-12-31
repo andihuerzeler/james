@@ -86,5 +86,8 @@
     "anykey IT Logo im jamfHelper",
     "anykeyIT Fernwartung",
     "eWolke Client"
+  ],
+  "mobiledeviceextensionattributes": [
+    "Wartungsmodus"
   ]
 }

@@ -109,5 +109,8 @@
     "macOS High Sierra",
     "macOS Sierra",
     "python"
+  ],
+  "mobiledeviceextensionattributes": [
+    "Wartungsmodus"
   ]
 }

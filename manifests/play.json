@@ -1,4 +1,7 @@
 {
   "url": "https://play.amy.anykey.ch",
-  "managed": "true"
+  "managed": "true",
+  "mobiledeviceextensionattributes": [
+    "Wartungsmodus"
+  ]
 }

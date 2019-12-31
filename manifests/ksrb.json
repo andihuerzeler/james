@@ -116,5 +116,8 @@
     "anykeyIT Fernwartung",
     "eWolke Client",
     "eWolke Web"
+  ],
+  "mobiledeviceextensionattributes": [
+    "Wartungsmodus"
   ]
 }

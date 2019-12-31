@@ -104,5 +104,8 @@
     "eWolke Client",
     "jamf manage and policy",
     "macOS High Sierra"
+  ],
+  "mobiledeviceextensionattributes": [
+    "Wartungsmodus"
   ]
 }

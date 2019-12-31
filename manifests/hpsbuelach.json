@@ -39,5 +39,8 @@
     "Clients OS X 10.15",
     "Clients OS X 10.15 greater than or equal",
     "Clients OS X 10.15 less than or equal"
+  ],
+  "mobiledeviceextensionattributes": [
+    "Wartungsmodus"
   ]
 }

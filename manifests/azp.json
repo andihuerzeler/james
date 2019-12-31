@@ -59,5 +59,8 @@
     "anykey IT Client Tools",
     "anykey IT Maintenance",
     "anykey IT jamfHelper"
+  ],
+  "mobiledeviceextensionattributes": [
+    "Wartungsmodus"
   ]
 }

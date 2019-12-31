@@ -77,5 +77,8 @@
     "anykey IT Client Standards",
     "anykey IT Fernwartung",
     "anykeyIT Fernwartung"
+  ],
+  "mobiledeviceextensionattributes": [
+    "Wartungsmodus"
   ]
 }

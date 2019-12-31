@@ -92,5 +92,8 @@
     "anykeyIT Fernwartung",
     "eWolke Web",
     "macOS High Sierra"
+  ],
+  "mobiledeviceextensionattributes": [
+    "Wartungsmodus"
   ]
 }

@@ -89,5 +89,8 @@
     "anykey IT Client Standards",
     "eWolke",
     "eWolke Client"
+  ],
+  "mobiledeviceextensionattributes": [
+    "Wartungsmodus"
   ]
 }

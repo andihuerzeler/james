@@ -75,5 +75,8 @@
     "Microsoft Office 2016.pkg.zip",
     "Microsoft Office 2019.pkg.zip",
     "jsssr.pkg.zip"
+  ],
+  "mobiledeviceextensionattributes": [
+    "Wartungsmodus"
   ]
 }

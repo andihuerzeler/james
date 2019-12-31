@@ -84,5 +84,8 @@
     "anykey IT Fernwartung",
     "anykeyIT Fernwartung",
     "python-3.7.0-macosx10.9"
+  ],
+  "mobiledeviceextensionattributes": [
+    "Wartungsmodus"
   ]
 }

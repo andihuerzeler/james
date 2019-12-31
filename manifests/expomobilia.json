@@ -29,5 +29,8 @@
   ],
   "restrictedsoftware": [
     "Install macOS Catalina.app"
+  ],
+  "mobiledeviceextensionattributes": [
+    "Wartungsmodus"
   ]
 }

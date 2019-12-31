@@ -24,5 +24,8 @@
     "Oracle Java 8 Self Service",
     "anykey IT Browser Bootstrap",
     "anykey IT Client Standards"
+  ],
+  "mobiledeviceextensionattributes": [
+    "Wartungsmodus"
   ]
 }

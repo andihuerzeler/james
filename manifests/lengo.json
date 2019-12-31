@@ -89,5 +89,8 @@
     "Microsoft Office 2019.pkg.zip",
     "Microsoft_Office_2016_VL_Serializer_2.0.pkg.zip",
     "Microsoft_Office_2019_VL_Serializer.pkg.zip"
+  ],
+  "mobiledeviceextensionattributes": [
+    "Wartungsmodus"
   ]
 }

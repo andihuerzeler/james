@@ -92,5 +92,8 @@
     "eWolke Client",
     "macOS High Sierra",
     "owncloud Remove"
+  ],
+  "mobiledeviceextensionattributes": [
+    "Wartungsmodus"
   ]
 }
