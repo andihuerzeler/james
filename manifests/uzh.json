@@ -10,7 +10,7 @@
   ],
   "computerextensionattributes": [
     "Current SSID",
-    "Microsoft Office Version",
+    "Microsoft Office Version"
   ],
   "computergroups": [
     "Clients OS X 10.10",
@@ -57,9 +57,7 @@
     "Microsoft Office 2019 Serializer",
     "Update Inventory",
     "Update Inventory Trigger",
-    "macOS Catalina"
+    "macOS Catalina",
     "macOS Mojave"
-  ],
-  "policies_remove": [
   ]
 }
