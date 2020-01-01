@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <policy>
   <general>
-    <name>GPG Suite</name>
+    <name>WineBottler</name>
     <enabled>true</enabled>
-    <trigger>CHECKIN</trigger>
+    <trigger>EVENT</trigger>
     <trigger_checkin>true</trigger_checkin>
-    <frequency>Once per computer</frequency>
+    <frequency>Once every day</frequency>
     <category>
       <name>Applikationen</name>
     </category>
@@ -16,7 +16,12 @@
   <self_service>
     <use_for_self_service>false</use_for_self_service>
   </self_service>
+  <package_configuration>
+    <packages>
+      <size>0</size>
+    </packages>
+  </package_configuration>
   <files_processes>
-    <run_command>/usr/local/bin/jsssr "Install GPG Suite.sh"</run_command>
+    <run_command>/usr/local/bin/aky winebottler</run_command>
   </files_processes>
 </policy>
