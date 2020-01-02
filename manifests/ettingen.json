@@ -14,23 +14,10 @@
     "anyDesk ID"
   ],
   "policies_remove": [
-    "Microsoft Office 2016 Serializer",
-    "Microsoft Office 2019 Serializer",
-    "Oracle Java 8",
-    "Oracle Java 8 Self Service",
-    "TextWrangler",
-    "anykey IT ASU",
-    "anykey IT Browser Bootstrap",
-    "anykey IT Client Standards",
-    "anykey IT Fernwartung",
-    "anykeyIT Fernwartung"
+
   ],
   "policies": [
-    "Automatic Apple Software Update",
     "Update Inventory",
-    "Update Inventory Trigger",
-    "anyDesk Fernwartung",
-    "anykey IT Client Bootstrap"
   ],
   "computergroups": [
     "Clients OS X 10.14",
