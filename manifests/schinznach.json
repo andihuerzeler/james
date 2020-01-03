@@ -7,5 +7,12 @@
     "Kundenanpassungen",
     "Self Service",
     "anykey IT"
+  ],
+  "policies": [
+    "Update Inventory",
+    "Update Inventory Trigger"
+  ],
+  "mobiledeviceextensionattributes": [
+    "Wartungsmodus"
   ]
 }
