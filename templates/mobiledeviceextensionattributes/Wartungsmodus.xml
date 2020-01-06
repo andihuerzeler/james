@@ -6,7 +6,7 @@
   <input_type>
     <type>Pop-up Menu</type>
     <popup_choices>
-      <choice>Aktiviert</choice>
+      <choice>ein</choice>
     </popup_choices>
   </input_type>
   <inventory_display>General</inventory_display>
