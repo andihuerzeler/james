@@ -32,6 +32,7 @@
     "Clients OS X 10.15",
     "Clients OS X 10.15 greater than or equal",
     "Clients OS X 10.15 less than or equal",
+    "Macs incompatible with macOS Catalina",
     "Macs incompatible with macOS Mojave",
     "Microsoft Office 2016 Installed",
     "Microsoft Office 2016 Not Installed",
