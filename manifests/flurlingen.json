@@ -16,6 +16,10 @@
     "Firefox Self Service",
     "Google Chrome",
     "Google Chrome Self Service",
+    "Microsoft AutoUpdate",
+    "Microsoft Office 2019",
+    "Microsoft Office 2019 Self Service",
+    "Microsoft Office 2019 Serializer",
     "RemoveAllMyFilesFavorite",
     "Update Inventory",
     "Update Inventory Trigger",
@@ -54,6 +58,8 @@
     "Microsoft Office 2019 Not Installed"
   ],
   "policies_remove": [
+    "Microsoft Office 2016",
+    "Microsoft Office 2016 Self Service",
     "Oracle Java 8",
     "Oracle Java 8 Self Service",
     "anykey IT ASU",
