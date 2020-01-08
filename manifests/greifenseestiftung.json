@@ -3,6 +3,11 @@
   "managed": "true",
   "policies": [
     "Automatic Apple Software Update",
+    "Microsoft AutoUpdate",
+    "Microsoft Office 2016",
+    "Microsoft Office 2016 Self Service",
+    "Microsoft Office 2016 Serializer",
+    "Microsoft Office 2019 Serializer",
     "Update Inventory",
     "Update Inventory Trigger"
   ],
@@ -17,9 +22,14 @@
     "Clients OS X 10.14 less than or equal",
     "Clients OS X 10.15",
     "Clients OS X 10.15 greater than or equal",
-    "Clients OS X 10.15 less than or equal"
+    "Clients OS X 10.15 less than or equal",
+    "Microsoft Office 2016 Installed",
+    "Microsoft Office 2016 Not Installed",
+    "Microsoft Office 2019 Installed",
+    "Microsoft Office 2019 Not Installed"
   ],
   "policies_remove": [
+    "Microsoft Office 2011",
     "Oracle Java 8",
     "Oracle Java 8 Self Service",
     "anykey IT ASU",
@@ -28,5 +38,11 @@
   ],
   "mobiledeviceextensionattributes": [
     "Wartungsmodus"
+  ],
+  "packages": [
+    "Microsoft Office 2016.pkg.zip",
+    "Microsoft Office 2019.pkg.zip",
+    "Microsoft_Office_2016_VL_Serializer_2.0.pkg.zip",
+    "Microsoft_Office_2019_VL_Serializer.pkg.zip"
   ]
 }
