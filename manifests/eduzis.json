@@ -1,0 +1,29 @@
+{
+  "url": "https://eduzis.amy.anykey.ch",
+  "managed": "true",
+  "policies": [
+    "Adobe Acrobat Reader DC",
+    "Adobe Acrobat Reader DC Self Service",
+    "Apple Command Line Tools",
+    "Audacity",
+    "Audacity Self Service",
+    "Burn",
+    "Burn Self Service",
+    "Update Inventory",
+    "Update Inventory Trigger",
+    "aa anykey IT jsssr",
+    "anykey IT Client Bootstrap",
+    "anykey IT Client Logout",
+    "anykey IT Client Security",
+    "anykey IT Client Tools",
+    "anykey IT Maintenance"
+  ],
+  "policies_remove": [
+    "aa Flush Policy History",
+    "anykey IT ASU",
+    "anykey IT Browser Bootstrap"
+  ],
+  "mobiledeviceextensionattributes": [
+    "Wartungsmodus"
+  ]
+}

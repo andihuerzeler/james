@@ -1,0 +1,33 @@
+{
+  "url": "https://ettingen.amy.anykey.ch",
+  "managed": "true",
+  "categories": [
+    "Applikationen",
+    "Drucker",
+    "Kundenanpassungen",
+    "Self Service",
+    "anykey IT"
+  ],
+  "computerextensionattributes": [
+    "Current SSID",
+    "Microsoft Office Version",
+    "anyDesk ID"
+  ],
+  "policies_remove": [
+
+  ],
+  "policies": [
+    "Update Inventory",
+  ],
+  "computergroups": [
+    "Clients OS X 10.14",
+    "Clients OS X 10.14 greater than or equal",
+    "Clients OS X 10.14 less than or equal",
+    "Clients OS X 10.15",
+    "Clients OS X 10.15 greater than or equal",
+    "Clients OS X 10.15 less than or equal"
+  ],
+  "mobiledeviceextensionattributes": [
+    "Wartungsmodus"
+  ]
+}

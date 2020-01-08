@@ -1,0 +1,87 @@
+{
+  "url": "https://logos.amy.anykey.ch",
+  "managed": "true",
+  "categories": [
+    "Applikationen",
+    "Drucker",
+    "Kundenanpassungen",
+    "Self Service",
+    "anykey IT"
+  ],
+  "computerextensionattributes": [
+    "Current SSID",
+    "Microsoft Office Version",
+    "anyDesk ID"
+  ],
+  "computergroups": [
+    "Clients OS X 10.13",
+    "Clients OS X 10.13 greater than or equal",
+    "Clients OS X 10.13 less than or equal",
+    "Clients OS X 10.14",
+    "Clients OS X 10.14 greater than or equal",
+    "Clients OS X 10.14 less than or equal",
+    "Clients OS X 10.15",
+    "Clients OS X 10.15 greater than or equal",
+    "Clients OS X 10.15 less than or equal",
+    "Macs incompatible with macOS High Sierra",
+    "Macs incompatible with macOS Mojave",
+    "Microsoft Office 2016 Installed",
+    "Microsoft Office 2016 Not Installed",
+    "Microsoft Office 2019 Installed",
+    "Microsoft Office 2019 Not Installed"
+  ],
+  "packages": [
+    "jsssr.pkg.zip",
+    "Microsoft Office 2016.pkg.zip",
+    "Microsoft Office 2019.pkg.zip",
+    "HewlettPackardPrinterDrivers.pkg.zip",
+    "HewlettPackardEssentials.pkg.zip"
+  ],
+  "policies": [
+    "Adobe Acrobat Reader DC",
+    "Adobe Flash Player",
+    "Automatic Apple Software Update",
+    "BBEdit",
+    "Cyberduck",
+    "Dropbox",
+    "Edulo",
+    "Enable ARD",
+    "Firefox",
+    "Google Chrome",
+    "Hewlett Packard Printer Drivers",
+    "Microsoft Office 2019",
+    "Microsoft Teams",
+    "OneDrive",
+    "Purge Legacy Apple Apps",
+    "Skitch",
+    "Skype",
+    "Slack",
+    "Update Inventory",
+    "Update Inventory Trigger",
+    "VLC Player",
+    "aa anykey IT jsssr",
+    "anyDesk Fernwartung",
+    "anykey IT Client Bootstrap",
+    "anykey IT Client Security",
+    "anykey IT Client Tools",
+    "anykey IT Maintenance",
+    "anykey IT anytmp",
+    "eWolke Web",
+    "macOS High Sierra"
+  ],
+  "policies_remove": [
+    "Microsoft Office 2016 Serializer",
+    "Microsoft Office 2019 Serializer",
+    "Oracle Java 8",
+    "Oracle Java 8 Self Service",
+    "TextWrangler",
+    "anykey IT ASU",
+    "anykey IT Browser Bootstrap",
+    "anykey IT Client Standards",
+    "anykey IT Fernwartung",
+    "anykeyIT Fernwartung"
+  ],
+  "mobiledeviceextensionattributes": [
+    "Wartungsmodus"
+  ]
+}
