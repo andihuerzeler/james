@@ -17,12 +17,18 @@
     "anyDesk ID"
   ],
   "computergroups": [
+    "Clients OS X 10.13",
+    "Clients OS X 10.13 greater than or equal",
+    "Clients OS X 10.13 less than or equal",
     "Clients OS X 10.14",
     "Clients OS X 10.14 greater than or equal",
     "Clients OS X 10.14 less than or equal",
     "Clients OS X 10.15",
     "Clients OS X 10.15 greater than or equal",
     "Clients OS X 10.15 less than or equal",
+    "Macs incompatible with macOS Catalina",
+    "Macs incompatible with macOS High Sierra",
+    "Macs incompatible with macOS Mojave",
     "Microsoft Office 2016 Installed",
     "Microsoft Office 2016 Not Installed",
     "Microsoft Office 2019 Installed",
