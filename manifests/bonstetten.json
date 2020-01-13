@@ -41,6 +41,8 @@
     "jsssr.pkg.zip"
   ],
   "policies": [
+    "Adobe Acrobat Reader DC",
+    "Adobe Acrobat Reader DC Self Service",
     "Assimilate Ownership",
     "Audacity",
     "Automatic Apple Software Update",
