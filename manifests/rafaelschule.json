@@ -33,22 +33,26 @@
     "Microsoft Office 2019 Not Installed"
   ],
   "packages": [
+    "Canon_PS_Installer.pkg.zip",
     "HewlettPackardEssentials.pkg.zip",
     "HewlettPackardPrinterDrivers.pkg.zip",
     "Lernprogramme Ordner.dmg",
     "Microsoft Office 2016.pkg.zip",
     "Microsoft Office 2019.pkg.zip",
     "Microsoft_Office_2016_VL_Serializer_2.0.pkg.zip",
-    "Microsoft_Office_2019_VL_Serializer.pkg.zip"
+    "Microsoft_Office_2019_VL_Serializer.pkg.zip",
+    "UFRII_LT_LIPS_LX_Installer.pkg.zip"
   ],
   "policies": [
     "Assimilate Ownership",
     "Automatic Apple Software Update",
+    "Canon Printer Drivers",
     "Enable ARD",
     "Firefox",
     "Firefox Self Service",
     "Google Chrome",
     "Google Chrome Self Service",
+    "Hewlett Packard Printer Drivers",
     "Microsoft AutoUpdate",
     "Microsoft Office 2019",
     "Microsoft Office 2019 Self Service",
